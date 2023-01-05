@@ -1,0 +1,2 @@
+/usr/bin/ar qc libros2socketcan_lib.a  
+/usr/bin/ranlib libros2socketcan_lib.a

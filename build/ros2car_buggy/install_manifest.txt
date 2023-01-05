@@ -1,0 +1,16 @@
+/home/manuel/buggy_ws_beta.a/install/ros2car_buggy/lib/ros2car_buggy/ros2car_buggy
+/home/manuel/buggy_ws_beta.a/install/ros2car_buggy/share/ament_index/resource_index/package_run_dependencies/ros2car_buggy
+/home/manuel/buggy_ws_beta.a/install/ros2car_buggy/share/ament_index/resource_index/parent_prefix_path/ros2car_buggy
+/home/manuel/buggy_ws_beta.a/install/ros2car_buggy/share/ros2car_buggy/environment/ament_prefix_path.sh
+/home/manuel/buggy_ws_beta.a/install/ros2car_buggy/share/ros2car_buggy/environment/ament_prefix_path.dsv
+/home/manuel/buggy_ws_beta.a/install/ros2car_buggy/share/ros2car_buggy/environment/path.sh
+/home/manuel/buggy_ws_beta.a/install/ros2car_buggy/share/ros2car_buggy/environment/path.dsv
+/home/manuel/buggy_ws_beta.a/install/ros2car_buggy/share/ros2car_buggy/local_setup.bash
+/home/manuel/buggy_ws_beta.a/install/ros2car_buggy/share/ros2car_buggy/local_setup.sh
+/home/manuel/buggy_ws_beta.a/install/ros2car_buggy/share/ros2car_buggy/local_setup.zsh
+/home/manuel/buggy_ws_beta.a/install/ros2car_buggy/share/ros2car_buggy/local_setup.dsv
+/home/manuel/buggy_ws_beta.a/install/ros2car_buggy/share/ros2car_buggy/package.dsv
+/home/manuel/buggy_ws_beta.a/install/ros2car_buggy/share/ament_index/resource_index/packages/ros2car_buggy
+/home/manuel/buggy_ws_beta.a/install/ros2car_buggy/share/ros2car_buggy/cmake/ros2car_buggyConfig.cmake
+/home/manuel/buggy_ws_beta.a/install/ros2car_buggy/share/ros2car_buggy/cmake/ros2car_buggyConfig-version.cmake
+/home/manuel/buggy_ws_beta.a/install/ros2car_buggy/share/ros2car_buggy/package.xml

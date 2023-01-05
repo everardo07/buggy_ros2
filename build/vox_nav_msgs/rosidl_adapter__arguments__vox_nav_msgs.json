@@ -1,0 +1,14 @@
+{
+  "package_name": "vox_nav_msgs",
+  "non_idl_tuples": [
+    "/home/manuel/buggy_ws_beta.a/src/vox_nav_msgs:msg/Object.msg",
+    "/home/manuel/buggy_ws_beta.a/src/vox_nav_msgs:msg/ObjectArray.msg",
+    "/home/manuel/buggy_ws_beta.a/src/vox_nav_msgs:msg/OrientedNavSatFix.msg",
+    "/home/manuel/buggy_ws_beta.a/src/vox_nav_msgs:srv/GetOctomap.srv",
+    "/home/manuel/buggy_ws_beta.a/src/vox_nav_msgs:srv/GetPointCloud.srv",
+    "/home/manuel/buggy_ws_beta.a/src/vox_nav_msgs:srv/GetMapsAndSurfels.srv",
+    "/home/manuel/buggy_ws_beta.a/src/vox_nav_msgs:action/ComputePathToPose.action",
+    "/home/manuel/buggy_ws_beta.a/src/vox_nav_msgs:action/FollowPath.action",
+    "/home/manuel/buggy_ws_beta.a/src/vox_nav_msgs:action/NavigateToPose.action"
+  ]
+}

@@ -1,0 +1,16 @@
+CMake Warning (dev) at CMakeLists.txt:30 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[01m[K/home/manuel/buggy_ws_beta.a/src/buggy_mobile_robot/src/gazebo_to_pointcloud.cpp:[m[K In member function ‘[01m[Kvoid gazebo::PointCloudFromGazeboWorld::CreatePointCloud(const Request&)[m[K’:
+[01m[K/home/manuel/buggy_ws_beta.a/src/buggy_mobile_robot/src/gazebo_to_pointcloud.cpp:239:18:[m[K [01;35m[Kwarning: [m[Kunknown escape sequence: '\p'
+  239 |     std::cout << [01;35m[K"\pointcloud generation completed                  "[m[K << std::endl;
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

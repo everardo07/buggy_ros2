@@ -1,0 +1,49 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vox_nav_msgs/msg/Object.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PointStamped.idl"
+
+module vox_nav_msgs {
+  module msg {
+    struct Object {
+      int32 id;
+
+      geometry_msgs::msg::PointStamped velo_pose;
+
+      geometry_msgs::msg::PointStamped world_pose;
+
+      geometry_msgs::msg::PointStamped cam_pose;
+
+      float heading;
+
+      float velocity;
+
+      float width;
+
+      float length;
+
+      float height;
+
+      float orientation;
+
+      float semantic_confidence;
+
+      string semantic_name;
+
+      uint32 semantic_id;
+
+      uint32 r;
+
+      uint32 g;
+
+      uint32 b;
+
+      float a;
+
+      boolean is_new_track;
+
+      boolean is_dynamic;
+    };
+  };
+};

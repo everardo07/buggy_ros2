@@ -1,0 +1,7 @@
+std_msgs/UInt16 id
+std_msgs/UInt16 counter
+std_msgs/Float32 platoon_acc_x
+std_msgs/Float32 platoon_mapmatching_isvalid
+std_msgs/Float32 platoon_mapmatching_roadindex
+std_msgs/Float32 platoon_mapmatching_s
+std_msgs/Float32 platoon_velocity

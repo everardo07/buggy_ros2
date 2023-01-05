@@ -1,0 +1,33 @@
+{
+  "package_name": "buggy_msgs",
+  "non_idl_tuples": [
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/WheelsState.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/WheelsStateStamped.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/SteeringCMD.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/SteeringCMDStamped.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/SteeringWheelState.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/SteeringWheelStateStamped.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/VehicleState.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/VehicleStateStamped.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/CurrentCMD.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/CurrentCMDStamped.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/DriveState.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/DriveStateStamped.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/RCCtrlState.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/RCCtrlStateStamped.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/BUSParameter.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/BUSParameterStamped.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/GNSSState.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/GNSSStateStamped.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/IMUState.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/IMUStateStamped.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/HILinitCMD.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/HILinitCMDStamped.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/PlatoonState.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/PlatoonStateStamped.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/Mapmatching.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/MapmatchingStamped.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/FzgVehicleData.msg",
+    "/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs:msg/FzgVehicleDataStamped.msg"
+  ]
+}

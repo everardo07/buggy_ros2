@@ -1,0 +1,67 @@
+[0.146s] Invoking command in '/home/manuel/buggy_ws_beta.a/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy /usr/bin/cmake /home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_pose_tutorial -DCMAKE_INSTALL_PREFIX=/home/manuel/buggy_ws_beta.a/install/zed_tutorial_pos_tracking
+[2.897s] -- The C compiler identification is GNU 9.4.0
+[2.901s] -- The CXX compiler identification is GNU 9.4.0
+[2.902s] -- Check for working C compiler: /usr/bin/cc
+[2.902s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.902s] -- Detecting C compiler ABI info
+[2.903s] -- Detecting C compiler ABI info - done
+[2.904s] -- Detecting C compile features
+[2.904s] -- Detecting C compile features - done
+[2.904s] -- Check for working CXX compiler: /usr/bin/c++
+[2.904s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.904s] -- Detecting CXX compiler ABI info
+[3.170s] -- Detecting CXX compiler ABI info - done
+[3.243s] -- Detecting CXX compile features
+[3.246s] -- Detecting CXX compile features - done
+[3.258s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.451s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.454s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.375s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.690s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.716s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.122s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.286s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.668s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.942s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.949s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.951s] -- Looking for pthread.h
+[7.379s] -- Looking for pthread.h - found
+[7.380s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.775s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.775s] -- Looking for pthread_create in pthreads
+[8.206s] -- Looking for pthread_create in pthreads - not found
+[8.207s] -- Looking for pthread_create in pthread
+[8.602s] -- Looking for pthread_create in pthread - found
+[8.604s] -- Found Threads: TRUE  
+[9.410s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[9.603s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[10.307s] -- Configuring done
+[10.365s] -- Generating done
+[10.368s] -- Build files have been written to: /home/manuel/buggy_ws_beta.a/build/zed_tutorial_pos_tracking
+[10.399s] Invoked command in '/home/manuel/buggy_ws_beta.a/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy /usr/bin/cmake /home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_pose_tutorial -DCMAKE_INSTALL_PREFIX=/home/manuel/buggy_ws_beta.a/install/zed_tutorial_pos_tracking
+[10.400s] Invoking command in '/home/manuel/buggy_ws_beta.a/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy /usr/bin/cmake --build /home/manuel/buggy_ws_beta.a/build/zed_tutorial_pos_tracking -- -j16 -l16
+[15.896s] [35m[1mScanning dependencies of target zed_tutorial_pos_tracking[0m
+[15.896s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_tutorial_pos_tracking.dir/src/zed_tutorial_pos_tracking.cpp.o[0m
+[37.276s] [100%] [32m[1mLinking CXX executable zed_tutorial_pos_tracking[0m
+[37.541s] [100%] Built target zed_tutorial_pos_tracking
+[37.561s] Invoked command in '/home/manuel/buggy_ws_beta.a/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy /usr/bin/cmake --build /home/manuel/buggy_ws_beta.a/build/zed_tutorial_pos_tracking -- -j16 -l16
+[37.619s] Invoking command in '/home/manuel/buggy_ws_beta.a/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy /usr/bin/cmake --install /home/manuel/buggy_ws_beta.a/build/zed_tutorial_pos_tracking
+[39.510s] -- Install configuration: "Release"
+[39.514s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_tutorial_pos_tracking/lib/zed_tutorial_pos_tracking/zed_tutorial_pos_tracking
+[39.514s] -- Set runtime path of "/home/manuel/buggy_ws_beta.a/install/zed_tutorial_pos_tracking/lib/zed_tutorial_pos_tracking/zed_tutorial_pos_tracking" to ""
+[39.514s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/package_run_dependencies/zed_tutorial_pos_tracking
+[39.515s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/parent_prefix_path/zed_tutorial_pos_tracking
+[39.515s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/ament_prefix_path.sh
+[39.515s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/ament_prefix_path.dsv
+[39.515s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/path.sh
+[39.515s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/path.dsv
+[39.515s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.bash
+[39.515s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.sh
+[39.516s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.zsh
+[39.516s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.dsv
+[39.517s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.dsv
+[39.518s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/packages/zed_tutorial_pos_tracking
+[39.518s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/cmake/zed_tutorial_pos_trackingConfig.cmake
+[39.518s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/cmake/zed_tutorial_pos_trackingConfig-version.cmake
+[39.519s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.xml
+[39.591s] Invoked command in '/home/manuel/buggy_ws_beta.a/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy /usr/bin/cmake --install /home/manuel/buggy_ws_beta.a/build/zed_tutorial_pos_tracking

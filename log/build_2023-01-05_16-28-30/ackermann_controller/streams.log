@@ -1,0 +1,41 @@
+[1.805s] Invoking command in '/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_controller': AMENT_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/ackermann_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/manuel/buggy_ws_beta.a/install/ackermann_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/buggy_ws_beta.a/build/ackermann_controller/prefix_override:/home/manuel/buggy_ws_beta.a/install/ackermann_controller/lib/python3.8/site-packages:/home/manuel/buggy_ws_beta.a/install/ackermann_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ackermann_controller build --build-base /home/manuel/buggy_ws_beta.a/build/ackermann_controller/build install --record /home/manuel/buggy_ws_beta.a/build/ackermann_controller/install.log --single-version-externally-managed
+[4.674s] /home/manuel/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.675s]   warnings.warn(
+[4.684s] running egg_info
+[4.690s] creating ../../../../build/ackermann_controller/ackermann_controller.egg-info
+[4.692s] writing ../../../../build/ackermann_controller/ackermann_controller.egg-info/PKG-INFO
+[4.692s] writing dependency_links to ../../../../build/ackermann_controller/ackermann_controller.egg-info/dependency_links.txt
+[4.692s] writing entry points to ../../../../build/ackermann_controller/ackermann_controller.egg-info/entry_points.txt
+[4.692s] writing requirements to ../../../../build/ackermann_controller/ackermann_controller.egg-info/requires.txt
+[4.692s] writing top-level names to ../../../../build/ackermann_controller/ackermann_controller.egg-info/top_level.txt
+[4.693s] writing manifest file '../../../../build/ackermann_controller/ackermann_controller.egg-info/SOURCES.txt'
+[4.693s] reading manifest file '../../../../build/ackermann_controller/ackermann_controller.egg-info/SOURCES.txt'
+[4.693s] writing manifest file '../../../../build/ackermann_controller/ackermann_controller.egg-info/SOURCES.txt'
+[4.693s] running build
+[4.693s] running build_py
+[4.693s] creating /home/manuel/buggy_ws_beta.a/build/ackermann_controller/build
+[4.694s] creating /home/manuel/buggy_ws_beta.a/build/ackermann_controller/build/lib
+[4.694s] creating /home/manuel/buggy_ws_beta.a/build/ackermann_controller/build/lib/ackermann_controller
+[4.694s] copying ackermann_controller/ackermann_teleop_joy.py -> /home/manuel/buggy_ws_beta.a/build/ackermann_controller/build/lib/ackermann_controller
+[4.694s] copying ackermann_controller/__init__.py -> /home/manuel/buggy_ws_beta.a/build/ackermann_controller/build/lib/ackermann_controller
+[4.695s] running install
+[4.695s] running install_lib
+[4.695s] creating /home/manuel/buggy_ws_beta.a/install/ackermann_controller/lib/python3.8/site-packages/ackermann_controller
+[4.695s] copying /home/manuel/buggy_ws_beta.a/build/ackermann_controller/build/lib/ackermann_controller/ackermann_teleop_joy.py -> /home/manuel/buggy_ws_beta.a/install/ackermann_controller/lib/python3.8/site-packages/ackermann_controller
+[4.695s] copying /home/manuel/buggy_ws_beta.a/build/ackermann_controller/build/lib/ackermann_controller/__init__.py -> /home/manuel/buggy_ws_beta.a/install/ackermann_controller/lib/python3.8/site-packages/ackermann_controller
+[4.695s] byte-compiling /home/manuel/buggy_ws_beta.a/install/ackermann_controller/lib/python3.8/site-packages/ackermann_controller/ackermann_teleop_joy.py to ackermann_teleop_joy.cpython-38.pyc
+[4.696s] byte-compiling /home/manuel/buggy_ws_beta.a/install/ackermann_controller/lib/python3.8/site-packages/ackermann_controller/__init__.py to __init__.cpython-38.pyc
+[4.696s] running install_data
+[4.696s] creating /home/manuel/buggy_ws_beta.a/install/ackermann_controller/share/ament_index
+[4.696s] creating /home/manuel/buggy_ws_beta.a/install/ackermann_controller/share/ament_index/resource_index
+[4.696s] creating /home/manuel/buggy_ws_beta.a/install/ackermann_controller/share/ament_index/resource_index/packages
+[4.697s] copying resource/ackermann_controller -> /home/manuel/buggy_ws_beta.a/install/ackermann_controller/share/ament_index/resource_index/packages
+[4.697s] copying package.xml -> /home/manuel/buggy_ws_beta.a/install/ackermann_controller/share/ackermann_controller
+[4.697s] creating /home/manuel/buggy_ws_beta.a/install/ackermann_controller/share/ackermann_controller/launch
+[4.697s] copying launch/joy.launch.py -> /home/manuel/buggy_ws_beta.a/install/ackermann_controller/share/ackermann_controller/launch
+[4.697s] running install_egg_info
+[4.698s] Copying ../../../../build/ackermann_controller/ackermann_controller.egg-info to /home/manuel/buggy_ws_beta.a/install/ackermann_controller/lib/python3.8/site-packages/ackermann_controller-0.0.0-py3.8.egg-info
+[4.698s] running install_scripts
+[4.698s] Installing ackermann_teleop_joy script to /home/manuel/buggy_ws_beta.a/install/ackermann_controller/lib/ackermann_controller
+[4.698s] writing list of installed files to '/home/manuel/buggy_ws_beta.a/build/ackermann_controller/install.log'
+[4.750s] Invoked command in '/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_controller' returned '0': AMENT_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/ackermann_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/manuel/buggy_ws_beta.a/install/ackermann_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/buggy_ws_beta.a/build/ackermann_controller/prefix_override:/home/manuel/buggy_ws_beta.a/install/ackermann_controller/lib/python3.8/site-packages:/home/manuel/buggy_ws_beta.a/install/ackermann_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ackermann_controller build --build-base /home/manuel/buggy_ws_beta.a/build/ackermann_controller/build install --record /home/manuel/buggy_ws_beta.a/build/ackermann_controller/install.log --single-version-externally-managed

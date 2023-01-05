@@ -1,0 +1,178 @@
+[0.032s] Invoking command in '/home/manuel/buggy_ws_beta.a/build/zed_wrapper': AMENT_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/zed_components:/home/manuel/buggy_ws_beta.a/install/zed_interfaces:/home/manuel/buggy_ws_beta.a/install/image_transport:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/zed_components:/home/manuel/buggy_ws_beta.a/install/zed_interfaces:/home/manuel/buggy_ws_beta.a/install/image_transport:/home/manuel/buggy_space/install/zed_ros2:/home/manuel/buggy_space/install/zed_display_rviz2:/home/manuel/buggy_space/install/zed_wrapper:/home/manuel/buggy_space/install/zed_tutorial_video:/home/manuel/buggy_space/install/zed_tutorial_pos_tracking:/home/manuel/buggy_space/install/zed_tutorial_depth:/home/manuel/buggy_space/install/zed_rgb_convert:/home/manuel/buggy_space/install/zed_components:/home/manuel/buggy_space/install/rviz_plugin_zed_od:/home/manuel/buggy_space/install/zed_interfaces:/home/manuel/buggy_space/install/buggy_mobile_robot:/home/manuel/buggy_space/install/vox_nav_msgs:/home/manuel/buggy_space/install/velodyne:/home/manuel/buggy_space/install/velodyne_pointcloud:/home/manuel/buggy_space/install/velodyne_driver:/home/manuel/buggy_space/install/velodyne_msgs:/home/manuel/buggy_space/install/velodyne_laserscan:/home/manuel/buggy_space/install/teb_local_planner:/home/manuel/buggy_space/install/teb_msgs:/home/manuel/buggy_space/install/sick_scan2:/home/manuel/buggy_space/install/ros_sensors:/home/manuel/buggy_space/install/ros2socketcan_lib:/home/manuel/buggy_space/install/ros2car_buggy:/home/manuel/buggy_space/install/robot_localization:/home/manuel/buggy_space/install/image_common:/home/manuel/buggy_space/install/image_transport:/home/manuel/buggy_space/install/costmap_converter:/home/manuel/buggy_space/install/costmap_converter_msgs:/home/manuel/buggy_space/install/can_msgs:/home/manuel/buggy_space/install/camera_info_manager:/home/manuel/buggy_space/install/camera_calibration_parsers:/home/manuel/buggy_space/install/buggy_msgs:/home/manuel/buggy_space/install/buggy_mobile_navigation:/home/manuel/buggy_space/install/ackermann_msgs:/home/manuel/buggy_space/install/ackermann_interfaces:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy LD_LIBRARY_PATH=/home/manuel/buggy_ws_beta.a/install/zed_components/lib:/home/manuel/buggy_ws_beta.a/install/zed_interfaces/lib:/home/manuel/buggy_ws_beta.a/install/image_transport/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/buggy_ws_beta.a/install/zed_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_wrapper -DCMAKE_INSTALL_PREFIX=/home/manuel/buggy_ws_beta.a/install/zed_wrapper
+[0.092s] -- The C compiler identification is GNU 9.4.0
+[0.155s] -- The CXX compiler identification is GNU 9.4.0
+[0.162s] -- Check for working C compiler: /usr/bin/cc
+[0.236s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.237s] -- Detecting C compiler ABI info
+[0.316s] -- Detecting C compiler ABI info - done
+[0.330s] -- Detecting C compile features
+[0.330s] -- Detecting C compile features - done
+[0.333s] -- Check for working CXX compiler: /usr/bin/c++
+[0.419s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.420s] -- Detecting CXX compiler ABI info
+[0.507s] -- Detecting CXX compiler ABI info - done
+[0.521s] -- Detecting CXX compile features
+[0.522s] -- Detecting CXX compile features - done
+[0.526s] -- Looking for sgemm_
+[0.601s] -- Looking for sgemm_ - not found
+[0.602s] -- Looking for pthread.h
+[0.686s] -- Looking for pthread.h - found
+[0.687s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.767s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.767s] -- Looking for pthread_create in pthreads
+[0.833s] -- Looking for pthread_create in pthreads - not found
+[0.833s] -- Looking for pthread_create in pthread
+[0.911s] -- Looking for pthread_create in pthread - found
+[0.912s] -- Found Threads: TRUE  
+[0.951s] -- Looking for sgemm_
+[1.067s] -- Looking for sgemm_ - found
+[1.067s] -- Found BLAS: /usr/lib/x86_64-linux-gnu/libopenblas.so  
+[1.086s] -- Found CUDA: /usr/local/cuda (found suitable version "11.7", minimum required is "11") 
+[1.131s] -- Found CUDA: /usr/local/cuda (found version "11.7") 
+[1.134s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.165s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.165s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.458s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.508s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.516s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.616s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.660s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.764s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.832s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.836s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.019s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[2.090s] -- Found zed_components: 0.2.0 (/home/manuel/buggy_ws_beta.a/install/zed_components/share/zed_components/cmake)
+[2.682s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.685s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[3.918s] -- Configuring done
+[3.957s] -- Generating done
+[3.960s] -- Build files have been written to: /home/manuel/buggy_ws_beta.a/build/zed_wrapper
+[3.970s] Invoked command in '/home/manuel/buggy_ws_beta.a/build/zed_wrapper' returned '0': AMENT_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/zed_components:/home/manuel/buggy_ws_beta.a/install/zed_interfaces:/home/manuel/buggy_ws_beta.a/install/image_transport:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/zed_components:/home/manuel/buggy_ws_beta.a/install/zed_interfaces:/home/manuel/buggy_ws_beta.a/install/image_transport:/home/manuel/buggy_space/install/zed_ros2:/home/manuel/buggy_space/install/zed_display_rviz2:/home/manuel/buggy_space/install/zed_wrapper:/home/manuel/buggy_space/install/zed_tutorial_video:/home/manuel/buggy_space/install/zed_tutorial_pos_tracking:/home/manuel/buggy_space/install/zed_tutorial_depth:/home/manuel/buggy_space/install/zed_rgb_convert:/home/manuel/buggy_space/install/zed_components:/home/manuel/buggy_space/install/rviz_plugin_zed_od:/home/manuel/buggy_space/install/zed_interfaces:/home/manuel/buggy_space/install/buggy_mobile_robot:/home/manuel/buggy_space/install/vox_nav_msgs:/home/manuel/buggy_space/install/velodyne:/home/manuel/buggy_space/install/velodyne_pointcloud:/home/manuel/buggy_space/install/velodyne_driver:/home/manuel/buggy_space/install/velodyne_msgs:/home/manuel/buggy_space/install/velodyne_laserscan:/home/manuel/buggy_space/install/teb_local_planner:/home/manuel/buggy_space/install/teb_msgs:/home/manuel/buggy_space/install/sick_scan2:/home/manuel/buggy_space/install/ros_sensors:/home/manuel/buggy_space/install/ros2socketcan_lib:/home/manuel/buggy_space/install/ros2car_buggy:/home/manuel/buggy_space/install/robot_localization:/home/manuel/buggy_space/install/image_common:/home/manuel/buggy_space/install/image_transport:/home/manuel/buggy_space/install/costmap_converter:/home/manuel/buggy_space/install/costmap_converter_msgs:/home/manuel/buggy_space/install/can_msgs:/home/manuel/buggy_space/install/camera_info_manager:/home/manuel/buggy_space/install/camera_calibration_parsers:/home/manuel/buggy_space/install/buggy_msgs:/home/manuel/buggy_space/install/buggy_mobile_navigation:/home/manuel/buggy_space/install/ackermann_msgs:/home/manuel/buggy_space/install/ackermann_interfaces:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy LD_LIBRARY_PATH=/home/manuel/buggy_ws_beta.a/install/zed_components/lib:/home/manuel/buggy_ws_beta.a/install/zed_interfaces/lib:/home/manuel/buggy_ws_beta.a/install/image_transport/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/buggy_ws_beta.a/install/zed_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_wrapper -DCMAKE_INSTALL_PREFIX=/home/manuel/buggy_ws_beta.a/install/zed_wrapper
+[3.973s] Invoking command in '/home/manuel/buggy_ws_beta.a/build/zed_wrapper': AMENT_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/zed_components:/home/manuel/buggy_ws_beta.a/install/zed_interfaces:/home/manuel/buggy_ws_beta.a/install/image_transport:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/zed_components:/home/manuel/buggy_ws_beta.a/install/zed_interfaces:/home/manuel/buggy_ws_beta.a/install/image_transport:/home/manuel/buggy_space/install/zed_ros2:/home/manuel/buggy_space/install/zed_display_rviz2:/home/manuel/buggy_space/install/zed_wrapper:/home/manuel/buggy_space/install/zed_tutorial_video:/home/manuel/buggy_space/install/zed_tutorial_pos_tracking:/home/manuel/buggy_space/install/zed_tutorial_depth:/home/manuel/buggy_space/install/zed_rgb_convert:/home/manuel/buggy_space/install/zed_components:/home/manuel/buggy_space/install/rviz_plugin_zed_od:/home/manuel/buggy_space/install/zed_interfaces:/home/manuel/buggy_space/install/buggy_mobile_robot:/home/manuel/buggy_space/install/vox_nav_msgs:/home/manuel/buggy_space/install/velodyne:/home/manuel/buggy_space/install/velodyne_pointcloud:/home/manuel/buggy_space/install/velodyne_driver:/home/manuel/buggy_space/install/velodyne_msgs:/home/manuel/buggy_space/install/velodyne_laserscan:/home/manuel/buggy_space/install/teb_local_planner:/home/manuel/buggy_space/install/teb_msgs:/home/manuel/buggy_space/install/sick_scan2:/home/manuel/buggy_space/install/ros_sensors:/home/manuel/buggy_space/install/ros2socketcan_lib:/home/manuel/buggy_space/install/ros2car_buggy:/home/manuel/buggy_space/install/robot_localization:/home/manuel/buggy_space/install/image_common:/home/manuel/buggy_space/install/image_transport:/home/manuel/buggy_space/install/costmap_converter:/home/manuel/buggy_space/install/costmap_converter_msgs:/home/manuel/buggy_space/install/can_msgs:/home/manuel/buggy_space/install/camera_info_manager:/home/manuel/buggy_space/install/camera_calibration_parsers:/home/manuel/buggy_space/install/buggy_msgs:/home/manuel/buggy_space/install/buggy_mobile_navigation:/home/manuel/buggy_space/install/ackermann_msgs:/home/manuel/buggy_space/install/ackermann_interfaces:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy LD_LIBRARY_PATH=/home/manuel/buggy_ws_beta.a/install/zed_components/lib:/home/manuel/buggy_ws_beta.a/install/zed_interfaces/lib:/home/manuel/buggy_ws_beta.a/install/image_transport/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/buggy_ws_beta.a/install/zed_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/manuel/buggy_ws_beta.a/build/zed_wrapper -- -j16 -l16
+[4.020s] [35m[1mScanning dependencies of target zed_wrapper[0m
+[4.090s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_wrapper.dir/src/zed_wrapper.cpp.o[0m
+[5.841s] In file included from [01m[K/home/manuel/buggy_ws_beta.a/install/zed_components/include/zed_components/sl_tools.h:50[m[K,
+[5.841s]                  from [01m[K/home/manuel/buggy_ws_beta.a/install/zed_components/include/zed_components/zed_camera_component.hpp:28[m[K,
+[5.842s]                  from [01m[K/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_wrapper/src/zed_wrapper.cpp:26[m[K:
+[5.842s] [01m[K/usr/local/zed/include/sl/Camera.hpp:820:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[5.842s]   820 |             [01;35m[K}[m[K;
+[5.843s]       |             [01;35m[K^[m[K
+[5.843s] [01m[K/usr/local/zed/include/sl/Camera.hpp:973:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[5.843s]   973 |             [01;35m[K}[m[K;
+[5.843s]       |             [01;35m[K^[m[K
+[5.843s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1150:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[5.843s]  1150 |             [01;35m[K}[m[K;
+[5.843s]       |             [01;35m[K^[m[K
+[5.844s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1314:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[5.844s]  1314 |             [01;35m[K}[m[K;
+[5.844s]       |             [01;35m[K^[m[K
+[5.844s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1318:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[5.844s]  1318 |             [01;35m[K}[m[K;
+[5.845s]       |             [01;35m[K^[m[K
+[5.845s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1322:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[5.845s]  1322 |             [01;35m[K}[m[K;
+[5.845s]       |             [01;35m[K^[m[K
+[5.846s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1562:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[5.846s]  1562 |             [01;35m[K}[m[K;
+[5.847s]       |             [01;35m[K^[m[K
+[5.847s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1566:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[5.847s]  1566 |             [01;35m[K}[m[K;
+[5.847s]       |             [01;35m[K^[m[K
+[5.847s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1570:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[5.847s]  1570 |             [01;35m[K}[m[K;
+[5.847s]       |             [01;35m[K^[m[K
+[5.851s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[Ksl::Timestamp sl::operator+(sl::Timestamp, const sl::Timestamp&)[m[K’:
+[5.851s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2024:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+[5.851s]  2024 |         return [01;35m[Klhs[m[K;
+[5.852s]       |                [01;35m[K^~~[m[K
+[5.852s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1963:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Timestamp[m[K’ has user-provided ‘[01m[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)[m[K’
+[5.852s]  1963 |         Timestamp& [01;36m[Koperator[m[K=(Timestamp other) {
+[5.852s]       |                    [01;36m[K^~~~~~~~[m[K
+[5.853s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[Ksl::Timestamp sl::operator-(sl::Timestamp, const sl::Timestamp&)[m[K’:
+[5.853s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2029:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+[5.853s]  2029 |         return [01;35m[Klhs[m[K;
+[5.853s]       |                [01;35m[K^~~[m[K
+[5.853s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1963:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Timestamp[m[K’ has user-provided ‘[01m[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)[m[K’
+[5.853s]  1963 |         Timestamp& [01;36m[Koperator[m[K=(Timestamp other) {
+[5.854s]       |                    [01;36m[K^~~~~~~~[m[K
+[5.854s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[Ksl::Timestamp sl::operator/(sl::Timestamp, const sl::Timestamp&)[m[K’:
+[5.854s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2034:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+[5.854s]  2034 |         return [01;35m[Klhs[m[K;
+[5.854s]       |                [01;35m[K^~~[m[K
+[5.854s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1963:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Timestamp[m[K’ has user-provided ‘[01m[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)[m[K’
+[5.855s]  1963 |         Timestamp& [01;36m[Koperator[m[K=(Timestamp other) {
+[5.855s]       |                    [01;36m[K^~~~~~~~[m[K
+[5.855s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[Ksl::Timestamp sl::operator*(sl::Timestamp, const sl::Timestamp&)[m[K’:
+[5.855s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2039:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+[5.855s]  2039 |         return [01;35m[Klhs[m[K;
+[5.855s]       |                [01;35m[K^~~[m[K
+[5.856s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1963:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Timestamp[m[K’ has user-provided ‘[01m[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)[m[K’
+[5.856s]  1963 |         Timestamp& [01;36m[Koperator[m[K=(Timestamp other) {
+[5.856s]       |                    [01;36m[K^~~~~~~~[m[K
+[5.856s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[Ksl::Timestamp sl::getCurrentTimeStamp()[m[K’:
+[5.856s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2073:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+[5.856s]  2073 |         return [01;35m[Kcurrent_ts[m[K;
+[5.857s]       |                [01;35m[K^~~~~~~~~~[m[K
+[5.857s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1963:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Timestamp[m[K’ has user-provided ‘[01m[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)[m[K’
+[5.857s]  1963 |         Timestamp& [01;36m[Koperator[m[K=(Timestamp other) {
+[5.857s]       |                    [01;36m[K^~~~~~~~[m[K
+[5.857s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[KcudaError sl::__cudaSafeCall(cudaError, const char*, const char*, int)[m[K’:
+[5.857s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2079:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfile[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.857s]  2079 |  __cudaSafeCall(cudaError err, const char *func, [01;35m[Kconst char *file[m[K, const int line) {
+[5.858s]       |                                                  [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[5.858s] 
+[5.858s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2079:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kline[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.858s]  2079 | cudaError err, const char *func, const char *file, [01;35m[Kconst int line[m[K) {
+[5.858s]       |                                                    [01;35m[K~~~~~~~~~~^~~~[m[K
+[5.858s] 
+[5.951s] In file included from [01m[K/home/manuel/buggy_ws_beta.a/install/zed_components/include/zed_components/sl_tools.h:50[m[K,
+[5.951s]                  from [01m[K/home/manuel/buggy_ws_beta.a/install/zed_components/include/zed_components/zed_camera_component.hpp:28[m[K,
+[5.951s]                  from [01m[K/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_wrapper/src/zed_wrapper.cpp:26[m[K:
+[5.951s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K At global scope:
+[5.952s] [01m[K/usr/local/zed/include/sl/Camera.hpp:5399:12:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+[5.952s]  5399 |     inline [01;35m[Kconst[m[K void /*@cond SHOWHIDDEN*/SL_SDK_EXPORT/*@endcond*/ getZEDSDKBuildVersion(int &major, int& minor, int& patch) {
+[5.952s]       |            [01;35m[K^~~~~[m[K
+[5.956s] [01m[K/usr/local/zed/include/sl/Camera.hpp:5791:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[5.956s]  5791 | }[01;35m[K;[m[K
+[5.956s]       |  [01;35m[K^[m[K
+[9.550s] [100%] [32m[1mLinking CXX executable zed_wrapper[0m
+[9.852s] [100%] Built target zed_wrapper
+[9.866s] Invoked command in '/home/manuel/buggy_ws_beta.a/build/zed_wrapper' returned '0': AMENT_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/zed_components:/home/manuel/buggy_ws_beta.a/install/zed_interfaces:/home/manuel/buggy_ws_beta.a/install/image_transport:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/zed_components:/home/manuel/buggy_ws_beta.a/install/zed_interfaces:/home/manuel/buggy_ws_beta.a/install/image_transport:/home/manuel/buggy_space/install/zed_ros2:/home/manuel/buggy_space/install/zed_display_rviz2:/home/manuel/buggy_space/install/zed_wrapper:/home/manuel/buggy_space/install/zed_tutorial_video:/home/manuel/buggy_space/install/zed_tutorial_pos_tracking:/home/manuel/buggy_space/install/zed_tutorial_depth:/home/manuel/buggy_space/install/zed_rgb_convert:/home/manuel/buggy_space/install/zed_components:/home/manuel/buggy_space/install/rviz_plugin_zed_od:/home/manuel/buggy_space/install/zed_interfaces:/home/manuel/buggy_space/install/buggy_mobile_robot:/home/manuel/buggy_space/install/vox_nav_msgs:/home/manuel/buggy_space/install/velodyne:/home/manuel/buggy_space/install/velodyne_pointcloud:/home/manuel/buggy_space/install/velodyne_driver:/home/manuel/buggy_space/install/velodyne_msgs:/home/manuel/buggy_space/install/velodyne_laserscan:/home/manuel/buggy_space/install/teb_local_planner:/home/manuel/buggy_space/install/teb_msgs:/home/manuel/buggy_space/install/sick_scan2:/home/manuel/buggy_space/install/ros_sensors:/home/manuel/buggy_space/install/ros2socketcan_lib:/home/manuel/buggy_space/install/ros2car_buggy:/home/manuel/buggy_space/install/robot_localization:/home/manuel/buggy_space/install/image_common:/home/manuel/buggy_space/install/image_transport:/home/manuel/buggy_space/install/costmap_converter:/home/manuel/buggy_space/install/costmap_converter_msgs:/home/manuel/buggy_space/install/can_msgs:/home/manuel/buggy_space/install/camera_info_manager:/home/manuel/buggy_space/install/camera_calibration_parsers:/home/manuel/buggy_space/install/buggy_msgs:/home/manuel/buggy_space/install/buggy_mobile_navigation:/home/manuel/buggy_space/install/ackermann_msgs:/home/manuel/buggy_space/install/ackermann_interfaces:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy LD_LIBRARY_PATH=/home/manuel/buggy_ws_beta.a/install/zed_components/lib:/home/manuel/buggy_ws_beta.a/install/zed_interfaces/lib:/home/manuel/buggy_ws_beta.a/install/image_transport/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/buggy_ws_beta.a/install/zed_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/manuel/buggy_ws_beta.a/build/zed_wrapper -- -j16 -l16
+[9.902s] Invoking command in '/home/manuel/buggy_ws_beta.a/build/zed_wrapper': AMENT_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/zed_components:/home/manuel/buggy_ws_beta.a/install/zed_interfaces:/home/manuel/buggy_ws_beta.a/install/image_transport:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/zed_components:/home/manuel/buggy_ws_beta.a/install/zed_interfaces:/home/manuel/buggy_ws_beta.a/install/image_transport:/home/manuel/buggy_space/install/zed_ros2:/home/manuel/buggy_space/install/zed_display_rviz2:/home/manuel/buggy_space/install/zed_wrapper:/home/manuel/buggy_space/install/zed_tutorial_video:/home/manuel/buggy_space/install/zed_tutorial_pos_tracking:/home/manuel/buggy_space/install/zed_tutorial_depth:/home/manuel/buggy_space/install/zed_rgb_convert:/home/manuel/buggy_space/install/zed_components:/home/manuel/buggy_space/install/rviz_plugin_zed_od:/home/manuel/buggy_space/install/zed_interfaces:/home/manuel/buggy_space/install/buggy_mobile_robot:/home/manuel/buggy_space/install/vox_nav_msgs:/home/manuel/buggy_space/install/velodyne:/home/manuel/buggy_space/install/velodyne_pointcloud:/home/manuel/buggy_space/install/velodyne_driver:/home/manuel/buggy_space/install/velodyne_msgs:/home/manuel/buggy_space/install/velodyne_laserscan:/home/manuel/buggy_space/install/teb_local_planner:/home/manuel/buggy_space/install/teb_msgs:/home/manuel/buggy_space/install/sick_scan2:/home/manuel/buggy_space/install/ros_sensors:/home/manuel/buggy_space/install/ros2socketcan_lib:/home/manuel/buggy_space/install/ros2car_buggy:/home/manuel/buggy_space/install/robot_localization:/home/manuel/buggy_space/install/image_common:/home/manuel/buggy_space/install/image_transport:/home/manuel/buggy_space/install/costmap_converter:/home/manuel/buggy_space/install/costmap_converter_msgs:/home/manuel/buggy_space/install/can_msgs:/home/manuel/buggy_space/install/camera_info_manager:/home/manuel/buggy_space/install/camera_calibration_parsers:/home/manuel/buggy_space/install/buggy_msgs:/home/manuel/buggy_space/install/buggy_mobile_navigation:/home/manuel/buggy_space/install/ackermann_msgs:/home/manuel/buggy_space/install/ackermann_interfaces:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy LD_LIBRARY_PATH=/home/manuel/buggy_ws_beta.a/install/zed_components/lib:/home/manuel/buggy_ws_beta.a/install/zed_interfaces/lib:/home/manuel/buggy_ws_beta.a/install/image_transport/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/buggy_ws_beta.a/install/zed_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/manuel/buggy_ws_beta.a/build/zed_wrapper
+[9.914s] -- Install configuration: "Release"
+[9.914s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/lib/zed_wrapper/zed_wrapper
+[9.914s] -- Set runtime path of "/home/manuel/buggy_ws_beta.a/install/zed_wrapper/lib/zed_wrapper/zed_wrapper" to ""
+[9.915s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/config
+[9.915s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/config/zed.yaml
+[9.915s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/config/common.yaml
+[9.915s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/config/zed2.yaml
+[9.916s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/config/zed2i.yaml
+[9.916s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/config/zedm.yaml
+[9.916s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/urdf
+[9.916s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/urdf/zed_macro.urdf.xacro
+[9.916s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/urdf/zed_descr.urdf.xacro
+[9.917s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/urdf/include
+[9.917s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/urdf/include/materials.urdf.xacro
+[9.917s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/launch
+[9.917s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/launch/zedm.launch.py
+[9.917s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/launch/zed2.launch.py
+[9.918s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/launch/zed2i.launch.py
+[9.918s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/launch/include
+[9.918s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/launch/include/zed_camera.launch.py
+[9.918s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/launch/zed.launch.py
+[9.918s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/ament_index/resource_index/package_run_dependencies/zed_wrapper
+[9.919s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/ament_index/resource_index/parent_prefix_path/zed_wrapper
+[9.919s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.sh
+[9.919s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.dsv
+[9.919s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/environment/path.sh
+[9.919s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/environment/path.dsv
+[9.919s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/local_setup.bash
+[9.920s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/local_setup.sh
+[9.920s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/local_setup.zsh
+[9.920s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/local_setup.dsv
+[9.921s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/package.dsv
+[9.921s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/ament_index/resource_index/packages/zed_wrapper
+[9.932s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig.cmake
+[9.932s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig-version.cmake
+[9.932s] -- Installing: /home/manuel/buggy_ws_beta.a/install/zed_wrapper/share/zed_wrapper/package.xml
+[9.933s] Invoked command in '/home/manuel/buggy_ws_beta.a/build/zed_wrapper' returned '0': AMENT_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/zed_components:/home/manuel/buggy_ws_beta.a/install/zed_interfaces:/home/manuel/buggy_ws_beta.a/install/image_transport:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/zed_components:/home/manuel/buggy_ws_beta.a/install/zed_interfaces:/home/manuel/buggy_ws_beta.a/install/image_transport:/home/manuel/buggy_space/install/zed_ros2:/home/manuel/buggy_space/install/zed_display_rviz2:/home/manuel/buggy_space/install/zed_wrapper:/home/manuel/buggy_space/install/zed_tutorial_video:/home/manuel/buggy_space/install/zed_tutorial_pos_tracking:/home/manuel/buggy_space/install/zed_tutorial_depth:/home/manuel/buggy_space/install/zed_rgb_convert:/home/manuel/buggy_space/install/zed_components:/home/manuel/buggy_space/install/rviz_plugin_zed_od:/home/manuel/buggy_space/install/zed_interfaces:/home/manuel/buggy_space/install/buggy_mobile_robot:/home/manuel/buggy_space/install/vox_nav_msgs:/home/manuel/buggy_space/install/velodyne:/home/manuel/buggy_space/install/velodyne_pointcloud:/home/manuel/buggy_space/install/velodyne_driver:/home/manuel/buggy_space/install/velodyne_msgs:/home/manuel/buggy_space/install/velodyne_laserscan:/home/manuel/buggy_space/install/teb_local_planner:/home/manuel/buggy_space/install/teb_msgs:/home/manuel/buggy_space/install/sick_scan2:/home/manuel/buggy_space/install/ros_sensors:/home/manuel/buggy_space/install/ros2socketcan_lib:/home/manuel/buggy_space/install/ros2car_buggy:/home/manuel/buggy_space/install/robot_localization:/home/manuel/buggy_space/install/image_common:/home/manuel/buggy_space/install/image_transport:/home/manuel/buggy_space/install/costmap_converter:/home/manuel/buggy_space/install/costmap_converter_msgs:/home/manuel/buggy_space/install/can_msgs:/home/manuel/buggy_space/install/camera_info_manager:/home/manuel/buggy_space/install/camera_calibration_parsers:/home/manuel/buggy_space/install/buggy_msgs:/home/manuel/buggy_space/install/buggy_mobile_navigation:/home/manuel/buggy_space/install/ackermann_msgs:/home/manuel/buggy_space/install/ackermann_interfaces:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy LD_LIBRARY_PATH=/home/manuel/buggy_ws_beta.a/install/zed_components/lib:/home/manuel/buggy_ws_beta.a/install/zed_interfaces/lib:/home/manuel/buggy_ws_beta.a/install/image_transport/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/buggy_ws_beta.a/install/zed_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/manuel/buggy_ws_beta.a/build/zed_wrapper

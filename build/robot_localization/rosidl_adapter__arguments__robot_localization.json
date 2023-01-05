@@ -1,0 +1,11 @@
+{
+  "package_name": "robot_localization",
+  "non_idl_tuples": [
+    "/home/manuel/buggy_ws_beta.a/src/robot_localization:srv/FromLL.srv",
+    "/home/manuel/buggy_ws_beta.a/src/robot_localization:srv/GetState.srv",
+    "/home/manuel/buggy_ws_beta.a/src/robot_localization:srv/SetDatum.srv",
+    "/home/manuel/buggy_ws_beta.a/src/robot_localization:srv/SetPose.srv",
+    "/home/manuel/buggy_ws_beta.a/src/robot_localization:srv/ToggleFilterProcessing.srv",
+    "/home/manuel/buggy_ws_beta.a/src/robot_localization:srv/ToLL.srv"
+  ]
+}

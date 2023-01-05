@@ -1,0 +1,59 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/manuel/buggy_ws_beta.a/install/zed_rgb_convert/include/**",
+        "/home/manuel/buggy_ws_beta.a/install/zed_components/include/**",
+        "/home/manuel/buggy_ws_beta.a/install/rviz_plugin_zed_od/include/**",
+        "/home/manuel/buggy_ws_beta.a/install/zed_interfaces/include/**",
+        "/home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/include/**",
+        "/home/manuel/buggy_ws_beta.a/install/vox_nav_msgs/include/**",
+        "/home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/include/**",
+        "/home/manuel/buggy_ws_beta.a/install/velodyne_driver/include/**",
+        "/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/**",
+        "/home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/include/**",
+        "/home/manuel/buggy_ws_beta.a/install/teb_local_planner/include/**",
+        "/home/manuel/buggy_ws_beta.a/install/teb_msgs/include/**",
+        "/home/manuel/buggy_ws_beta.a/install/ros_sensors/include/**",
+        "/home/manuel/buggy_ws_beta.a/install/ros2socketcan_lib/include/**",
+        "/home/manuel/buggy_ws_beta.a/install/robot_localization/include/**",
+        "/home/manuel/buggy_ws_beta.a/install/image_transport/include/**",
+        "/home/manuel/buggy_ws_beta.a/install/costmap_converter/include/**",
+        "/home/manuel/buggy_ws_beta.a/install/costmap_converter_msgs/include/**",
+        "/home/manuel/buggy_ws_beta.a/install/can_msgs/include/**",
+        "/home/manuel/buggy_ws_beta.a/install/camera_info_manager/include/**",
+        "/home/manuel/buggy_ws_beta.a/install/camera_calibration_parsers/include/**",
+        "/home/manuel/buggy_ws_beta.a/install/buggy_msgs/include/**",
+        "/home/manuel/buggy_ws_beta.a/install/ackermann_msgs/include/**",
+        "/home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface/src/ros2car/include/**",
+        "/home/manuel/buggy_ws_beta.a/src/buggy_mobile_navigation/include/**",
+        "/home/manuel/buggy_ws_beta.a/src/buggy_mobile_robot/include/**",
+        "/home/manuel/buggy_ws_beta.a/src/costmap_converter/costmap_converter/include/**",
+        "/home/manuel/buggy_ws_beta.a/src/image_common/camera_calibration_parsers/include/**",
+        "/home/manuel/buggy_ws_beta.a/src/image_common/camera_info_manager/include/**",
+        "/home/manuel/buggy_ws_beta.a/src/image_common/image_transport/include/**",
+        "/home/manuel/buggy_ws_beta.a/src/libraries/ros2socketcan_lib/ros2socketcan_bridge/include/**",
+        "/home/manuel/buggy_ws_beta.a/src/robot_localization/include/**",
+        "/home/manuel/buggy_ws_beta.a/src/ros_sensors/include/**",
+        "/home/manuel/buggy_ws_beta.a/src/sick_scan2/include/**",
+        "/home/manuel/buggy_ws_beta.a/src/teb_local_planner/teb_local_planner/include/**",
+        "/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_driver/include/**",
+        "/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_laserscan/include/**",
+        "/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_pointcloud/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

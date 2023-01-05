@@ -1,0 +1,39 @@
+[1.822s] Invoking command in '/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_odometry': AMENT_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/buggy_msgs:/home/manuel/buggy_ws_beta.a/install/ackermann_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/buggy_msgs:/home/manuel/buggy_ws_beta.a/install/ackermann_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/manuel/buggy_ws_beta.a/install/buggy_msgs/lib:/home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/buggy_ws_beta.a/build/ackermann_odometry/prefix_override:/home/manuel/buggy_ws_beta.a/install/ackermann_odometry/lib/python3.8/site-packages:/home/manuel/buggy_ws_beta.a/install/buggy_msgs/lib/python3.8/site-packages:/home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ackermann_odometry build --build-base /home/manuel/buggy_ws_beta.a/build/ackermann_odometry/build install --record /home/manuel/buggy_ws_beta.a/build/ackermann_odometry/install.log --single-version-externally-managed
+[2.493s] running egg_info
+[2.495s] creating ../../../../build/ackermann_odometry/ackermann_odometry.egg-info
+[2.495s] writing ../../../../build/ackermann_odometry/ackermann_odometry.egg-info/PKG-INFO
+[2.496s] writing dependency_links to ../../../../build/ackermann_odometry/ackermann_odometry.egg-info/dependency_links.txt
+[2.496s] writing entry points to ../../../../build/ackermann_odometry/ackermann_odometry.egg-info/entry_points.txt
+[2.496s] writing requirements to ../../../../build/ackermann_odometry/ackermann_odometry.egg-info/requires.txt
+[2.497s] writing top-level names to ../../../../build/ackermann_odometry/ackermann_odometry.egg-info/top_level.txt
+[2.500s] writing manifest file '../../../../build/ackermann_odometry/ackermann_odometry.egg-info/SOURCES.txt'
+[2.503s] reading manifest file '../../../../build/ackermann_odometry/ackermann_odometry.egg-info/SOURCES.txt'
+[2.505s] writing manifest file '../../../../build/ackermann_odometry/ackermann_odometry.egg-info/SOURCES.txt'
+[2.505s] running build
+[2.505s] running build_py
+[2.505s] creating /home/manuel/buggy_ws_beta.a/build/ackermann_odometry/build
+[2.506s] creating /home/manuel/buggy_ws_beta.a/build/ackermann_odometry/build/lib
+[2.506s] creating /home/manuel/buggy_ws_beta.a/build/ackermann_odometry/build/lib/ackermann_odometry
+[2.506s] copying ackermann_odometry/odom_publisher.py -> /home/manuel/buggy_ws_beta.a/build/ackermann_odometry/build/lib/ackermann_odometry
+[2.506s] copying ackermann_odometry/__init__.py -> /home/manuel/buggy_ws_beta.a/build/ackermann_odometry/build/lib/ackermann_odometry
+[2.507s] running install
+[2.507s] /home/manuel/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.507s]   warnings.warn(
+[2.509s] running install_lib
+[2.511s] creating /home/manuel/buggy_ws_beta.a/install/ackermann_odometry/lib/python3.8/site-packages/ackermann_odometry
+[2.511s] copying /home/manuel/buggy_ws_beta.a/build/ackermann_odometry/build/lib/ackermann_odometry/odom_publisher.py -> /home/manuel/buggy_ws_beta.a/install/ackermann_odometry/lib/python3.8/site-packages/ackermann_odometry
+[2.511s] copying /home/manuel/buggy_ws_beta.a/build/ackermann_odometry/build/lib/ackermann_odometry/__init__.py -> /home/manuel/buggy_ws_beta.a/install/ackermann_odometry/lib/python3.8/site-packages/ackermann_odometry
+[2.512s] byte-compiling /home/manuel/buggy_ws_beta.a/install/ackermann_odometry/lib/python3.8/site-packages/ackermann_odometry/odom_publisher.py to odom_publisher.cpython-38.pyc
+[2.516s] byte-compiling /home/manuel/buggy_ws_beta.a/install/ackermann_odometry/lib/python3.8/site-packages/ackermann_odometry/__init__.py to __init__.cpython-38.pyc
+[2.516s] running install_data
+[2.518s] creating /home/manuel/buggy_ws_beta.a/install/ackermann_odometry/share/ament_index
+[2.518s] creating /home/manuel/buggy_ws_beta.a/install/ackermann_odometry/share/ament_index/resource_index
+[2.520s] creating /home/manuel/buggy_ws_beta.a/install/ackermann_odometry/share/ament_index/resource_index/packages
+[2.521s] copying resource/ackermann_odometry -> /home/manuel/buggy_ws_beta.a/install/ackermann_odometry/share/ament_index/resource_index/packages
+[2.522s] copying package.xml -> /home/manuel/buggy_ws_beta.a/install/ackermann_odometry/share/ackermann_odometry
+[2.522s] running install_egg_info
+[2.527s] Copying ../../../../build/ackermann_odometry/ackermann_odometry.egg-info to /home/manuel/buggy_ws_beta.a/install/ackermann_odometry/lib/python3.8/site-packages/ackermann_odometry-0.0.0-py3.8.egg-info
+[2.529s] running install_scripts
+[2.567s] Installing odom_publisher script to /home/manuel/buggy_ws_beta.a/install/ackermann_odometry/lib/ackermann_odometry
+[2.568s] writing list of installed files to '/home/manuel/buggy_ws_beta.a/build/ackermann_odometry/install.log'
+[2.622s] Invoked command in '/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_odometry' returned '0': AMENT_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/buggy_msgs:/home/manuel/buggy_ws_beta.a/install/ackermann_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/buggy_msgs:/home/manuel/buggy_ws_beta.a/install/ackermann_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/manuel/buggy_ws_beta.a/install/buggy_msgs/lib:/home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/buggy_ws_beta.a/build/ackermann_odometry/prefix_override:/home/manuel/buggy_ws_beta.a/install/ackermann_odometry/lib/python3.8/site-packages:/home/manuel/buggy_ws_beta.a/install/buggy_msgs/lib/python3.8/site-packages:/home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ackermann_odometry build --build-base /home/manuel/buggy_ws_beta.a/build/ackermann_odometry/build install --record /home/manuel/buggy_ws_beta.a/build/ackermann_odometry/install.log --single-version-externally-managed

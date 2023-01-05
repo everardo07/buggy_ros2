@@ -1,0 +1,9 @@
+/home/manuel/buggy_ws_beta.a/build/vox_nav_msgs/rosidl_adapter/vox_nav_msgs:msg/Object.idl
+/home/manuel/buggy_ws_beta.a/build/vox_nav_msgs/rosidl_adapter/vox_nav_msgs:msg/ObjectArray.idl
+/home/manuel/buggy_ws_beta.a/build/vox_nav_msgs/rosidl_adapter/vox_nav_msgs:msg/OrientedNavSatFix.idl
+/home/manuel/buggy_ws_beta.a/build/vox_nav_msgs/rosidl_adapter/vox_nav_msgs:srv/GetOctomap.idl
+/home/manuel/buggy_ws_beta.a/build/vox_nav_msgs/rosidl_adapter/vox_nav_msgs:srv/GetPointCloud.idl
+/home/manuel/buggy_ws_beta.a/build/vox_nav_msgs/rosidl_adapter/vox_nav_msgs:srv/GetMapsAndSurfels.idl
+/home/manuel/buggy_ws_beta.a/build/vox_nav_msgs/rosidl_adapter/vox_nav_msgs:action/ComputePathToPose.idl
+/home/manuel/buggy_ws_beta.a/build/vox_nav_msgs/rosidl_adapter/vox_nav_msgs:action/FollowPath.idl
+/home/manuel/buggy_ws_beta.a/build/vox_nav_msgs/rosidl_adapter/vox_nav_msgs:action/NavigateToPose.idl

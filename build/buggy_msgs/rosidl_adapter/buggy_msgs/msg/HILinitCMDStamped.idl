@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from buggy_msgs/msg/HILinitCMDStamped.msg
+// generated code does not contain a copyright notice
+
+#include "buggy_msgs/msg/HILinitCMD.idl"
+#include "std_msgs/msg/Header.idl"
+
+module buggy_msgs {
+  module msg {
+    struct HILinitCMDStamped {
+      std_msgs::msg::Header header;
+
+      buggy_msgs::msg::HILinitCMD hilinit;
+    };
+  };
+};

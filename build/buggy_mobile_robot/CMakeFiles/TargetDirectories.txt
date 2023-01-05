@@ -1,0 +1,11 @@
+/home/manuel/buggy_ws_beta.a/build/buggy_mobile_robot/CMakeFiles/install/strip.dir
+/home/manuel/buggy_ws_beta.a/build/buggy_mobile_robot/CMakeFiles/install/local.dir
+/home/manuel/buggy_ws_beta.a/build/buggy_mobile_robot/CMakeFiles/install.dir
+/home/manuel/buggy_ws_beta.a/build/buggy_mobile_robot/CMakeFiles/list_install_components.dir
+/home/manuel/buggy_ws_beta.a/build/buggy_mobile_robot/CMakeFiles/rebuild_cache.dir
+/home/manuel/buggy_ws_beta.a/build/buggy_mobile_robot/CMakeFiles/gazebo_world_to_pointcloud.dir
+/home/manuel/buggy_ws_beta.a/build/buggy_mobile_robot/CMakeFiles/botanbot_ackermann_drive.dir
+/home/manuel/buggy_ws_beta.a/build/buggy_mobile_robot/CMakeFiles/edit_cache.dir
+/home/manuel/buggy_ws_beta.a/build/buggy_mobile_robot/CMakeFiles/test.dir
+/home/manuel/buggy_ws_beta.a/build/buggy_mobile_robot/CMakeFiles/buggy_mobile_robot_uninstall.dir
+/home/manuel/buggy_ws_beta.a/build/buggy_mobile_robot/CMakeFiles/uninstall.dir

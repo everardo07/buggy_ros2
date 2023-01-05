@@ -1,0 +1,175 @@
+[0.172s] Invoking command in '/home/manuel/buggy_ws_beta.a/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/velodyne_msgs:/home/manuel/buggy_space/install/zed_ros2:/home/manuel/buggy_space/install/zed_display_rviz2:/home/manuel/buggy_space/install/zed_wrapper:/home/manuel/buggy_space/install/zed_tutorial_video:/home/manuel/buggy_space/install/zed_tutorial_pos_tracking:/home/manuel/buggy_space/install/zed_tutorial_depth:/home/manuel/buggy_space/install/zed_rgb_convert:/home/manuel/buggy_space/install/zed_components:/home/manuel/buggy_space/install/rviz_plugin_zed_od:/home/manuel/buggy_space/install/zed_interfaces:/home/manuel/buggy_space/install/buggy_mobile_robot:/home/manuel/buggy_space/install/vox_nav_msgs:/home/manuel/buggy_space/install/velodyne:/home/manuel/buggy_space/install/velodyne_pointcloud:/home/manuel/buggy_space/install/velodyne_driver:/home/manuel/buggy_space/install/velodyne_msgs:/home/manuel/buggy_space/install/velodyne_laserscan:/home/manuel/buggy_space/install/teb_local_planner:/home/manuel/buggy_space/install/teb_msgs:/home/manuel/buggy_space/install/sick_scan2:/home/manuel/buggy_space/install/ros_sensors:/home/manuel/buggy_space/install/ros2socketcan_lib:/home/manuel/buggy_space/install/ros2car_buggy:/home/manuel/buggy_space/install/robot_localization:/home/manuel/buggy_space/install/image_common:/home/manuel/buggy_space/install/image_transport:/home/manuel/buggy_space/install/costmap_converter:/home/manuel/buggy_space/install/costmap_converter_msgs:/home/manuel/buggy_space/install/can_msgs:/home/manuel/buggy_space/install/camera_info_manager:/home/manuel/buggy_space/install/camera_calibration_parsers:/home/manuel/buggy_space/install/buggy_msgs:/home/manuel/buggy_space/install/buggy_mobile_navigation:/home/manuel/buggy_space/install/ackermann_msgs:/home/manuel/buggy_space/install/ackermann_interfaces:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy LD_LIBRARY_PATH=/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_pointcloud -DCMAKE_INSTALL_PREFIX=/home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud
+[3.905s] -- The C compiler identification is GNU 9.4.0
+[3.905s] -- The CXX compiler identification is GNU 9.4.0
+[3.906s] -- Check for working C compiler: /usr/bin/cc
+[3.906s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.906s] -- Detecting C compiler ABI info
+[3.906s] -- Detecting C compiler ABI info - done
+[3.906s] -- Detecting C compile features
+[3.906s] -- Detecting C compile features - done
+[3.907s] -- Check for working CXX compiler: /usr/bin/c++
+[3.907s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.907s] -- Detecting CXX compiler ABI info
+[3.907s] -- Detecting CXX compiler ABI info - done
+[3.908s] -- Detecting CXX compile features
+[3.908s] -- Detecting CXX compile features - done
+[3.908s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.908s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.909s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.909s] -- Found angles: 1.12.6 (/opt/ros/foxy/share/angles/cmake)
+[3.909s] -- Found diagnostic_updater: 2.0.8 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[3.909s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.909s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.910s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.910s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.910s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.910s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.910s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.911s] -- Looking for pthread.h
+[3.911s] -- Looking for pthread.h - found
+[3.911s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.911s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.911s] -- Looking for pthread_create in pthreads
+[3.912s] -- Looking for pthread_create in pthreads - not found
+[3.912s] -- Looking for pthread_create in pthread
+[3.912s] -- Looking for pthread_create in pthread - found
+[3.912s] -- Found Threads: TRUE  
+[3.912s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.912s] -- Found message_filters: 3.2.5 (/opt/ros/foxy/share/message_filters/cmake)
+[3.913s] -- Checking for module 'eigen3'
+[3.913s] --   Found eigen3, version 3.3.7
+[3.922s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[3.922s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[3.934s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[3.934s] -- looking for PCL_COMMON
+[3.936s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.938s] -- Found PCL: pcl_common;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so  
+[3.942s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[4.076s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.188s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[4.203s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[4.826s] -- Found velodyne_msgs: 2.1.1 (/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/cmake)
+[4.903s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[4.904s] -- Checking for module 'yaml-cpp'
+[4.951s] --   Found yaml-cpp, version 0.6.2
+[5.159s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.268s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.271s] -- Check if compiler accepts -pthread
+[5.363s] -- Check if compiler accepts -pthread - yes
+[5.379s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.385s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.386s] -- Configured cppcheck include dirs: /home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_pointcloud/include
+[5.387s] -- Configured cppcheck exclude dirs and/or files: 
+[5.392s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.392s] -- Configured cpplint exclude dirs and/or files: 
+[5.394s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.396s] -- Added test 'lint_cmake' to check CMake code style
+[5.399s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.404s] -- Added test 'uncrustify' to check C / C++ code style
+[5.404s] -- Configured uncrustify additional arguments: 
+[5.413s] -- Configuring done
+[5.574s] -- Generating done
+[5.579s] -- Build files have been written to: /home/manuel/buggy_ws_beta.a/build/velodyne_pointcloud
+[5.605s] Invoked command in '/home/manuel/buggy_ws_beta.a/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/velodyne_msgs:/home/manuel/buggy_space/install/zed_ros2:/home/manuel/buggy_space/install/zed_display_rviz2:/home/manuel/buggy_space/install/zed_wrapper:/home/manuel/buggy_space/install/zed_tutorial_video:/home/manuel/buggy_space/install/zed_tutorial_pos_tracking:/home/manuel/buggy_space/install/zed_tutorial_depth:/home/manuel/buggy_space/install/zed_rgb_convert:/home/manuel/buggy_space/install/zed_components:/home/manuel/buggy_space/install/rviz_plugin_zed_od:/home/manuel/buggy_space/install/zed_interfaces:/home/manuel/buggy_space/install/buggy_mobile_robot:/home/manuel/buggy_space/install/vox_nav_msgs:/home/manuel/buggy_space/install/velodyne:/home/manuel/buggy_space/install/velodyne_pointcloud:/home/manuel/buggy_space/install/velodyne_driver:/home/manuel/buggy_space/install/velodyne_msgs:/home/manuel/buggy_space/install/velodyne_laserscan:/home/manuel/buggy_space/install/teb_local_planner:/home/manuel/buggy_space/install/teb_msgs:/home/manuel/buggy_space/install/sick_scan2:/home/manuel/buggy_space/install/ros_sensors:/home/manuel/buggy_space/install/ros2socketcan_lib:/home/manuel/buggy_space/install/ros2car_buggy:/home/manuel/buggy_space/install/robot_localization:/home/manuel/buggy_space/install/image_common:/home/manuel/buggy_space/install/image_transport:/home/manuel/buggy_space/install/costmap_converter:/home/manuel/buggy_space/install/costmap_converter_msgs:/home/manuel/buggy_space/install/can_msgs:/home/manuel/buggy_space/install/camera_info_manager:/home/manuel/buggy_space/install/camera_calibration_parsers:/home/manuel/buggy_space/install/buggy_msgs:/home/manuel/buggy_space/install/buggy_mobile_navigation:/home/manuel/buggy_space/install/ackermann_msgs:/home/manuel/buggy_space/install/ackermann_interfaces:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy LD_LIBRARY_PATH=/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_pointcloud -DCMAKE_INSTALL_PREFIX=/home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud
+[5.608s] Invoking command in '/home/manuel/buggy_ws_beta.a/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/velodyne_msgs:/home/manuel/buggy_space/install/zed_ros2:/home/manuel/buggy_space/install/zed_display_rviz2:/home/manuel/buggy_space/install/zed_wrapper:/home/manuel/buggy_space/install/zed_tutorial_video:/home/manuel/buggy_space/install/zed_tutorial_pos_tracking:/home/manuel/buggy_space/install/zed_tutorial_depth:/home/manuel/buggy_space/install/zed_rgb_convert:/home/manuel/buggy_space/install/zed_components:/home/manuel/buggy_space/install/rviz_plugin_zed_od:/home/manuel/buggy_space/install/zed_interfaces:/home/manuel/buggy_space/install/buggy_mobile_robot:/home/manuel/buggy_space/install/vox_nav_msgs:/home/manuel/buggy_space/install/velodyne:/home/manuel/buggy_space/install/velodyne_pointcloud:/home/manuel/buggy_space/install/velodyne_driver:/home/manuel/buggy_space/install/velodyne_msgs:/home/manuel/buggy_space/install/velodyne_laserscan:/home/manuel/buggy_space/install/teb_local_planner:/home/manuel/buggy_space/install/teb_msgs:/home/manuel/buggy_space/install/sick_scan2:/home/manuel/buggy_space/install/ros_sensors:/home/manuel/buggy_space/install/ros2socketcan_lib:/home/manuel/buggy_space/install/ros2car_buggy:/home/manuel/buggy_space/install/robot_localization:/home/manuel/buggy_space/install/image_common:/home/manuel/buggy_space/install/image_transport:/home/manuel/buggy_space/install/costmap_converter:/home/manuel/buggy_space/install/costmap_converter_msgs:/home/manuel/buggy_space/install/can_msgs:/home/manuel/buggy_space/install/camera_info_manager:/home/manuel/buggy_space/install/camera_calibration_parsers:/home/manuel/buggy_space/install/buggy_msgs:/home/manuel/buggy_space/install/buggy_mobile_navigation:/home/manuel/buggy_space/install/ackermann_msgs:/home/manuel/buggy_space/install/ackermann_interfaces:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy LD_LIBRARY_PATH=/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/manuel/buggy_ws_beta.a/build/velodyne_pointcloud -- -j16 -l16
+[5.679s] [35m[1mScanning dependencies of target velodyne_rawdata[0m
+[5.758s] [  5%] [32mBuilding CXX object src/lib/CMakeFiles/velodyne_rawdata.dir/rawdata.cpp.o[0m
+[10.086s] [ 10%] [32mBuilding CXX object src/lib/CMakeFiles/velodyne_rawdata.dir/calibration.cpp.o[0m
+[12.608s] [ 15%] [32m[1mLinking CXX shared library libvelodyne_rawdata.so[0m
+[12.811s] [ 15%] Built target velodyne_rawdata
+[12.823s] [35m[1mScanning dependencies of target gtest_main[0m
+[12.841s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[13.703s] [ 25%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[13.739s] [ 25%] Built target gtest_main
+[13.751s] [35m[1mScanning dependencies of target gtest[0m
+[13.771s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[17.639s] [ 35%] [32m[1mLinking CXX static library libgtest.a[0m
+[17.697s] [ 35%] Built target gtest
+[17.711s] [35m[1mScanning dependencies of target velodyne_cloud_types[0m
+[17.761s] [ 40%] [32mBuilding CXX object src/lib/CMakeFiles/velodyne_cloud_types.dir/pointcloudXYZIR.cpp.o[0m
+[20.115s] [ 45%] [32mBuilding CXX object src/lib/CMakeFiles/velodyne_cloud_types.dir/organized_cloudXYZIR.cpp.o[0m
+[22.501s] [ 50%] [32m[1mLinking CXX shared library libvelodyne_cloud_types.so[0m
+[22.672s] [ 50%] Built target velodyne_cloud_types
+[22.685s] [35m[1mScanning dependencies of target test_row_step[0m
+[22.692s] [35m[1mScanning dependencies of target transform[0m
+[22.741s] [ 55%] [32mBuilding CXX object tests/CMakeFiles/test_row_step.dir/test_row_step.cpp.o[0m
+[22.822s] [ 60%] [32mBuilding CXX object CMakeFiles/transform.dir/src/conversions/transform.cpp.o[0m
+[26.592s] [ 65%] [32m[1mLinking CXX executable test_row_step[0m
+[26.945s] [ 65%] Built target test_row_step
+[26.977s] [35m[1mScanning dependencies of target convert[0m
+[27.111s] [ 70%] [32mBuilding CXX object CMakeFiles/convert.dir/src/conversions/convert.cpp.o[0m
+[40.042s] [ 75%] [32m[1mLinking CXX shared library libtransform.so[0m
+[40.771s] [ 75%] Built target transform
+[40.784s] [35m[1mScanning dependencies of target velodyne_transform_node[0m
+[40.864s] [ 80%] [32mBuilding CXX object CMakeFiles/velodyne_transform_node.dir/src/conversions/transform_node.cpp.o[0m
+[43.510s] [ 85%] [32m[1mLinking CXX shared library libconvert.so[0m
+[44.393s] [ 85%] Built target convert
+[44.414s] [35m[1mScanning dependencies of target velodyne_convert_node[0m
+[44.550s] [ 90%] [32mBuilding CXX object CMakeFiles/velodyne_convert_node.dir/src/conversions/convert_node.cpp.o[0m
+[51.226s] [ 95%] [32m[1mLinking CXX executable velodyne_transform_node[0m
+[51.980s] [ 95%] Built target velodyne_transform_node
+[52.377s] [100%] [32m[1mLinking CXX executable velodyne_convert_node[0m
+[52.914s] [100%] Built target velodyne_convert_node
+[52.938s] Invoked command in '/home/manuel/buggy_ws_beta.a/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/velodyne_msgs:/home/manuel/buggy_space/install/zed_ros2:/home/manuel/buggy_space/install/zed_display_rviz2:/home/manuel/buggy_space/install/zed_wrapper:/home/manuel/buggy_space/install/zed_tutorial_video:/home/manuel/buggy_space/install/zed_tutorial_pos_tracking:/home/manuel/buggy_space/install/zed_tutorial_depth:/home/manuel/buggy_space/install/zed_rgb_convert:/home/manuel/buggy_space/install/zed_components:/home/manuel/buggy_space/install/rviz_plugin_zed_od:/home/manuel/buggy_space/install/zed_interfaces:/home/manuel/buggy_space/install/buggy_mobile_robot:/home/manuel/buggy_space/install/vox_nav_msgs:/home/manuel/buggy_space/install/velodyne:/home/manuel/buggy_space/install/velodyne_pointcloud:/home/manuel/buggy_space/install/velodyne_driver:/home/manuel/buggy_space/install/velodyne_msgs:/home/manuel/buggy_space/install/velodyne_laserscan:/home/manuel/buggy_space/install/teb_local_planner:/home/manuel/buggy_space/install/teb_msgs:/home/manuel/buggy_space/install/sick_scan2:/home/manuel/buggy_space/install/ros_sensors:/home/manuel/buggy_space/install/ros2socketcan_lib:/home/manuel/buggy_space/install/ros2car_buggy:/home/manuel/buggy_space/install/robot_localization:/home/manuel/buggy_space/install/image_common:/home/manuel/buggy_space/install/image_transport:/home/manuel/buggy_space/install/costmap_converter:/home/manuel/buggy_space/install/costmap_converter_msgs:/home/manuel/buggy_space/install/can_msgs:/home/manuel/buggy_space/install/camera_info_manager:/home/manuel/buggy_space/install/camera_calibration_parsers:/home/manuel/buggy_space/install/buggy_msgs:/home/manuel/buggy_space/install/buggy_mobile_navigation:/home/manuel/buggy_space/install/ackermann_msgs:/home/manuel/buggy_space/install/ackermann_interfaces:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy LD_LIBRARY_PATH=/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/manuel/buggy_ws_beta.a/build/velodyne_pointcloud -- -j16 -l16
+[53.020s] Invoking command in '/home/manuel/buggy_ws_beta.a/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/velodyne_msgs:/home/manuel/buggy_space/install/zed_ros2:/home/manuel/buggy_space/install/zed_display_rviz2:/home/manuel/buggy_space/install/zed_wrapper:/home/manuel/buggy_space/install/zed_tutorial_video:/home/manuel/buggy_space/install/zed_tutorial_pos_tracking:/home/manuel/buggy_space/install/zed_tutorial_depth:/home/manuel/buggy_space/install/zed_rgb_convert:/home/manuel/buggy_space/install/zed_components:/home/manuel/buggy_space/install/rviz_plugin_zed_od:/home/manuel/buggy_space/install/zed_interfaces:/home/manuel/buggy_space/install/buggy_mobile_robot:/home/manuel/buggy_space/install/vox_nav_msgs:/home/manuel/buggy_space/install/velodyne:/home/manuel/buggy_space/install/velodyne_pointcloud:/home/manuel/buggy_space/install/velodyne_driver:/home/manuel/buggy_space/install/velodyne_msgs:/home/manuel/buggy_space/install/velodyne_laserscan:/home/manuel/buggy_space/install/teb_local_planner:/home/manuel/buggy_space/install/teb_msgs:/home/manuel/buggy_space/install/sick_scan2:/home/manuel/buggy_space/install/ros_sensors:/home/manuel/buggy_space/install/ros2socketcan_lib:/home/manuel/buggy_space/install/ros2car_buggy:/home/manuel/buggy_space/install/robot_localization:/home/manuel/buggy_space/install/image_common:/home/manuel/buggy_space/install/image_transport:/home/manuel/buggy_space/install/costmap_converter:/home/manuel/buggy_space/install/costmap_converter_msgs:/home/manuel/buggy_space/install/can_msgs:/home/manuel/buggy_space/install/camera_info_manager:/home/manuel/buggy_space/install/camera_calibration_parsers:/home/manuel/buggy_space/install/buggy_msgs:/home/manuel/buggy_space/install/buggy_mobile_navigation:/home/manuel/buggy_space/install/ackermann_msgs:/home/manuel/buggy_space/install/ackermann_interfaces:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy LD_LIBRARY_PATH=/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/manuel/buggy_ws_beta.a/build/velodyne_pointcloud
+[53.037s] -- Install configuration: ""
+[53.037s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/lib/libconvert.so
+[53.043s] -- Set runtime path of "/home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/lib/libconvert.so" to ""
+[53.044s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/lib/velodyne_pointcloud/velodyne_convert_node
+[53.045s] -- Set runtime path of "/home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/lib/velodyne_pointcloud/velodyne_convert_node" to ""
+[53.045s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/lib/libtransform.so
+[53.053s] -- Set runtime path of "/home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/lib/libtransform.so" to ""
+[53.053s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/lib/velodyne_pointcloud/velodyne_transform_node
+[53.057s] -- Set runtime path of "/home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/lib/velodyne_pointcloud/velodyne_transform_node" to ""
+[53.057s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/include/velodyne_pointcloud
+[53.058s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/include/velodyne_pointcloud/pointcloudXYZIR.hpp
+[53.058s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/include/velodyne_pointcloud/calibration.hpp
+[53.058s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/include/velodyne_pointcloud/organized_cloudXYZIR.hpp
+[53.059s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/include/velodyne_pointcloud/datacontainerbase.hpp
+[53.059s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/include/velodyne_pointcloud/transform.hpp
+[53.059s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/include/velodyne_pointcloud/rawdata.hpp
+[53.059s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/include/velodyne_pointcloud/convert.hpp
+[53.060s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/config
+[53.060s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP32C-velodyne_transform_node-params.yaml
+[53.060s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP32C-velodyne_convert_node-params.yaml
+[53.060s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP16-velodyne_transform_node-params.yaml
+[53.060s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP16-velodyne_convert_node-params.yaml
+[53.061s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/launch
+[53.061s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_convert_node-VLP32C-launch.py
+[53.061s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP32C-composed-launch.py
+[53.061s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP32C-launch.py
+[53.062s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_convert_node-VLP16-launch.py
+[53.062s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP16-launch.py
+[53.062s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_convert_node-VLP16-composed-launch.py
+[53.063s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_convert_node-VLP32C-composed-launch.py
+[53.063s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP16-composed-launch.py
+[53.063s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/params
+[53.063s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/params/rviz_points.vcg
+[53.063s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VeloView-VLP-32C.yaml
+[53.064s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16_hires_db.yaml
+[53.064s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/params/32db.yaml
+[53.064s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s3-xiesc.yaml
+[53.064s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16db.yaml
+[53.064s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s2.1-sztaki.yaml
+[53.064s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_utexas.yaml
+[53.065s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/ament_index/resource_index/package_run_dependencies/velodyne_pointcloud
+[53.065s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/ament_index/resource_index/parent_prefix_path/velodyne_pointcloud
+[53.066s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.sh
+[53.066s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.dsv
+[53.066s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.sh
+[53.066s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.dsv
+[53.067s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.bash
+[53.067s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.sh
+[53.067s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.zsh
+[53.067s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.dsv
+[53.067s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv
+[53.067s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/ament_index/resource_index/packages/velodyne_pointcloud
+[53.068s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/ament_index/resource_index/rclcpp_components/velodyne_pointcloud
+[53.068s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig.cmake
+[53.068s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig-version.cmake
+[53.068s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/share/velodyne_pointcloud/package.xml
+[53.068s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/lib/libvelodyne_cloud_types.so
+[53.068s] -- Set runtime path of "/home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/lib/libvelodyne_cloud_types.so" to ""
+[53.068s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/lib/libvelodyne_rawdata.so
+[53.069s] -- Set runtime path of "/home/manuel/buggy_ws_beta.a/install/velodyne_pointcloud/lib/libvelodyne_rawdata.so" to ""
+[53.081s] Invoked command in '/home/manuel/buggy_ws_beta.a/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/velodyne_msgs:/home/manuel/buggy_space/install/zed_ros2:/home/manuel/buggy_space/install/zed_display_rviz2:/home/manuel/buggy_space/install/zed_wrapper:/home/manuel/buggy_space/install/zed_tutorial_video:/home/manuel/buggy_space/install/zed_tutorial_pos_tracking:/home/manuel/buggy_space/install/zed_tutorial_depth:/home/manuel/buggy_space/install/zed_rgb_convert:/home/manuel/buggy_space/install/zed_components:/home/manuel/buggy_space/install/rviz_plugin_zed_od:/home/manuel/buggy_space/install/zed_interfaces:/home/manuel/buggy_space/install/buggy_mobile_robot:/home/manuel/buggy_space/install/vox_nav_msgs:/home/manuel/buggy_space/install/velodyne:/home/manuel/buggy_space/install/velodyne_pointcloud:/home/manuel/buggy_space/install/velodyne_driver:/home/manuel/buggy_space/install/velodyne_msgs:/home/manuel/buggy_space/install/velodyne_laserscan:/home/manuel/buggy_space/install/teb_local_planner:/home/manuel/buggy_space/install/teb_msgs:/home/manuel/buggy_space/install/sick_scan2:/home/manuel/buggy_space/install/ros_sensors:/home/manuel/buggy_space/install/ros2socketcan_lib:/home/manuel/buggy_space/install/ros2car_buggy:/home/manuel/buggy_space/install/robot_localization:/home/manuel/buggy_space/install/image_common:/home/manuel/buggy_space/install/image_transport:/home/manuel/buggy_space/install/costmap_converter:/home/manuel/buggy_space/install/costmap_converter_msgs:/home/manuel/buggy_space/install/can_msgs:/home/manuel/buggy_space/install/camera_info_manager:/home/manuel/buggy_space/install/camera_calibration_parsers:/home/manuel/buggy_space/install/buggy_msgs:/home/manuel/buggy_space/install/buggy_mobile_navigation:/home/manuel/buggy_space/install/ackermann_msgs:/home/manuel/buggy_space/install/ackermann_interfaces:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy LD_LIBRARY_PATH=/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/manuel/buggy_ws_beta.a/build/velodyne_pointcloud

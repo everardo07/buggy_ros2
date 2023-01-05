@@ -1,0 +1,719 @@
+[0.531s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/manuel/buggy_ws_beta.a']
+[0.531s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], base_paths=['/home/manuel/buggy_ws_beta.a'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f77639c6580>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f77639c6580>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f776392abb0>)
+[0.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.559s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/manuel/buggy_ws_beta.a'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a) by extensions ['ignore', 'ignore_ament_install']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a) by extension 'ignore'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a) by extension 'ignore_ament_install'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a) by extensions ['colcon_pkg']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a) by extension 'colcon_pkg'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a) by extensions ['colcon_meta']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a) by extension 'colcon_meta'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a) by extensions ['ros']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a) by extension 'ros'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a) by extensions ['cmake', 'python']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a) by extension 'cmake'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a) by extension 'python'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a) by extensions ['python_setup_py']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a) by extension 'python_setup_py'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/build) by extensions ['ignore', 'ignore_ament_install']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/build) by extension 'ignore'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/build) ignored
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/install) by extensions ['ignore', 'ignore_ament_install']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/install) by extension 'ignore'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/install) ignored
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/log) by extensions ['ignore', 'ignore_ament_install']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/log) by extension 'ignore'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/log) ignored
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src) by extensions ['ignore', 'ignore_ament_install']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src) by extension 'ignore'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src) by extension 'ignore_ament_install'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src) by extensions ['colcon_pkg']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src) by extension 'colcon_pkg'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src) by extensions ['colcon_meta']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src) by extension 'colcon_meta'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src) by extensions ['ros']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src) by extension 'ros'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src) by extensions ['cmake', 'python']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src) by extension 'cmake'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src) by extension 'python'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src) by extensions ['python_setup_py']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src) by extension 'python_setup_py'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle) by extensions ['ignore', 'ignore_ament_install']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle) by extension 'ignore'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle) by extension 'ignore_ament_install'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle) by extensions ['colcon_pkg']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle) by extension 'colcon_pkg'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle) by extensions ['colcon_meta']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle) by extension 'colcon_meta'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle) by extensions ['ros']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle) by extension 'ros'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle) by extensions ['cmake', 'python']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle) by extension 'cmake'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle) by extension 'python'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle) by extensions ['python_setup_py']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle) by extension 'python_setup_py'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface) by extension 'ignore'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface) by extension 'ignore_ament_install'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface) by extensions ['colcon_pkg']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface) by extension 'colcon_pkg'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface) by extensions ['colcon_meta']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface) by extension 'colcon_meta'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface) by extensions ['ros']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface) by extension 'ros'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface) by extensions ['cmake', 'python']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface) by extension 'cmake'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface) by extension 'python'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface) by extensions ['python_setup_py']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface) by extension 'python_setup_py'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface/src) by extensions ['ignore', 'ignore_ament_install']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface/src) by extension 'ignore'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface/src) by extension 'ignore_ament_install'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface/src) by extensions ['colcon_pkg']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface/src) by extension 'colcon_pkg'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface/src) by extensions ['colcon_meta']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface/src) by extension 'colcon_meta'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface/src) by extensions ['ros']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface/src) by extension 'ros'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface/src) by extensions ['cmake', 'python']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface/src) by extension 'cmake'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface/src) by extension 'python'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface/src) by extensions ['python_setup_py']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface/src) by extension 'python_setup_py'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface/src/ros2car) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface/src/ros2car) by extension 'ignore'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface/src/ros2car) by extension 'ignore_ament_install'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface/src/ros2car) by extensions ['colcon_pkg']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface/src/ros2car) by extension 'colcon_pkg'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface/src/ros2car) by extensions ['colcon_meta']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface/src/ros2car) by extension 'colcon_meta'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface/src/ros2car) by extensions ['ros']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface/src/ros2car) by extension 'ros'
+[0.580s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/ROS2Vehicle/ros2car_buggy_interface/src/ros2car' with type 'ros.ament_cmake' and name 'ros2car_buggy'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry) by extension 'ignore'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry) by extension 'ignore_ament_install'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry) by extensions ['colcon_pkg']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry) by extension 'colcon_pkg'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry) by extensions ['colcon_meta']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry) by extension 'colcon_meta'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry) by extensions ['ros']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry) by extension 'ros'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry) by extensions ['cmake', 'python']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry) by extension 'cmake'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry) by extension 'python'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry) by extensions ['python_setup_py']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry) by extension 'python_setup_py'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/docker) by extension 'ignore'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/docker) by extension 'ignore_ament_install'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/docker) by extensions ['colcon_pkg']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/docker) by extension 'colcon_pkg'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/docker) by extensions ['colcon_meta']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/docker) by extension 'colcon_meta'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/docker) by extensions ['ros']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/docker) by extension 'ros'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/docker) by extensions ['cmake', 'python']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/docker) by extension 'cmake'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/docker) by extension 'python'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/docker) by extensions ['python_setup_py']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/docker) by extension 'python_setup_py'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/private) by extensions ['ignore', 'ignore_ament_install']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/private) by extension 'ignore'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/private) by extension 'ignore_ament_install'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/private) by extensions ['colcon_pkg']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/private) by extension 'colcon_pkg'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/private) by extensions ['colcon_meta']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/private) by extension 'colcon_meta'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/private) by extensions ['ros']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/private) by extension 'ros'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/private) by extensions ['cmake', 'python']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/private) by extension 'cmake'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/private) by extension 'python'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/private) by extensions ['python_setup_py']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/private) by extension 'python_setup_py'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/scripts) by extension 'ignore'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/scripts) by extension 'ignore_ament_install'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/scripts) by extensions ['colcon_pkg']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/scripts) by extension 'colcon_pkg'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/scripts) by extensions ['colcon_meta']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/scripts) by extension 'colcon_meta'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/scripts) by extensions ['ros']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/scripts) by extension 'ros'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/scripts) by extensions ['cmake', 'python']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/scripts) by extension 'cmake'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/scripts) by extension 'python'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/scripts) by extensions ['python_setup_py']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/scripts) by extension 'python_setup_py'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src) by extensions ['ignore', 'ignore_ament_install']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src) by extension 'ignore'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src) by extension 'ignore_ament_install'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src) by extensions ['colcon_pkg']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src) by extension 'colcon_pkg'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src) by extensions ['colcon_meta']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src) by extension 'colcon_meta'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src) by extensions ['ros']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src) by extension 'ros'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src) by extensions ['cmake', 'python']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src) by extension 'cmake'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src) by extension 'python'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src) by extensions ['python_setup_py']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src) by extension 'python_setup_py'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_controller) by extension 'ignore'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_controller) by extension 'ignore_ament_install'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_controller) by extensions ['colcon_pkg']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_controller) by extension 'colcon_pkg'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_controller) by extensions ['colcon_meta']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_controller) by extension 'colcon_meta'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_controller) by extensions ['ros']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_controller) by extension 'ros'
+[0.585s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_controller' with type 'ros.ament_python' and name 'ackermann_controller'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_interfaces) by extension 'ignore'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_interfaces) by extension 'ignore_ament_install'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_interfaces) by extensions ['colcon_pkg']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_interfaces) by extension 'colcon_pkg'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_interfaces) by extensions ['colcon_meta']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_interfaces) by extension 'colcon_meta'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_interfaces) by extensions ['ros']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_interfaces) by extension 'ros'
+[0.587s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_interfaces' with type 'ros.ament_cmake' and name 'ackermann_interfaces'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_odometry) by extension 'ignore'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_odometry) by extension 'ignore_ament_install'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_odometry) by extensions ['colcon_pkg']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_odometry) by extension 'colcon_pkg'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_odometry) by extensions ['colcon_meta']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_odometry) by extension 'colcon_meta'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_odometry) by extensions ['ros']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_odometry) by extension 'ros'
+[0.588s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/ackermann-odometry/src/ackermann_odometry' with type 'ros.ament_python' and name 'ackermann_odometry'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/buggy_mobile_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/buggy_mobile_navigation) by extension 'ignore'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/buggy_mobile_navigation) by extension 'ignore_ament_install'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/buggy_mobile_navigation) by extensions ['colcon_pkg']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/buggy_mobile_navigation) by extension 'colcon_pkg'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/buggy_mobile_navigation) by extensions ['colcon_meta']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/buggy_mobile_navigation) by extension 'colcon_meta'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/buggy_mobile_navigation) by extensions ['ros']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/buggy_mobile_navigation) by extension 'ros'
+[0.589s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/buggy_mobile_navigation' with type 'ros.ament_cmake' and name 'buggy_mobile_navigation'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/buggy_mobile_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/buggy_mobile_robot) by extension 'ignore'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/buggy_mobile_robot) by extension 'ignore_ament_install'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/buggy_mobile_robot) by extensions ['colcon_pkg']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/buggy_mobile_robot) by extension 'colcon_pkg'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/buggy_mobile_robot) by extensions ['colcon_meta']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/buggy_mobile_robot) by extension 'colcon_meta'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/buggy_mobile_robot) by extensions ['ros']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/buggy_mobile_robot) by extension 'ros'
+[0.592s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/buggy_mobile_robot' with type 'ros.ament_cmake' and name 'buggy_mobile_robot'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter) by extensions ['ignore', 'ignore_ament_install']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter) by extension 'ignore'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter) by extension 'ignore_ament_install'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter) by extensions ['colcon_pkg']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter) by extension 'colcon_pkg'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter) by extensions ['colcon_meta']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter) by extension 'colcon_meta'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter) by extensions ['ros']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter) by extension 'ros'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter) by extensions ['cmake', 'python']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter) by extension 'cmake'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter) by extension 'python'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter) by extensions ['python_setup_py']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter) by extension 'python_setup_py'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter/costmap_converter) by extensions ['ignore', 'ignore_ament_install']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter/costmap_converter) by extension 'ignore'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter/costmap_converter) by extension 'ignore_ament_install'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter/costmap_converter) by extensions ['colcon_pkg']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter/costmap_converter) by extension 'colcon_pkg'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter/costmap_converter) by extensions ['colcon_meta']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter/costmap_converter) by extension 'colcon_meta'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter/costmap_converter) by extensions ['ros']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter/costmap_converter) by extension 'ros'
+[0.595s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/costmap_converter/costmap_converter' with type 'ros.ament_cmake' and name 'costmap_converter'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter/costmap_converter_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter/costmap_converter_msgs) by extension 'ignore'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter/costmap_converter_msgs) by extension 'ignore_ament_install'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter/costmap_converter_msgs) by extensions ['colcon_pkg']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter/costmap_converter_msgs) by extension 'colcon_pkg'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter/costmap_converter_msgs) by extensions ['colcon_meta']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter/costmap_converter_msgs) by extension 'colcon_meta'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter/costmap_converter_msgs) by extensions ['ros']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/costmap_converter/costmap_converter_msgs) by extension 'ros'
+[0.597s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/costmap_converter/costmap_converter_msgs' with type 'ros.ament_cmake' and name 'costmap_converter_msgs'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common) by extensions ['ignore', 'ignore_ament_install']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common) by extension 'ignore'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common) by extension 'ignore_ament_install'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common) by extensions ['colcon_pkg']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common) by extension 'colcon_pkg'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common) by extensions ['colcon_meta']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common) by extension 'colcon_meta'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common) by extensions ['ros']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common) by extension 'ros'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common) by extensions ['cmake', 'python']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common) by extension 'cmake'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common) by extension 'python'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common) by extensions ['python_setup_py']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common) by extension 'python_setup_py'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/camera_calibration_parsers) by extensions ['ignore', 'ignore_ament_install']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/camera_calibration_parsers) by extension 'ignore'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/camera_calibration_parsers) by extension 'ignore_ament_install'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/camera_calibration_parsers) by extensions ['colcon_pkg']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/camera_calibration_parsers) by extension 'colcon_pkg'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/camera_calibration_parsers) by extensions ['colcon_meta']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/camera_calibration_parsers) by extension 'colcon_meta'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/camera_calibration_parsers) by extensions ['ros']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/camera_calibration_parsers) by extension 'ros'
+[0.600s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/image_common/camera_calibration_parsers' with type 'ros.ament_cmake' and name 'camera_calibration_parsers'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/camera_info_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/camera_info_manager) by extension 'ignore'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/camera_info_manager) by extension 'ignore_ament_install'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/camera_info_manager) by extensions ['colcon_pkg']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/camera_info_manager) by extension 'colcon_pkg'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/camera_info_manager) by extensions ['colcon_meta']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/camera_info_manager) by extension 'colcon_meta'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/camera_info_manager) by extensions ['ros']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/camera_info_manager) by extension 'ros'
+[0.601s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/image_common/camera_info_manager' with type 'ros.ament_cmake' and name 'camera_info_manager'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/image_common) by extensions ['ignore', 'ignore_ament_install']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/image_common) by extension 'ignore'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/image_common) by extension 'ignore_ament_install'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/image_common) by extensions ['colcon_pkg']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/image_common) by extension 'colcon_pkg'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/image_common) by extensions ['colcon_meta']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/image_common) by extension 'colcon_meta'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/image_common) by extensions ['ros']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/image_common) by extension 'ros'
+[0.602s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/image_common/image_common' with type 'ros.ament_cmake' and name 'image_common'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/image_transport) by extensions ['ignore', 'ignore_ament_install']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/image_transport) by extension 'ignore'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/image_transport) by extension 'ignore_ament_install'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/image_transport) by extensions ['colcon_pkg']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/image_transport) by extension 'colcon_pkg'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/image_transport) by extensions ['colcon_meta']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/image_transport) by extension 'colcon_meta'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/image_transport) by extensions ['ros']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/image_transport) by extension 'ros'
+[0.604s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/image_common/image_transport' with type 'ros.ament_cmake' and name 'image_transport'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/polled_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/polled_camera) by extension 'ignore'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/image_common/polled_camera) ignored
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher) by extension 'ignore'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher) by extension 'ignore_ament_install'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher) by extensions ['colcon_pkg']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher) by extension 'colcon_pkg'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher) by extensions ['colcon_meta']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher) by extension 'colcon_meta'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher) by extensions ['ros']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher) by extension 'ros'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher) by extensions ['cmake', 'python']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher) by extension 'cmake'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher) by extension 'python'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher) by extensions ['python_setup_py']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher) by extension 'python_setup_py'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher/joint_state_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher/joint_state_publisher) by extension 'ignore'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher/joint_state_publisher) by extension 'ignore_ament_install'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher/joint_state_publisher) by extensions ['colcon_pkg']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher/joint_state_publisher) by extension 'colcon_pkg'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher/joint_state_publisher) by extensions ['colcon_meta']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher/joint_state_publisher) by extension 'colcon_meta'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher/joint_state_publisher) by extensions ['ros']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher/joint_state_publisher) by extension 'ros'
+[0.606s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/joint_state_publisher/joint_state_publisher' with type 'ros.ament_python' and name 'joint_state_publisher'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher/joint_state_publisher_gui) by extensions ['ignore', 'ignore_ament_install']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher/joint_state_publisher_gui) by extension 'ignore'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher/joint_state_publisher_gui) by extension 'ignore_ament_install'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher/joint_state_publisher_gui) by extensions ['colcon_pkg']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher/joint_state_publisher_gui) by extension 'colcon_pkg'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher/joint_state_publisher_gui) by extensions ['colcon_meta']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher/joint_state_publisher_gui) by extension 'colcon_meta'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher/joint_state_publisher_gui) by extensions ['ros']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/joint_state_publisher/joint_state_publisher_gui) by extension 'ros'
+[0.607s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/joint_state_publisher/joint_state_publisher_gui' with type 'ros.ament_python' and name 'joint_state_publisher_gui'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries) by extension 'ignore_ament_install'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries) by extensions ['colcon_pkg']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries) by extension 'colcon_pkg'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries) by extensions ['colcon_meta']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries) by extension 'colcon_meta'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries) by extensions ['ros']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries) by extension 'ros'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries) by extensions ['cmake', 'python']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries) by extension 'cmake'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries) by extension 'python'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries) by extensions ['python_setup_py']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries) by extension 'python_setup_py'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries/ros2socketcan_lib) by extensions ['ignore', 'ignore_ament_install']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries/ros2socketcan_lib) by extension 'ignore'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries/ros2socketcan_lib) by extension 'ignore_ament_install'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries/ros2socketcan_lib) by extensions ['colcon_pkg']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries/ros2socketcan_lib) by extension 'colcon_pkg'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries/ros2socketcan_lib) by extensions ['colcon_meta']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries/ros2socketcan_lib) by extension 'colcon_meta'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries/ros2socketcan_lib) by extensions ['ros']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries/ros2socketcan_lib) by extension 'ros'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries/ros2socketcan_lib) by extensions ['cmake', 'python']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries/ros2socketcan_lib) by extension 'cmake'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries/ros2socketcan_lib) by extension 'python'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries/ros2socketcan_lib) by extensions ['python_setup_py']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries/ros2socketcan_lib) by extension 'python_setup_py'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries/ros2socketcan_lib/ros2socketcan_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries/ros2socketcan_lib/ros2socketcan_bridge) by extension 'ignore'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries/ros2socketcan_lib/ros2socketcan_bridge) by extension 'ignore_ament_install'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries/ros2socketcan_lib/ros2socketcan_bridge) by extensions ['colcon_pkg']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries/ros2socketcan_lib/ros2socketcan_bridge) by extension 'colcon_pkg'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries/ros2socketcan_lib/ros2socketcan_bridge) by extensions ['colcon_meta']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries/ros2socketcan_lib/ros2socketcan_bridge) by extension 'colcon_meta'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries/ros2socketcan_lib/ros2socketcan_bridge) by extensions ['ros']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/libraries/ros2socketcan_lib/ros2socketcan_bridge) by extension 'ros'
+[0.611s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/libraries/ros2socketcan_lib/ros2socketcan_bridge' with type 'ros.ament_cmake' and name 'ros2socketcan_lib'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs) by extension 'ignore'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs) by extension 'ignore_ament_install'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs) by extensions ['colcon_pkg']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs) by extension 'colcon_pkg'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs) by extensions ['colcon_meta']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs) by extension 'colcon_meta'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs) by extensions ['ros']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs) by extension 'ros'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs) by extensions ['cmake', 'python']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs) by extension 'cmake'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs) by extension 'python'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs) by extensions ['python_setup_py']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs) by extension 'python_setup_py'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/ackermann_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/ackermann_msgs) by extension 'ignore'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/ackermann_msgs) by extension 'ignore_ament_install'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/ackermann_msgs) by extensions ['colcon_pkg']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/ackermann_msgs) by extension 'colcon_pkg'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/ackermann_msgs) by extensions ['colcon_meta']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/ackermann_msgs) by extension 'colcon_meta'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/ackermann_msgs) by extensions ['ros']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/ackermann_msgs) by extension 'ros'
+[0.613s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/msgs/ackermann_msgs' with type 'ros.ament_cmake' and name 'ackermann_msgs'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs) by extension 'ignore'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs) by extension 'ignore_ament_install'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs) by extensions ['colcon_pkg']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs) by extension 'colcon_pkg'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs) by extensions ['colcon_meta']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs) by extension 'colcon_meta'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs) by extensions ['ros']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs) by extension 'ros'
+[0.614s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/msgs/buggy_msgs' with type 'ros.ament_cmake' and name 'buggy_msgs'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/can_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/can_msgs) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/can_msgs) by extension 'ignore_ament_install'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/can_msgs) by extensions ['colcon_pkg']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/can_msgs) by extension 'colcon_pkg'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/can_msgs) by extensions ['colcon_meta']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/can_msgs) by extension 'colcon_meta'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/can_msgs) by extensions ['ros']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/msgs/can_msgs) by extension 'ros'
+[0.616s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/msgs/can_msgs' with type 'ros.ament_cmake' and name 'can_msgs'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/robot_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/robot_localization) by extension 'ignore'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/robot_localization) by extension 'ignore_ament_install'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/robot_localization) by extensions ['colcon_pkg']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/robot_localization) by extension 'colcon_pkg'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/robot_localization) by extensions ['colcon_meta']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/robot_localization) by extension 'colcon_meta'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/robot_localization) by extensions ['ros']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/robot_localization) by extension 'ros'
+[0.618s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/robot_localization' with type 'ros.ament_cmake' and name 'robot_localization'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ros_sensors) by extensions ['ignore', 'ignore_ament_install']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ros_sensors) by extension 'ignore'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ros_sensors) by extension 'ignore_ament_install'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ros_sensors) by extensions ['colcon_pkg']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ros_sensors) by extension 'colcon_pkg'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ros_sensors) by extensions ['colcon_meta']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ros_sensors) by extension 'colcon_meta'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ros_sensors) by extensions ['ros']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/ros_sensors) by extension 'ros'
+[0.620s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/ros_sensors' with type 'ros.ament_cmake' and name 'ros_sensors'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/sick_scan2) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/sick_scan2) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/sick_scan2) by extension 'ignore_ament_install'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/sick_scan2) by extensions ['colcon_pkg']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/sick_scan2) by extension 'colcon_pkg'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/sick_scan2) by extensions ['colcon_meta']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/sick_scan2) by extension 'colcon_meta'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/sick_scan2) by extensions ['ros']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/sick_scan2) by extension 'ros'
+[0.625s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/sick_scan2' with type 'ros.ament_cmake' and name 'sick_scan2'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner) by extension 'ignore'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner) by extension 'ignore_ament_install'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner) by extensions ['colcon_pkg']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner) by extension 'colcon_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner) by extensions ['colcon_meta']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner) by extension 'colcon_meta'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner) by extensions ['ros']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner) by extension 'ros'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner) by extensions ['cmake', 'python']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner) by extension 'cmake'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner) by extension 'python'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner) by extensions ['python_setup_py']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner) by extension 'python_setup_py'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner/teb_local_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner/teb_local_planner) by extension 'ignore'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner/teb_local_planner) by extension 'ignore_ament_install'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner/teb_local_planner) by extensions ['colcon_pkg']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner/teb_local_planner) by extension 'colcon_pkg'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner/teb_local_planner) by extensions ['colcon_meta']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner/teb_local_planner) by extension 'colcon_meta'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner/teb_local_planner) by extensions ['ros']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner/teb_local_planner) by extension 'ros'
+[0.629s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/teb_local_planner/teb_local_planner' with type 'ros.ament_cmake' and name 'teb_local_planner'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner/teb_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner/teb_msgs) by extension 'ignore'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner/teb_msgs) by extension 'ignore_ament_install'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner/teb_msgs) by extensions ['colcon_pkg']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner/teb_msgs) by extension 'colcon_pkg'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner/teb_msgs) by extensions ['colcon_meta']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner/teb_msgs) by extension 'colcon_meta'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner/teb_msgs) by extensions ['ros']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/teb_local_planner/teb_msgs) by extension 'ros'
+[0.630s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/teb_local_planner/teb_msgs' with type 'ros.ament_cmake' and name 'teb_msgs'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne) by extension 'ignore_ament_install'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne) by extensions ['colcon_pkg']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne) by extension 'colcon_pkg'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne) by extensions ['colcon_meta']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne) by extension 'colcon_meta'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne) by extensions ['ros']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne) by extension 'ros'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne) by extensions ['cmake', 'python']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne) by extension 'cmake'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne) by extension 'python'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne) by extensions ['python_setup_py']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne) by extension 'python_setup_py'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne) by extensions ['ignore', 'ignore_ament_install']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne) by extension 'ignore'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne) by extension 'ignore_ament_install'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne) by extensions ['colcon_pkg']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne) by extension 'colcon_pkg'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne) by extensions ['colcon_meta']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne) by extension 'colcon_meta'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne) by extensions ['ros']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne) by extension 'ros'
+[0.634s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne' with type 'ros.ament_cmake' and name 'velodyne'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_driver) by extension 'ignore'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_driver) by extension 'ignore_ament_install'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_driver) by extensions ['colcon_pkg']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_driver) by extension 'colcon_pkg'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_driver) by extensions ['colcon_meta']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_driver) by extension 'colcon_meta'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_driver) by extensions ['ros']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_driver) by extension 'ros'
+[0.635s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_driver' with type 'ros.ament_cmake' and name 'velodyne_driver'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_laserscan) by extension 'ignore'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_laserscan) by extension 'ignore_ament_install'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_laserscan) by extensions ['colcon_pkg']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_laserscan) by extension 'colcon_pkg'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_laserscan) by extensions ['colcon_meta']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_laserscan) by extension 'colcon_meta'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_laserscan) by extensions ['ros']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_laserscan) by extension 'ros'
+[0.637s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_laserscan' with type 'ros.ament_cmake' and name 'velodyne_laserscan'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_msgs) by extension 'ignore'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_msgs) by extension 'ignore_ament_install'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_msgs) by extensions ['colcon_pkg']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_msgs) by extension 'colcon_pkg'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_msgs) by extensions ['colcon_meta']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_msgs) by extension 'colcon_meta'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_msgs) by extensions ['ros']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_msgs) by extension 'ros'
+[0.638s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_msgs' with type 'ros.ament_cmake' and name 'velodyne_msgs'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_pointcloud) by extensions ['ignore', 'ignore_ament_install']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_pointcloud) by extension 'ignore'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_pointcloud) by extension 'ignore_ament_install'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_pointcloud) by extensions ['colcon_pkg']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_pointcloud) by extension 'colcon_pkg'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_pointcloud) by extensions ['colcon_meta']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_pointcloud) by extension 'colcon_meta'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_pointcloud) by extensions ['ros']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_pointcloud) by extension 'ros'
+[0.640s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_pointcloud' with type 'ros.ament_cmake' and name 'velodyne_pointcloud'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/vox_nav_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/vox_nav_msgs) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/vox_nav_msgs) by extension 'ignore_ament_install'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/vox_nav_msgs) by extensions ['colcon_pkg']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/vox_nav_msgs) by extension 'colcon_pkg'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/vox_nav_msgs) by extensions ['colcon_meta']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/vox_nav_msgs) by extension 'colcon_meta'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/vox_nav_msgs) by extensions ['ros']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/vox_nav_msgs) by extension 'ros'
+[0.641s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/vox_nav_msgs' with type 'ros.ament_cmake' and name 'vox_nav_msgs'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples) by extensions ['ignore', 'ignore_ament_install']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples) by extension 'ignore'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples) by extension 'ignore_ament_install'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples) by extensions ['colcon_pkg']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples) by extension 'colcon_pkg'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples) by extensions ['colcon_meta']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples) by extension 'colcon_meta'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples) by extensions ['ros']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples) by extension 'ros'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples) by extensions ['cmake', 'python']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples) by extension 'cmake'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples) by extension 'python'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples) by extensions ['python_setup_py']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples) by extension 'python_setup_py'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/rviz-plugin-zed-od) by extensions ['ignore', 'ignore_ament_install']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/rviz-plugin-zed-od) by extension 'ignore'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/rviz-plugin-zed-od) by extension 'ignore_ament_install'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/rviz-plugin-zed-od) by extensions ['colcon_pkg']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/rviz-plugin-zed-od) by extension 'colcon_pkg'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/rviz-plugin-zed-od) by extensions ['colcon_meta']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/rviz-plugin-zed-od) by extension 'colcon_meta'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/rviz-plugin-zed-od) by extensions ['ros']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/rviz-plugin-zed-od) by extension 'ros'
+[0.644s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/rviz-plugin-zed-od' with type 'ros.ament_cmake' and name 'rviz_plugin_zed_od'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials) by extension 'ignore'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials) by extension 'ignore_ament_install'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials) by extensions ['colcon_pkg']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials) by extension 'colcon_pkg'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials) by extensions ['colcon_meta']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials) by extension 'colcon_meta'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials) by extensions ['ros']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials) by extension 'ros'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials) by extensions ['cmake', 'python']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials) by extension 'cmake'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials) by extension 'python'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials) by extensions ['python_setup_py']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials) by extension 'python_setup_py'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_depth_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_depth_tutorial) by extension 'ignore'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_depth_tutorial) by extension 'ignore_ament_install'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_depth_tutorial) by extensions ['colcon_pkg']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_depth_tutorial) by extension 'colcon_pkg'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_depth_tutorial) by extensions ['colcon_meta']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_depth_tutorial) by extension 'colcon_meta'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_depth_tutorial) by extensions ['ros']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_depth_tutorial) by extension 'ros'
+[0.646s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_depth_tutorial' with type 'ros.ament_cmake' and name 'zed_tutorial_depth'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_pose_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_pose_tutorial) by extension 'ignore'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_pose_tutorial) by extension 'ignore_ament_install'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_pose_tutorial) by extensions ['colcon_pkg']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_pose_tutorial) by extension 'colcon_pkg'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_pose_tutorial) by extensions ['colcon_meta']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_pose_tutorial) by extension 'colcon_meta'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_pose_tutorial) by extensions ['ros']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_pose_tutorial) by extension 'ros'
+[0.648s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_pose_tutorial' with type 'ros.ament_cmake' and name 'zed_tutorial_pos_tracking'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_rgb_convert) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_rgb_convert) by extension 'ignore'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_rgb_convert) by extension 'ignore_ament_install'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_rgb_convert) by extensions ['colcon_pkg']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_rgb_convert) by extension 'colcon_pkg'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_rgb_convert) by extensions ['colcon_meta']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_rgb_convert) by extension 'colcon_meta'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_rgb_convert) by extensions ['ros']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_rgb_convert) by extension 'ros'
+[0.649s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_rgb_convert' with type 'ros.ament_cmake' and name 'zed_rgb_convert'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_video_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_video_tutorial) by extension 'ignore'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_video_tutorial) by extension 'ignore_ament_install'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_video_tutorial) by extensions ['colcon_pkg']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_video_tutorial) by extension 'colcon_pkg'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_video_tutorial) by extensions ['colcon_meta']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_video_tutorial) by extension 'colcon_meta'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_video_tutorial) by extensions ['ros']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_video_tutorial) by extension 'ros'
+[0.651s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/tutorials/zed_video_tutorial' with type 'ros.ament_cmake' and name 'zed_tutorial_video'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/zed_display_rviz2) by extensions ['ignore', 'ignore_ament_install']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/zed_display_rviz2) by extension 'ignore'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/zed_display_rviz2) by extension 'ignore_ament_install'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/zed_display_rviz2) by extensions ['colcon_pkg']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/zed_display_rviz2) by extension 'colcon_pkg'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/zed_display_rviz2) by extensions ['colcon_meta']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/zed_display_rviz2) by extension 'colcon_meta'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/zed_display_rviz2) by extensions ['ros']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/zed_display_rviz2) by extension 'ros'
+[0.652s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/zed-ros2-examples/zed_display_rviz2' with type 'ros.ament_cmake' and name 'zed_display_rviz2'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper) by extension 'ignore'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper) by extension 'ignore_ament_install'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper) by extensions ['colcon_pkg']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper) by extension 'colcon_pkg'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper) by extensions ['colcon_meta']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper) by extension 'colcon_meta'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper) by extensions ['ros']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper) by extension 'ros'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper) by extensions ['cmake', 'python']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper) by extension 'cmake'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper) by extension 'python'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper) by extensions ['python_setup_py']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper) by extension 'python_setup_py'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/images) by extensions ['ignore', 'ignore_ament_install']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/images) by extension 'ignore'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/images) by extension 'ignore_ament_install'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/images) by extensions ['colcon_pkg']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/images) by extension 'colcon_pkg'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/images) by extensions ['colcon_meta']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/images) by extension 'colcon_meta'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/images) by extensions ['ros']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/images) by extension 'ros'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/images) by extensions ['cmake', 'python']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/images) by extension 'cmake'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/images) by extension 'python'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/images) by extensions ['python_setup_py']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/images) by extension 'python_setup_py'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed-ros2-interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'ignore'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'ignore_ament_install'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed-ros2-interfaces) by extensions ['colcon_pkg']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'colcon_pkg'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed-ros2-interfaces) by extensions ['colcon_meta']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'colcon_meta'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed-ros2-interfaces) by extensions ['ros']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'ros'
+[0.654s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed-ros2-interfaces' with type 'ros.ament_cmake' and name 'zed_interfaces'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_components) by extensions ['ignore', 'ignore_ament_install']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_components) by extension 'ignore'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_components) by extension 'ignore_ament_install'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_components) by extensions ['colcon_pkg']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_components) by extension 'colcon_pkg'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_components) by extensions ['colcon_meta']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_components) by extension 'colcon_meta'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_components) by extensions ['ros']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_components) by extension 'ros'
+[0.656s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_components' with type 'ros.ament_cmake' and name 'zed_components'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_ros2) by extension 'ignore'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_ros2) by extension 'ignore_ament_install'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_ros2) by extensions ['colcon_pkg']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_ros2) by extension 'colcon_pkg'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_ros2) by extensions ['colcon_meta']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_ros2) by extension 'colcon_meta'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_ros2) by extensions ['ros']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_ros2) by extension 'ros'
+[0.658s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_ros2' with type 'ros.ament_cmake' and name 'zed_ros2'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_wrapper) by extension 'ignore'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_wrapper) by extension 'ignore_ament_install'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_wrapper) by extensions ['colcon_pkg']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_wrapper) by extension 'colcon_pkg'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_wrapper) by extensions ['colcon_meta']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_wrapper) by extension 'colcon_meta'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_wrapper) by extensions ['ros']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_wrapper) by extension 'ros'
+[0.659s] DEBUG:colcon.colcon_core.package_identification:Package '/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_wrapper' with type 'ros.ament_cmake' and name 'zed_wrapper'
+[0.659s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

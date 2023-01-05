@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from buggy_msgs/msg/RCCtrlState.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Float32.idl"
+#include "std_msgs/msg/UInt8.idl"
+
+module buggy_msgs {
+  module msg {
+    struct RCCtrlState {
+      std_msgs::msg::UInt8 joyctrl_enabled;
+
+      std_msgs::msg::UInt8 ro2car_enabled;
+
+      std_msgs::msg::UInt8 control_disabled;
+
+      std_msgs::msg::Float32 rc1_value;
+
+      std_msgs::msg::Float32 rc2_value;
+
+      std_msgs::msg::Float32 rc3_value;
+    };
+  };
+};

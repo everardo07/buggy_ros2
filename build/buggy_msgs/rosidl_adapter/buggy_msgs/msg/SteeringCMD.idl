@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from buggy_msgs/msg/SteeringCMD.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Float64.idl"
+
+module buggy_msgs {
+  module msg {
+    struct SteeringCMD {
+      @verbatim (language="comment", text=
+        " It has to be either an Angle or Torque !!!Not both")
+      std_msgs::msg::Float64 steering_angle;
+
+      std_msgs::msg::Float64 steering_angle_velocity;
+
+      std_msgs::msg::Float64 steering_torque;
+    };
+  };
+};

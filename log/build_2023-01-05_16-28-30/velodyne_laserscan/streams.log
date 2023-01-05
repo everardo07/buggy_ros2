@@ -1,0 +1,94 @@
+[0.532s] Invoking command in '/home/manuel/buggy_ws_beta.a/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy /usr/bin/cmake /home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_laserscan -DCMAKE_INSTALL_PREFIX=/home/manuel/buggy_ws_beta.a/install/velodyne_laserscan
+[0.621s] -- The C compiler identification is GNU 9.4.0
+[0.740s] -- The CXX compiler identification is GNU 9.4.0
+[0.748s] -- Check for working C compiler: /usr/bin/cc
+[0.875s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.885s] -- Detecting C compiler ABI info
+[1.024s] -- Detecting C compiler ABI info - done
+[1.042s] -- Detecting C compile features
+[1.043s] -- Detecting C compile features - done
+[1.048s] -- Check for working CXX compiler: /usr/bin/c++
+[1.194s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.197s] -- Detecting CXX compiler ABI info
+[1.338s] -- Detecting CXX compiler ABI info - done
+[1.367s] -- Detecting CXX compile features
+[1.369s] -- Detecting CXX compile features - done
+[1.373s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.434s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.435s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.997s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.102s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.115s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.281s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.343s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.495s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.596s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.600s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.601s] -- Looking for pthread.h
+[2.721s] -- Looking for pthread.h - found
+[2.722s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.844s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.845s] -- Looking for pthread_create in pthreads
+[2.941s] -- Looking for pthread_create in pthreads - not found
+[2.941s] -- Looking for pthread_create in pthread
+[3.039s] -- Looking for pthread_create in pthread - found
+[3.040s] -- Found Threads: TRUE  
+[3.265s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[3.409s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.766s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.939s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.941s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.941s] -- Configured cppcheck include dirs: /home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_laserscan/include
+[3.941s] -- Configured cppcheck exclude dirs and/or files: 
+[3.946s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.947s] -- Configured cpplint exclude dirs and/or files: 
+[3.947s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.948s] -- Added test 'lint_cmake' to check CMake code style
+[3.971s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.973s] -- Added test 'uncrustify' to check C / C++ code style
+[3.973s] -- Configured uncrustify additional arguments: 
+[3.975s] -- Added test 'xmllint' to check XML markup files
+[3.999s] -- Configuring done
+[4.031s] -- Generating done
+[4.051s] -- Build files have been written to: /home/manuel/buggy_ws_beta.a/build/velodyne_laserscan
+[4.117s] Invoked command in '/home/manuel/buggy_ws_beta.a/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy /usr/bin/cmake /home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_laserscan -DCMAKE_INSTALL_PREFIX=/home/manuel/buggy_ws_beta.a/install/velodyne_laserscan
+[4.118s] Invoking command in '/home/manuel/buggy_ws_beta.a/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy /usr/bin/cmake --build /home/manuel/buggy_ws_beta.a/build/velodyne_laserscan -- -j16 -l16
+[10.587s] [35m[1mScanning dependencies of target velodyne_laserscan[0m
+[10.587s] [ 25%] [32mBuilding CXX object CMakeFiles/velodyne_laserscan.dir/src/velodyne_laserscan.cpp.o[0m
+[31.418s] [ 50%] [32m[1mLinking CXX shared library libvelodyne_laserscan.so[0m
+[32.049s] [ 50%] Built target velodyne_laserscan
+[32.069s] [35m[1mScanning dependencies of target velodyne_laserscan_node[0m
+[32.167s] [ 75%] [32mBuilding CXX object CMakeFiles/velodyne_laserscan_node.dir/src/node.cpp.o[0m
+[36.248s] [100%] [32m[1mLinking CXX executable velodyne_laserscan_node[0m
+[36.624s] [100%] Built target velodyne_laserscan_node
+[36.650s] Invoked command in '/home/manuel/buggy_ws_beta.a/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy /usr/bin/cmake --build /home/manuel/buggy_ws_beta.a/build/velodyne_laserscan -- -j16 -l16
+[36.715s] Invoking command in '/home/manuel/buggy_ws_beta.a/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy /usr/bin/cmake --install /home/manuel/buggy_ws_beta.a/build/velodyne_laserscan
+[38.503s] -- Install configuration: ""
+[38.503s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/lib/libvelodyne_laserscan.so
+[38.503s] -- Set runtime path of "/home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/lib/libvelodyne_laserscan.so" to ""
+[38.503s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/lib/velodyne_laserscan/velodyne_laserscan_node
+[38.504s] -- Set runtime path of "/home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/lib/velodyne_laserscan/velodyne_laserscan_node" to ""
+[38.504s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/include/velodyne_laserscan
+[38.504s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/include/velodyne_laserscan/velodyne_laserscan.hpp
+[38.504s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/share/velodyne_laserscan/config
+[38.504s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/share/velodyne_laserscan/config/default-velodyne_laserscan_node-params.yaml
+[38.504s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/share/velodyne_laserscan/launch
+[38.504s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/share/velodyne_laserscan/launch/velodyne_laserscan_node-launch.py
+[38.505s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/share/velodyne_laserscan/launch/velodyne_laserscan_node-composed-launch.py
+[38.505s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/share/ament_index/resource_index/package_run_dependencies/velodyne_laserscan
+[38.505s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/share/ament_index/resource_index/parent_prefix_path/velodyne_laserscan
+[38.505s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/share/velodyne_laserscan/environment/ament_prefix_path.sh
+[38.505s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/share/velodyne_laserscan/environment/ament_prefix_path.dsv
+[38.505s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/share/velodyne_laserscan/environment/path.sh
+[38.506s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/share/velodyne_laserscan/environment/path.dsv
+[38.506s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.bash
+[38.506s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.sh
+[38.506s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.zsh
+[38.506s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.dsv
+[38.507s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/share/velodyne_laserscan/package.dsv
+[38.507s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/share/ament_index/resource_index/packages/velodyne_laserscan
+[38.507s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/share/ament_index/resource_index/rclcpp_components/velodyne_laserscan
+[38.507s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanConfig.cmake
+[38.507s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanConfig-version.cmake
+[38.507s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_laserscan/share/velodyne_laserscan/package.xml
+[38.577s] Invoked command in '/home/manuel/buggy_ws_beta.a/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy /usr/bin/cmake --install /home/manuel/buggy_ws_beta.a/build/velodyne_laserscan

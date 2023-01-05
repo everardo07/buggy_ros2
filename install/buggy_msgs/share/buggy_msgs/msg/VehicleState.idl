@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from buggy_msgs/msg/VehicleState.msg
+// generated code does not contain a copyright notice
+
+#include "buggy_msgs/msg/SteeringWheelState.idl"
+#include "buggy_msgs/msg/WheelsState.idl"
+#include "std_msgs/msg/Float64.idl"
+
+module buggy_msgs {
+  module msg {
+    struct VehicleState {
+      buggy_msgs::msg::WheelsState wheels;
+
+      buggy_msgs::msg::SteeringWheelState steering_wheel;
+
+      std_msgs::msg::Float64 acceleration;
+    };
+  };
+};

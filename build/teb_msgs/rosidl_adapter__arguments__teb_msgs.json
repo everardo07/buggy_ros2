@@ -1,0 +1,8 @@
+{
+  "package_name": "teb_msgs",
+  "non_idl_tuples": [
+    "/home/manuel/buggy_ws_beta.a/src/teb_local_planner/teb_msgs:msg/FeedbackMsg.msg",
+    "/home/manuel/buggy_ws_beta.a/src/teb_local_planner/teb_msgs:msg/TrajectoryMsg.msg",
+    "/home/manuel/buggy_ws_beta.a/src/teb_local_planner/teb_msgs:msg/TrajectoryPointMsg.msg"
+  ]
+}

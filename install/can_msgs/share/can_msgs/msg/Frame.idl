@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from can_msgs/msg/Frame.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module can_msgs {
+  module msg {
+    typedef uint8 uint8__8[8];
+    @verbatim (language="comment", text=
+      " Message type to publish can messages to ROS topic" "\n"
+      " header (std_msgs/Header)" "\n"
+      " id (uint32) CAN message id (11/29 bit)" "\n"
+      " dlc (uint8) CAN data size in bytes" "\n"
+      " data (uint8) CAN data" "\n"
+      " is_error (bool) error flag bit (0 = data frame, 1 = error message)" "\n"
+      " is_rtr (bool) remote transmission request flag (1 = rtr frame)" "\n"
+      " is_extended (bool) frame format flag (0 = standard 11 bit, 1 = extended 29 bit)")
+    struct Frame {
+      std_msgs::msg::Header header;
+
+      uint32 id;
+
+      boolean is_rtr;
+
+      boolean is_extended;
+
+      boolean is_error;
+
+      uint8 dlc;
+
+      uint8__8 data;
+    };
+  };
+};

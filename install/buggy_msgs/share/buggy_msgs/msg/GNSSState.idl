@@ -1,0 +1,59 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from buggy_msgs/msg/GNSSState.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Float32.idl"
+#include "std_msgs/msg/Float64.idl"
+#include "std_msgs/msg/UInt16.idl"
+
+module buggy_msgs {
+  module msg {
+    struct GNSSState {
+      std_msgs::msg::UInt16 gnss_counter_falling;
+
+      std_msgs::msg::UInt16 gnss_counter_rising;
+
+      std_msgs::msg::UInt16 gnss_counter_bus;
+
+      std_msgs::msg::Float32 gnss_altitude;
+
+      std_msgs::msg::UInt16 gnss_number_satellites;
+
+      std_msgs::msg::UInt16 gnss_quality;
+
+      std_msgs::msg::Float32 gnss_hdop;
+
+      std_msgs::msg::UInt16 gnss_mode;
+
+      std_msgs::msg::UInt16 gnss_counter;
+
+      std_msgs::msg::Float32 gnss_pdop;
+
+      std_msgs::msg::Float32 gnss_vdop;
+
+      std_msgs::msg::Float64 gnss_counter_rmc1;
+
+      std_msgs::msg::Float64 gnss_lon_mm;
+
+      std_msgs::msg::Float64 gnss_lon_mm_frac;
+
+      std_msgs::msg::Float64 gnss_counter_rmc2;
+
+      std_msgs::msg::Float64 gnss_lat_mm;
+
+      std_msgs::msg::Float64 gnss_lat_mm_frac;
+
+      std_msgs::msg::Float64 gnss_angle;
+
+      std_msgs::msg::Float64 gnss_angle_valid;
+
+      std_msgs::msg::Float64 gnss_counter_rmc3;
+
+      std_msgs::msg::Float64 gnss_quality_rmc3;
+
+      std_msgs::msg::Float64 gnss_speed;
+
+      std_msgs::msg::Float64 gnss_time;
+    };
+  };
+};

@@ -1,0 +1,392 @@
+<?xml version="1.0"?>
+<robot name="buggy" xmlns:xacro="http://ros.org/wiki/xacro">
+    
+    <!--material's colors-->
+    <material name="chassis_mat">
+       <color rgba="0.7 0.7 0.7 1"/>
+    </material>
+    <material name="tire_mat">
+       <color rgba="1 0.5 0 1"/>
+    </material> 
+  
+    <material name="zed2_mat">
+      <color rgba="0.25 0.25 0.25 0.99"/>
+    </material>
+    
+    <!--Links-->
+
+    <link name="base_footprint"/>
+    
+     <link name="base_link">
+      <visual>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <box size="0.765 0.510 0.20"/>
+      </geometry>
+      <material name="chassis_mat"/>
+      </visual>
+     <collision>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <box size="0.765 0.510 0.20"/>
+      </geometry>
+     </collision>
+     </link>
+    
+    <link name='steering_wheel'/>
+       
+
+    <link name='front_left_wheel'>
+        <visual name='visual'>
+            <origin xyz="0 0 0" rpy="0 0 -3.141592" />
+            <geometry>
+                <mesh filename="package://buggy_mobile_robot/meshes/wheel_a.stl" scale="0.0032 0.0032 0.0032"/>
+            </geometry>
+           <material name="tire_mat"/>
+        </visual>
+        <collision name='collision'>
+           <origin xyz="0.04 0 0" rpy="1.57079 0 1.57079" />
+           <geometry>
+                 <cylinder radius="0.14" length="0.11"/>
+            </geometry>
+        </collision>
+    </link>
+    
+    <link name='front_right_wheel'>
+        <visual name='visual'>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://buggy_mobile_robot/meshes/wheel_a.stl" scale="0.0032 0.0032 0.0032"/>
+            </geometry>
+            <material name="tire_mat"/>
+        </visual>
+        <collision name='collision'>
+        <origin xyz="-0.04 0 0" rpy="1.57079 0 1.57079" />
+            <geometry>
+                <cylinder radius="0.14" length="0.11"/>
+            </geometry>
+        </collision>
+    </link>
+    
+    <link name='rear_left_wheel'>
+        <visual name='visual'>
+            <origin xyz="0.02 0 0" rpy="0 0 -3.141592" />
+            <geometry>
+                <mesh filename="package://buggy_mobile_robot/meshes/wheel_a.stl" scale="0.0032 0.0032 0.0032"/>
+            </geometry>
+            <material name="tire_mat"/>
+        </visual>
+        <collision name='collision'>   
+        <origin xyz="0.055 0 0" rpy="1.57079 0 1.57079" />
+            <geometry>
+                <cylinder radius="0.14" length="0.11"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <link name='rear_right_wheel'>
+        <visual name='visual'>
+            <origin xyz="-0.02 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://buggy_mobile_robot/meshes/wheel_a.stl" scale="0.0032 0.0032 0.0032"/>
+            </geometry>
+           <material name="tire_mat"/>
+        </visual>
+        <collision name='collision'>
+         <origin xyz="-0.055 0 0" rpy="1.57079 0 1.57079" />
+            <geometry>
+               <cylinder radius="0.14" length="0.11"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <link name='rear_axle'>
+        <visual name='visual'>
+            <origin xyz="0 0 0" rpy="1.57079 -0 1.57079" />
+            <geometry>
+                <cylinder radius="0.04" length="0.530" />
+            </geometry>
+            <material name="chassis_mat"/>
+        </visual>
+        <collision name='collision'>
+            <origin xyz="0 0 0" rpy="1.57079 -0 1.57079" />
+            <geometry>
+                <cylinder radius="0.04" length="0.530" />
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="base_camera_left">
+        <visual>
+            <origen rpy="1.57079 0 0" xyz=" 0 0 0" /> 
+            <geometry>
+               <box size="0.03 .03 .25"/>
+            </geometry>
+            <material name="chassis_mat">
+               <color rgba="0.5 0.5 0.5 1"/>
+            </material>
+        </visual>
+    <!--<collision>
+      <geometry>
+        <box size="0.03 0.03 0.460"/>
+      </geometry>
+      <origin rpy="1.57075 0 0" xyz="0 0 0"/>
+    </collision>-->
+    </link>
+
+     <link name="base_camera_center">
+        <visual>
+            <origen rpy="0 0 0" xyz=" 0 0 0" /> 
+            <geometry>
+               <box size="0.03 .14 .03"/>
+            </geometry>
+            <material name="chassis_mat">
+               <color rgba="0.5 0.5 0.5 1"/>
+            </material>
+        </visual>
+    <!--<collision>
+      <geometry>
+        <box size="0.03 0.03 0.460"/>
+      </geometry>
+      <origin rpy="1.57075 0 0" xyz="0 0 0"/>
+    </collision>-->
+    </link>
+    
+     <link name="base_camera_right">
+         <visual>
+            <origen rpy="1.57079 0 0" xyz=" 0 0 0" /> 
+            <geometry>
+               <box size="0.03 .03 .25"/>
+            </geometry>
+            <material name="chassis_mat">
+               <color rgba="0.5 0.5 0.5 1"/>
+            </material>
+         </visual>
+    <!--<collision>
+      <geometry>
+        <box size="0.03 0.03 0.460"/>
+      </geometry>
+      <origin rpy="1.57075 0 0" xyz="0 0 0"/>
+    </collision>-->
+    </link>
+    
+    <link name="base_velodyne">
+        <visual>
+           <origen rpy="0 0 0" xyz=" 0 0 0" /> 
+           <geometry>
+               <box size="0.20 .15 .03"/>
+           </geometry> 
+          <material name="chassis_mat">
+               <color rgba="0.5 0.5 0.5 1"/>
+          </material>
+        </visual>
+    <collision>
+     <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <box size="0.20 0.15 0.03"/>
+      </geometry>
+    </collision>
+    </link>
+
+   <link name="velodyne_link">
+   <collision>
+    <origin xyz="0 0 -0.033" rpy="0 0 0" />
+    <geometry>
+        <mesh filename="package://buggy_mobile_robot/meshes/VLP16_scan.stl" />
+    </geometry>   
+  </collision>
+  <visual>
+   <origin xyz="0 0 -0.033" rpy="0 0 0" />
+   <geometry>
+     <mesh filename="package://buggy_mobile_robot/meshes/VLP16_scan.dae" />   
+   </geometry>
+  </visual>
+ </link>
+ 
+  <link name="laser">
+      <visual>
+      <origin xyz="-0.05 0 -0.02" rpy="0 0 0" />
+        <geometry>  
+          <mesh filename="package://buggy_mobile_robot/meshes/LMS1xx_small.dae" />
+        </geometry>
+      </visual>
+      <collision>
+      <origin xyz="-0.05 0 -0.02" rpy="0 0 0" />
+        <geometry>
+           <mesh filename="package://buggy_mobile_robot/meshes/LMS1xx_collision.stl" />
+        </geometry>
+      </collision>
+ </link>
+
+    <link name='imu_link'>
+        <visual name='visual'>
+            <geometry>
+                <cylinder radius="0.001" length="0.011" />
+            </geometry>
+            <material name="Red">
+                <color rgba="1.0 0 0 0.6" />
+            </material>
+        </visual>
+        <collision name='collision'>
+            <geometry>
+                <cylinder radius="0.001" length="0.011" />
+            </geometry>
+        </collision>
+    </link>
+
+<!--Zed Camera link-->    
+
+  <link name="zed2_camera_center">   
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://buggy_mobile_robot/meshes/zed2.stl" />
+      </geometry>
+      <material name="zed2_mat">
+        <color rgba="0.8 0.8 0.8 0.8"/>
+      </material>
+    </visual>
+     <collision>
+      <geometry>
+        <box size="0.03 0.17 0.03"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </collision>
+  </link>
+
+<!-- Left Camera -->
+
+    <link name="zed2_left_camera_frame" />
+
+    <link name="zed2_left_camera_optical_frame"/>
+
+<!-- Right Camera -->
+   
+    <link name="zed2_right_camera_frame" />
+
+    <link name="zed2_right_camera_optical_frame"/>
+ 
+  <!--Joints-->  
+  
+    <joint name='base_footprint_joint' type='fixed'>
+      <parent link="base_footprint"/>
+      <child link="base_link"/>
+      <origin rpy="0 0 0" xyz=" 0 0 0.1"/>
+    </joint>
+    
+    <joint name='front_left_combined_joint' type='continuous'>
+      <parent link="base_link" />
+      <child link="front_left_wheel" />
+      <origin xyz="0.3825 0.345 0.01" rpy="0 0 1.57079" />
+      <axis xyz="0 0 1" />
+    </joint>
+
+    <joint name='front_right_combined_joint' type='continuous'>
+      <parent link="base_link" />
+      <child link="front_right_wheel" />
+      <origin xyz="0.3825 -0.345 0.01" rpy="0 0 1.57079" />
+      <axis xyz="0 0 1" />
+    </joint>
+
+    <joint name='rear_axle_joint' type='continuous'>
+      <parent link="base_link" />
+      <child link="rear_axle" />
+      <origin xyz="-0.30 0 0" rpy="0 0 1.5707" />
+      <dynamics damping="2000.0" friction="0.0" />
+      <limit effort="0" velocity="0.0" lower="-0.05" upper="0.05" />
+      <axis xyz="0 1 0" />
+    </joint>
+
+    <joint name='rear_left_joint' type='continuous'>
+      <parent link="base_link" />
+      <child link="rear_left_wheel" />
+      <origin xyz="-0.30 0.29 0.01" rpy="0 -0 1.57079" />
+      <axis xyz="1 0 0" />
+    </joint>
+
+    <joint name='rear_right_joint' type='continuous'>
+      <parent link="base_link" />
+      <child link="rear_right_wheel" />
+      <origin xyz="-0.30 -0.29 0.01" rpy="0 -0 1.57079" />
+      <axis xyz="1 0 0" />
+    </joint>
+
+    <joint name='steering_joint' type='continuous'>
+      <parent link="base_link" />
+      <child link="steering_wheel" />
+      <origin xyz="0.400132 9.3e-05 0.399996" rpy="0 -1.5707 0" />
+      <axis xyz="0 0 1" />
+    </joint>
+   
+    <joint name="imu_joint" type="fixed">
+      <parent link="base_link" />
+      <child link="imu_link" />
+    </joint>
+    
+    <joint name="base_to_camera_base_right" type="fixed">
+      <parent link="base_link"/>
+      <child link="base_camera_right"/>
+      <origin rpy="0 0 0" xyz=" 0.3975 -0.06 0.225"/>
+    </joint>  
+  
+    <joint name="base_to_camera_base_left" type="fixed">
+      <parent link="base_link"/>
+      <child link="base_camera_left"/>
+      <origin rpy="0 0 0" xyz=" 0.3975 .06 0.225"/>
+    </joint>  
+
+    <joint name="base_to_camera_center" type="fixed">
+      <parent link="base_link"/>
+      <child link="base_camera_center"/>
+      <origin rpy="0 0 0" xyz=" 0.3975 0 0.365"/>
+    </joint>  
+
+     <joint name="base_to_velodyne_link" type="fixed">
+      <parent link="base_link"/>
+      <child link="velodyne_link"/>
+      <origin rpy="0 0 0" xyz="0.3975 0 0.40"/>
+     </joint>
+  
+     <joint name="chassis_to_base_sick" type="fixed">
+      <parent link="base_link"/>
+      <child link="base_velodyne"/>
+      <origin rpy="0 0 0" xyz="0.51 0 0.335"/>
+     </joint>
+   
+     <joint name="sick_joint" type="fixed">
+      <parent link="base_link" />
+      <child link="laser" />
+      <origin rpy="0 0 0" xyz="0.61 0 0.23"/>
+    </joint>
+
+    <joint name="zed2_right_camera_optical_joint" type="fixed">
+      <origin xyz="0 0 0" rpy="-1.57079 0.0 -1.57079"/>
+      <parent link="zed2_right_camera_frame"/>
+      <child link="zed2_right_camera_optical_frame"/>
+    </joint> 
+
+    <joint name="zed2_right_camera_joint" type="fixed">
+      <parent link="zed2_camera_center"/>
+      <child link="zed2_right_camera_frame"/>
+      <origin xyz="0 -0.06 0" rpy="0 0 0" />
+    </joint> 
+
+    <joint name="zed2_left_camera_optical_joint" type="fixed">
+      <origin xyz="0 0 0" rpy="-1.57079 0.0 -1.57079"/>
+      <parent link="zed2_left_camera_frame"/>
+      <child link="zed2_left_camera_optical_frame"/>
+    </joint>
+
+     <joint name="zed2_left_camera_joint" type="fixed">
+      <parent link="zed2_camera_center"/>
+      <child link="zed2_left_camera_frame"/>
+      <origin xyz="0 0.06 0" rpy="0 0 0" />
+    </joint>
+
+    <joint name="zed2_camera_center_joint" type="fixed">
+      <parent link="base_link"/>
+      <child link="zed2_camera_center"/>
+      <origin xyz="0.60 0 0.365" rpy=" 0 0 0" />
+    </joint>
+
+</robot>

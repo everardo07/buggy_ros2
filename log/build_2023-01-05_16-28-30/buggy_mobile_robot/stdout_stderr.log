@@ -1,0 +1,307 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found camera_info_manager: 3.0.0 (/home/manuel/buggy_ws_beta.a/install/camera_info_manager/share/camera_info_manager/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'bullet>=2.82'
+--   Found bullet, version 2.88
+-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+-- Found assimp: /usr/include (found version "5.0.0") 
+-- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Searching for dependencies of ignition-math6
+-- Looking for OGRE...
+-- OGRE_PREFIX_WATCH changed.
+-- Checking for module 'OGRE'
+--   Found OGRE, version 1.9.0
+-- Found Ogre Ghadamon (1.9.0)
+-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-transport8 -- found version 8.3.0
+-- Searching for dependencies of ignition-transport8
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.2
+-- Found ZeroMQ: TRUE (Required is at least version "4") 
+-- Checking for module 'uuid'
+--   Found uuid, version 2.34.0
+-- Found UUID: TRUE  
+-- Looking for ignition-msgs5 -- found version 5.10.0
+-- Searching for dependencies of ignition-msgs5
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 6.2.0
+-- Looking for ignition-msgs5 -- found version 5.10.0
+-- Looking for ignition-common3 -- found version 3.14.2
+-- Searching for dependencies of ignition-common3
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Found DL: TRUE  
+-- Searching for <ignition-common3> component [graphics]
+-- Looking for ignition-common3-graphics -- found version 3.14.2
+-- Searching for dependencies of ignition-common3-graphics
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-fuel_tools4 -- found version 4.6.0
+-- Searching for dependencies of ignition-fuel_tools4
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.7.4
+-- Found JSONCPP: TRUE  
+-- Checking for module 'libzip'
+--   Found libzip, version 1.5.1
+-- Found ZIP: TRUE  
+-- Looking for ignition-common3 -- found version 3.14.2
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-msgs5 -- found version 5.10.0
+-- Found gazebo_dev: 3.5.3 (/opt/ros/foxy/share/gazebo_dev/cmake)
+-- Gazebo version: 11.11
+-- Found gazebo_msgs: 3.5.3 (/opt/ros/foxy/share/gazebo_msgs/cmake)
+-- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+-- Found image_transport: 3.0.0 (/home/manuel/buggy_ws_beta.a/install/image_transport/share/image_transport/cmake)
+-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+-- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Found vox_nav_msgs: 0.0.0 (/home/manuel/buggy_ws_beta.a/install/vox_nav_msgs/share/vox_nav_msgs/cmake)
+-- Found pcl_ros: 2.2.1 (/opt/ros/foxy/share/pcl_ros/cmake)
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.3.7
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.23
+-- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- Found libusb-1.0: /usr/include  
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- Found PCL_2D: /usr/include/pcl-1.10  
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+CMake Warning (dev) at CMakeLists.txt:30 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found teb_msgs: 0.0.1 (/home/manuel/buggy_ws_beta.a/install/teb_msgs/share/teb_msgs/cmake)
+-- Found costmap_converter: 0.1.2 (/home/manuel/buggy_ws_beta.a/install/costmap_converter/share/costmap_converter/cmake)
+-- Profiler is active
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/manuel/buggy_ws_beta.a/build/buggy_mobile_robot
+[35m[1mScanning dependencies of target botanbot_ackermann_drive[0m
+[35m[1mScanning dependencies of target gazebo_world_to_pointcloud[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/botanbot_ackermann_drive.dir/src/botanbot_ackermann_drive.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/gazebo_world_to_pointcloud.dir/src/gazebo_to_pointcloud.cpp.o[0m
+[01m[K/home/manuel/buggy_ws_beta.a/src/buggy_mobile_robot/src/gazebo_to_pointcloud.cpp:[m[K In member function ‘[01m[Kvoid gazebo::PointCloudFromGazeboWorld::CreatePointCloud(const Request&)[m[K’:
+[01m[K/home/manuel/buggy_ws_beta.a/src/buggy_mobile_robot/src/gazebo_to_pointcloud.cpp:239:18:[m[K [01;35m[Kwarning: [m[Kunknown escape sequence: '\p'
+  239 |     std::cout << [01;35m[K"\pointcloud generation completed                  "[m[K << std::endl;
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 75%] [32m[1mLinking CXX shared library libbotanbot_ackermann_drive.so[0m
+[ 75%] Built target botanbot_ackermann_drive
+[100%] [32m[1mLinking CXX shared library libgazebo_world_to_pointcloud.so[0m
+[100%] Built target gazebo_world_to_pointcloud
+-- Install configuration: ""
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/config
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/launch
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/launch/buggy_simulated_mapping.launch.py
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/launch/buggy_simulated_gazebo.launch.py
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/launch/buggy_simulated_description.launch.py
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/launch/buggy_simulated_mapping_VLP16.launch.py
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/meshes
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/meshes/VLP16_scan.dae
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/meshes/VLP16_scan.stl
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/meshes/zed2.stl
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/meshes/wheel_a.stl
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/meshes/LMS1xx_small.dae
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/meshes/LMS1xx_collision.stl
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/meshes/velodyne-vlp16.stl
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/models
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/models/new_eupen_track
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/models/new_eupen_track/model.config
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/models/new_eupen_track/model.sdf
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/models/buggy_simulated_description
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/models/buggy_simulated_description/model.config
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/models/buggy_simulated_description/model.sdf
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/models/eupen_race.stl
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/models/buggy_mobile_description
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/models/buggy_mobile_description/meshes
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/models/buggy_mobile_description/meshes/zed2.stl
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/models/buggy_mobile_description/meshes/wheel_a.stl
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/models/buggy_mobile_description/meshes/LMS1xx_small.dae
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/models/buggy_mobile_description/meshes/LMS1xx_collision.stl
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/models/buggy_mobile_description/meshes/velodyne-vlp16.stl
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/models/buggy_mobile_description/model.config
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/models/buggy_mobile_description/model.sdf
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/models/eupen_race_Track
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/models/eupen_race_Track/model.config
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/models/eupen_race_Track/model.sdf
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/models/buggy.urdf
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/params
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/params/ekf_simulated.yaml
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/params/ekf.yaml
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/rviz
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/rviz/buggy_mapping_sick.rviz
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/rviz/buggy_mapping_slam.rviz
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/rviz/buggy_view_final.rviz
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/rviz/buggy_view_gazebo.rviz
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/rviz/buggy_mapping_3d.rviz
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/src
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/src/gazebo_to_pointcloud.cpp
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/src/gazebo_to_octomap.cpp
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/src/botanbot_ackermann_drive.cpp
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/worlds
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/worlds/empty.world
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/worlds/new_eupen_race.world
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/worlds/empty_world.world
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/environment/library_path.sh
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/environment/library_path.dsv
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/lib/libbotanbot_ackermann_drive.so
+-- Set runtime path of "/home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/lib/libbotanbot_ackermann_drive.so" to ""
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/lib/libgazebo_world_to_pointcloud.so
+-- Set runtime path of "/home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/lib/libgazebo_world_to_pointcloud.so" to ""
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/include/
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/include//buggy_mobile_robot
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/include//buggy_mobile_robot/gazebo_to_octomap.hpp
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/include//buggy_mobile_robot/botanbot_ackermann_drive.hpp
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/include//buggy_mobile_robot/gazebo_to_octomap_common.hpp
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/include//buggy_mobile_robot/gazebo_to_pointcloud.hpp
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/ament_index/resource_index/package_run_dependencies/buggy_mobile_robot
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/ament_index/resource_index/parent_prefix_path/buggy_mobile_robot
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/environment/ament_prefix_path.sh
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/environment/ament_prefix_path.dsv
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/environment/path.sh
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/environment/path.dsv
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/local_setup.bash
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/local_setup.sh
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/local_setup.zsh
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/local_setup.dsv
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/package.dsv
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/ament_index/resource_index/packages/buggy_mobile_robot
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/cmake/buggy_mobile_robotConfig.cmake
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/cmake/buggy_mobile_robotConfig-version.cmake
+-- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_robot/share/buggy_mobile_robot/package.xml

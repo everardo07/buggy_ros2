@@ -1,0 +1,4 @@
+source;share/buggy_mobile_navigation/local_setup.bash
+source;share/buggy_mobile_navigation/local_setup.dsv
+source;share/buggy_mobile_navigation/local_setup.sh
+source;share/buggy_mobile_navigation/local_setup.zsh

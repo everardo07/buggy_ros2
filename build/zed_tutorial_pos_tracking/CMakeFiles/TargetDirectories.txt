@@ -1,0 +1,11 @@
+/home/manuel/buggy_ws_beta.a/build/zed_tutorial_pos_tracking/CMakeFiles/install/strip.dir
+/home/manuel/buggy_ws_beta.a/build/zed_tutorial_pos_tracking/CMakeFiles/install/local.dir
+/home/manuel/buggy_ws_beta.a/build/zed_tutorial_pos_tracking/CMakeFiles/install.dir
+/home/manuel/buggy_ws_beta.a/build/zed_tutorial_pos_tracking/CMakeFiles/list_install_components.dir
+/home/manuel/buggy_ws_beta.a/build/zed_tutorial_pos_tracking/CMakeFiles/rebuild_cache.dir
+/home/manuel/buggy_ws_beta.a/build/zed_tutorial_pos_tracking/CMakeFiles/edit_cache.dir
+/home/manuel/buggy_ws_beta.a/build/zed_tutorial_pos_tracking/CMakeFiles/test.dir
+/home/manuel/buggy_ws_beta.a/build/zed_tutorial_pos_tracking/CMakeFiles/zed_tutorial_pos_tracking.dir
+/home/manuel/buggy_ws_beta.a/build/zed_tutorial_pos_tracking/CMakeFiles/zed_tutorial_pos_tracking_files.dir
+/home/manuel/buggy_ws_beta.a/build/zed_tutorial_pos_tracking/CMakeFiles/zed_tutorial_pos_tracking_uninstall.dir
+/home/manuel/buggy_ws_beta.a/build/zed_tutorial_pos_tracking/CMakeFiles/uninstall.dir

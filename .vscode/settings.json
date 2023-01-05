@@ -1,0 +1,19 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/manuel/buggy_ws_beta.a/install/zed_interfaces/lib/python3.8/site-packages",
+        "/home/manuel/buggy_ws_beta.a/install/vox_nav_msgs/lib/python3.8/site-packages",
+        "/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/python3.8/site-packages",
+        "/home/manuel/buggy_ws_beta.a/install/teb_msgs/lib/python3.8/site-packages",
+        "/home/manuel/buggy_ws_beta.a/install/robot_localization/lib/python3.8/site-packages",
+        "/home/manuel/buggy_ws_beta.a/install/joint_state_publisher_gui/lib/python3.8/site-packages",
+        "/home/manuel/buggy_ws_beta.a/install/joint_state_publisher/lib/python3.8/site-packages",
+        "/home/manuel/buggy_ws_beta.a/install/costmap_converter_msgs/lib/python3.8/site-packages",
+        "/home/manuel/buggy_ws_beta.a/install/can_msgs/lib/python3.8/site-packages",
+        "/home/manuel/buggy_ws_beta.a/install/ackermann_odometry/lib/python3.8/site-packages",
+        "/home/manuel/buggy_ws_beta.a/install/buggy_msgs/lib/python3.8/site-packages",
+        "/home/manuel/buggy_ws_beta.a/install/ackermann_controller/lib/python3.8/site-packages",
+        "/home/manuel/buggy_ws_beta.a/install/ackermann_msgs/lib/python3.8/site-packages",
+        "/home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ]
+}

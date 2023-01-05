@@ -1,0 +1,6 @@
+{
+  "package_name": "can_msgs",
+  "non_idl_tuples": [
+    "/home/manuel/buggy_ws_beta.a/src/msgs/can_msgs:msg/Frame.msg"
+  ]
+}

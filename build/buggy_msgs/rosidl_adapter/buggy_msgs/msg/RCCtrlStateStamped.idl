@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from buggy_msgs/msg/RCCtrlStateStamped.msg
+// generated code does not contain a copyright notice
+
+#include "buggy_msgs/msg/RCCtrlState.idl"
+#include "std_msgs/msg/Header.idl"
+
+module buggy_msgs {
+  module msg {
+    struct RCCtrlStateStamped {
+      std_msgs::msg::Header header;
+
+      buggy_msgs::msg::RCCtrlState rcctrl_state;
+    };
+  };
+};

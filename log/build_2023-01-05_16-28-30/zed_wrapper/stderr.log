@@ -1,0 +1,84 @@
+In file included from [01m[K/home/manuel/buggy_ws_beta.a/install/zed_components/include/zed_components/sl_tools.h:50[m[K,
+                 from [01m[K/home/manuel/buggy_ws_beta.a/install/zed_components/include/zed_components/zed_camera_component.hpp:28[m[K,
+                 from [01m[K/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_wrapper/src/zed_wrapper.cpp:26[m[K:
+[01m[K/usr/local/zed/include/sl/Camera.hpp:820:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+  820 |             [01;35m[K}[m[K;
+      |             [01;35m[K^[m[K
+[01m[K/usr/local/zed/include/sl/Camera.hpp:973:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+  973 |             [01;35m[K}[m[K;
+      |             [01;35m[K^[m[K
+[01m[K/usr/local/zed/include/sl/Camera.hpp:1150:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+ 1150 |             [01;35m[K}[m[K;
+      |             [01;35m[K^[m[K
+[01m[K/usr/local/zed/include/sl/Camera.hpp:1314:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+ 1314 |             [01;35m[K}[m[K;
+      |             [01;35m[K^[m[K
+[01m[K/usr/local/zed/include/sl/Camera.hpp:1318:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+ 1318 |             [01;35m[K}[m[K;
+      |             [01;35m[K^[m[K
+[01m[K/usr/local/zed/include/sl/Camera.hpp:1322:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+ 1322 |             [01;35m[K}[m[K;
+      |             [01;35m[K^[m[K
+[01m[K/usr/local/zed/include/sl/Camera.hpp:1562:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+ 1562 |             [01;35m[K}[m[K;
+      |             [01;35m[K^[m[K
+[01m[K/usr/local/zed/include/sl/Camera.hpp:1566:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+ 1566 |             [01;35m[K}[m[K;
+      |             [01;35m[K^[m[K
+[01m[K/usr/local/zed/include/sl/Camera.hpp:1570:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+ 1570 |             [01;35m[K}[m[K;
+      |             [01;35m[K^[m[K
+[01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[Ksl::Timestamp sl::operator+(sl::Timestamp, const sl::Timestamp&)[m[K’:
+[01m[K/usr/local/zed/include/sl/Camera.hpp:2024:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+ 2024 |         return [01;35m[Klhs[m[K;
+      |                [01;35m[K^~~[m[K
+[01m[K/usr/local/zed/include/sl/Camera.hpp:1963:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Timestamp[m[K’ has user-provided ‘[01m[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)[m[K’
+ 1963 |         Timestamp& [01;36m[Koperator[m[K=(Timestamp other) {
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[Ksl::Timestamp sl::operator-(sl::Timestamp, const sl::Timestamp&)[m[K’:
+[01m[K/usr/local/zed/include/sl/Camera.hpp:2029:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+ 2029 |         return [01;35m[Klhs[m[K;
+      |                [01;35m[K^~~[m[K
+[01m[K/usr/local/zed/include/sl/Camera.hpp:1963:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Timestamp[m[K’ has user-provided ‘[01m[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)[m[K’
+ 1963 |         Timestamp& [01;36m[Koperator[m[K=(Timestamp other) {
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[Ksl::Timestamp sl::operator/(sl::Timestamp, const sl::Timestamp&)[m[K’:
+[01m[K/usr/local/zed/include/sl/Camera.hpp:2034:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+ 2034 |         return [01;35m[Klhs[m[K;
+      |                [01;35m[K^~~[m[K
+[01m[K/usr/local/zed/include/sl/Camera.hpp:1963:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Timestamp[m[K’ has user-provided ‘[01m[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)[m[K’
+ 1963 |         Timestamp& [01;36m[Koperator[m[K=(Timestamp other) {
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[Ksl::Timestamp sl::operator*(sl::Timestamp, const sl::Timestamp&)[m[K’:
+[01m[K/usr/local/zed/include/sl/Camera.hpp:2039:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+ 2039 |         return [01;35m[Klhs[m[K;
+      |                [01;35m[K^~~[m[K
+[01m[K/usr/local/zed/include/sl/Camera.hpp:1963:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Timestamp[m[K’ has user-provided ‘[01m[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)[m[K’
+ 1963 |         Timestamp& [01;36m[Koperator[m[K=(Timestamp other) {
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[Ksl::Timestamp sl::getCurrentTimeStamp()[m[K’:
+[01m[K/usr/local/zed/include/sl/Camera.hpp:2073:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+ 2073 |         return [01;35m[Kcurrent_ts[m[K;
+      |                [01;35m[K^~~~~~~~~~[m[K
+[01m[K/usr/local/zed/include/sl/Camera.hpp:1963:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Timestamp[m[K’ has user-provided ‘[01m[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)[m[K’
+ 1963 |         Timestamp& [01;36m[Koperator[m[K=(Timestamp other) {
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[KcudaError sl::__cudaSafeCall(cudaError, const char*, const char*, int)[m[K’:
+[01m[K/usr/local/zed/include/sl/Camera.hpp:2079:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfile[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ 2079 |  __cudaSafeCall(cudaError err, const char *func, [01;35m[Kconst char *file[m[K, const int line) {
+      |                                                  [01;35m[K~~~~~~~~~~~~^~~~[m[K
+
+[01m[K/usr/local/zed/include/sl/Camera.hpp:2079:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kline[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ 2079 | cudaError err, const char *func, const char *file, [01;35m[Kconst int line[m[K) {
+      |                                                    [01;35m[K~~~~~~~~~~^~~~[m[K
+
+In file included from [01m[K/home/manuel/buggy_ws_beta.a/install/zed_components/include/zed_components/sl_tools.h:50[m[K,
+                 from [01m[K/home/manuel/buggy_ws_beta.a/install/zed_components/include/zed_components/zed_camera_component.hpp:28[m[K,
+                 from [01m[K/home/manuel/buggy_ws_beta.a/src/zed-ros2-wrapper/zed_wrapper/src/zed_wrapper.cpp:26[m[K:
+[01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K At global scope:
+[01m[K/usr/local/zed/include/sl/Camera.hpp:5399:12:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+ 5399 |     inline [01;35m[Kconst[m[K void /*@cond SHOWHIDDEN*/SL_SDK_EXPORT/*@endcond*/ getZEDSDKBuildVersion(int &major, int& minor, int& patch) {
+      |            [01;35m[K^~~~~[m[K
+[01m[K/usr/local/zed/include/sl/Camera.hpp:5791:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ 5791 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K

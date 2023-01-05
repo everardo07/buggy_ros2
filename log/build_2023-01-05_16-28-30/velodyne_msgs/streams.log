@@ -1,0 +1,247 @@
+[0.126s] Invoking command in '/home/manuel/buggy_ws_beta.a/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy /usr/bin/cmake /home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_msgs -DCMAKE_INSTALL_PREFIX=/home/manuel/buggy_ws_beta.a/install/velodyne_msgs
+[0.644s] -- The C compiler identification is GNU 9.4.0
+[0.644s] -- The CXX compiler identification is GNU 9.4.0
+[0.644s] -- Check for working C compiler: /usr/bin/cc
+[0.644s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.644s] -- Detecting C compiler ABI info
+[0.644s] -- Detecting C compiler ABI info - done
+[0.644s] -- Detecting C compile features
+[0.644s] -- Detecting C compile features - done
+[0.644s] -- Check for working CXX compiler: /usr/bin/c++
+[0.645s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.645s] -- Detecting CXX compiler ABI info
+[0.783s] -- Detecting CXX compiler ABI info - done
+[0.802s] -- Detecting CXX compile features
+[0.803s] -- Detecting CXX compile features - done
+[0.807s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.857s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.858s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.422s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[1.487s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.501s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.665s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.731s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.894s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.957s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.994s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[2.078s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.418s] -- Found ament_cmake_cppcheck: 0.9.7 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[2.423s] -- Found ament_cmake_cpplint: 0.9.7 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[2.428s] -- Found ament_cmake_uncrustify: 0.9.7 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[2.433s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.784s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.963s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.020s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[3.023s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[3.078s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[3.078s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.078s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.079s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[3.118s] -- Found PythonExtra: .so  
+[3.261s] -- Found ament_cmake_flake8: 0.9.7 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[3.265s] -- Found ament_cmake_pep257: 0.9.7 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[3.270s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.289s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.290s] -- Added test 'lint_cmake' to check CMake code style
+[3.291s] -- Added test 'xmllint' to check XML markup files
+[3.299s] -- Configuring done
+[3.366s] -- Generating done
+[3.369s] -- Build files have been written to: /home/manuel/buggy_ws_beta.a/build/velodyne_msgs
+[3.389s] Invoked command in '/home/manuel/buggy_ws_beta.a/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy /usr/bin/cmake /home/manuel/buggy_ws_beta.a/src/velodyne/velodyne_msgs -DCMAKE_INSTALL_PREFIX=/home/manuel/buggy_ws_beta.a/install/velodyne_msgs
+[3.396s] Invoking command in '/home/manuel/buggy_ws_beta.a/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy /usr/bin/cmake --build /home/manuel/buggy_ws_beta.a/build/velodyne_msgs -- -j16 -l16
+[3.916s] [35m[1mScanning dependencies of target velodyne_msgs__cpp[0m
+[3.916s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.916s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.362s] [  5%] Built target velodyne_msgs__cpp
+[4.402s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.429s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.433s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.689s] [35m[1mScanning dependencies of target velodyne_msgs__rosidl_generator_c[0m
+[4.793s] [ 15%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_generator_c.dir/rosidl_generator_c/velodyne_msgs/msg/detail/velodyne_scan__functions.c.o[0m
+[4.797s] [ 17%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_generator_c.dir/rosidl_generator_c/velodyne_msgs/msg/detail/velodyne_packet__functions.c.o[0m
+[5.079s] [ 20%] [32m[1mLinking C shared library libvelodyne_msgs__rosidl_generator_c.so[0m
+[5.308s] [ 20%] Built target velodyne_msgs__rosidl_generator_c
+[5.393s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.397s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.881s] [35m[1mScanning dependencies of target velodyne_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[5.941s] [35m[1mScanning dependencies of target velodyne_msgs__rosidl_typesupport_cpp[0m
+[5.993s] [ 28%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/velodyne_msgs/msg/detail/dds_fastrtps/velodyne_scan__type_support.cpp.o[0m
+[5.996s] [35m[1mScanning dependencies of target velodyne_msgs__rosidl_typesupport_introspection_cpp[0m
+[6.000s] [ 30%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/velodyne_msgs/msg/detail/dds_fastrtps/velodyne_packet__type_support.cpp.o[0m
+[6.043s] [ 33%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/velodyne_msgs/msg/velodyne_packet__type_support.cpp.o[0m
+[6.083s] [ 35%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/velodyne_msgs/msg/velodyne_scan__type_support.cpp.o[0m
+[6.097s] [ 38%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/velodyne_msgs/msg/detail/velodyne_scan__type_support.cpp.o[0m
+[6.109s] [ 41%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/velodyne_msgs/msg/detail/velodyne_packet__type_support.cpp.o[0m
+[6.916s] [35m[1mScanning dependencies of target velodyne_msgs__rosidl_typesupport_c[0m
+[7.027s] [ 43%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/velodyne_msgs/msg/velodyne_packet__type_support.cpp.o[0m
+[7.070s] [ 46%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/velodyne_msgs/msg/velodyne_scan__type_support.cpp.o[0m
+[7.131s] [35m[1mScanning dependencies of target velodyne_msgs__rosidl_typesupport_introspection_c[0m
+[7.271s] [ 48%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/velodyne_msgs/msg/detail/velodyne_packet__type_support.c.o[0m
+[7.299s] [ 51%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_c.so[0m
+[7.311s] [ 53%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/velodyne_msgs/msg/detail/velodyne_scan__type_support.c.o[0m
+[7.549s] [ 53%] Built target velodyne_msgs__rosidl_typesupport_c
+[7.597s] [ 56%] [32m[1mLinking C shared library libvelodyne_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.802s] [ 56%] Built target velodyne_msgs__rosidl_typesupport_introspection_c
+[8.162s] [ 58%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_cpp.so[0m
+[8.448s] [ 61%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[8.531s] [ 61%] Built target velodyne_msgs__rosidl_typesupport_cpp
+[8.886s] [ 64%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.030s] [ 64%] Built target velodyne_msgs__rosidl_typesupport_introspection_cpp
+[9.459s] [ 64%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_cpp
+[9.575s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[11.349s] [35m[1mScanning dependencies of target velodyne_msgs__rosidl_typesupport_fastrtps_c[0m
+[11.443s] [ 69%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/velodyne_msgs/msg/detail/velodyne_packet__type_support_c.cpp.o[0m
+[11.461s] [ 71%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/velodyne_msgs/msg/detail/velodyne_scan__type_support_c.cpp.o[0m
+[12.950s] [ 74%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[13.371s] [ 74%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_c
+[13.417s] [35m[1mScanning dependencies of target velodyne_msgs[0m
+[13.502s] [ 74%] Built target velodyne_msgs
+[13.584s] [35m[1mScanning dependencies of target velodyne_msgs__py[0m
+[13.653s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.402s] [ 76%] Built target velodyne_msgs__py
+[16.491s] [35m[1mScanning dependencies of target velodyne_msgs__python[0m
+[16.626s] [ 79%] [32mBuilding C object CMakeFiles/velodyne_msgs__python.dir/rosidl_generator_py/velodyne_msgs/msg/_velodyne_packet_s.c.o[0m
+[16.648s] [ 82%] [32mBuilding C object CMakeFiles/velodyne_msgs__python.dir/rosidl_generator_py/velodyne_msgs/msg/_velodyne_scan_s.c.o[0m
+[17.199s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/velodyne_msgs/libvelodyne_msgs__python.so[0m
+[17.291s] [ 84%] Built target velodyne_msgs__python
+[17.361s] [35m[1mScanning dependencies of target velodyne_msgs__rosidl_typesupport_c__pyext[0m
+[17.373s] [35m[1mScanning dependencies of target velodyne_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[17.439s] [ 87%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[17.469s] [35m[1mScanning dependencies of target velodyne_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[17.507s] [ 89%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[17.603s] [ 92%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[17.861s] [ 94%] [32m[1mLinking CXX shared library rosidl_generator_py/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[17.949s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[18.095s] [100%] [32m[1mLinking C shared library rosidl_generator_py/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[18.214s] [100%] Built target velodyne_msgs__rosidl_typesupport_c__pyext
+[18.276s] [100%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_c__pyext
+[18.371s] [100%] Built target velodyne_msgs__rosidl_typesupport_introspection_c__pyext
+[18.441s] Invoked command in '/home/manuel/buggy_ws_beta.a/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy /usr/bin/cmake --build /home/manuel/buggy_ws_beta.a/build/velodyne_msgs -- -j16 -l16
+[20.102s] Invoking command in '/home/manuel/buggy_ws_beta.a/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy /usr/bin/cmake --install /home/manuel/buggy_ws_beta.a/build/velodyne_msgs
+[30.319s] -- Install configuration: ""
+[30.320s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/ament_index/resource_index/rosidl_interfaces/velodyne_msgs
+[30.320s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs
+[30.320s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg
+[30.320s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail
+[30.320s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_scan__struct.h
+[30.321s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_packet__struct.h
+[30.321s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_scan__functions.h
+[30.321s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_scan__type_support.h
+[30.321s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_packet__functions.c
+[30.321s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_packet__functions.h
+[30.321s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_scan__functions.c
+[30.322s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_packet__type_support.h
+[30.322s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_scan.h
+[30.322s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/rosidl_generator_c__visibility_control.h
+[30.322s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_packet.h
+[30.322s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/environment/library_path.sh
+[30.322s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/environment/library_path.dsv
+[30.323s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_c.so
+[30.323s] -- Set runtime path of "/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_c.so" to ""
+[30.323s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs
+[30.323s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg
+[30.323s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail
+[30.324s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_fastrtps_c.h
+[30.324s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_fastrtps_c.h
+[30.324s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[30.324s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_c.so
+[30.324s] -- Set runtime path of "/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[30.324s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs
+[30.325s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg
+[30.325s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail
+[30.325s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/dds_fastrtps
+[30.325s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[30.325s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[30.326s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[30.327s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_cpp.so
+[30.327s] -- Set runtime path of "/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[30.327s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs
+[30.327s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg
+[30.328s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail
+[30.328s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_packet__type_support.c
+[30.328s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_scan__type_support.c
+[30.328s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_introspection_c.h
+[30.328s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_introspection_c.h
+[30.329s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[30.329s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_c.so
+[30.329s] -- Set runtime path of "/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_c.so" to ""
+[30.329s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_c.so
+[30.329s] -- Set runtime path of "/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_c.so" to ""
+[30.329s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs
+[30.329s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg
+[30.330s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail
+[30.330s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_scan__builder.hpp
+[30.330s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_scan__struct.hpp
+[30.330s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_packet__builder.hpp
+[30.350s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_scan__traits.hpp
+[30.351s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_packet__traits.hpp
+[30.352s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_packet__struct.hpp
+[30.352s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_scan.hpp
+[30.352s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_packet.hpp
+[30.353s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs
+[30.354s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg
+[30.354s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail
+[30.355s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_scan__type_support.cpp
+[30.355s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_introspection_cpp.hpp
+[30.355s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_introspection_cpp.hpp
+[30.363s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_packet__type_support.cpp
+[30.363s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_cpp.so
+[30.364s] -- Set runtime path of "/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[30.364s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_cpp.so
+[30.364s] -- Set runtime path of "/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_cpp.so" to ""
+[30.364s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/environment/pythonpath.sh
+[30.364s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/environment/pythonpath.dsv
+[30.364s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/__init__.py
+[30.365s] Compiling '/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/__init__.py'...
+[30.365s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/msg
+[30.365s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/msg/_velodyne_scan_s.c
+[30.365s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/msg/_velodyne_packet.py
+[30.365s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/msg/_velodyne_scan.py
+[30.365s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/msg/__init__.py
+[30.366s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/msg/_velodyne_packet_s.c
+[30.366s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[30.366s] -- Set runtime path of "/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[30.366s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[30.366s] -- Set runtime path of "/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[30.367s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[30.367s] -- Set runtime path of "/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[30.367s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/libvelodyne_msgs__python.so
+[30.367s] -- Set runtime path of "/home/manuel/buggy_ws_beta.a/install/velodyne_msgs/lib/libvelodyne_msgs__python.so" to ""
+[30.367s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/msg/VelodynePacket.idl
+[30.367s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/msg/VelodyneScan.idl
+[30.367s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/msg/VelodynePacket.msg
+[30.368s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/msg/VelodyneScan.msg
+[30.368s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/ament_index/resource_index/package_run_dependencies/velodyne_msgs
+[30.368s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/ament_index/resource_index/parent_prefix_path/velodyne_msgs
+[30.368s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/environment/ament_prefix_path.sh
+[30.368s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/environment/ament_prefix_path.dsv
+[30.368s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/environment/path.sh
+[30.369s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/environment/path.dsv
+[30.369s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/local_setup.bash
+[30.369s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/local_setup.sh
+[30.369s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/local_setup.zsh
+[30.369s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/local_setup.dsv
+[30.369s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/package.dsv
+[30.370s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/ament_index/resource_index/packages/velodyne_msgs
+[30.370s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_generator_cExport.cmake
+[30.370s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_generator_cExport-noconfig.cmake
+[30.387s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cExport.cmake
+[30.387s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[30.387s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cExport.cmake
+[30.388s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[30.388s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_generator_cppExport.cmake
+[30.388s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[30.388s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[30.388s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cppExport.cmake
+[30.388s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[30.389s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake-extras.cmake
+[30.389s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.389s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[30.389s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[30.389s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.389s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[30.389s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[30.390s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgsConfig.cmake
+[30.390s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgsConfig-version.cmake
+[30.390s] -- Installing: /home/manuel/buggy_ws_beta.a/install/velodyne_msgs/share/velodyne_msgs/package.xml
+[30.502s] Invoked command in '/home/manuel/buggy_ws_beta.a/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy /usr/bin/cmake --install /home/manuel/buggy_ws_beta.a/build/velodyne_msgs

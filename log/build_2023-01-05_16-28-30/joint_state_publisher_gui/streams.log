@@ -1,0 +1,43 @@
+[2.775s] Invoking command in '/home/manuel/buggy_ws_beta.a/src/joint_state_publisher/joint_state_publisher_gui': AMENT_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/joint_state_publisher:${AMENT_PREFIX_PATH} PYTHONPATH=/home/manuel/buggy_ws_beta.a/build/joint_state_publisher_gui/prefix_override:/home/manuel/buggy_ws_beta.a/install/joint_state_publisher_gui/lib/python3.8/site-packages:/home/manuel/buggy_ws_beta.a/install/joint_state_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/joint_state_publisher_gui build --build-base /home/manuel/buggy_ws_beta.a/build/joint_state_publisher_gui/build install --record /home/manuel/buggy_ws_beta.a/build/joint_state_publisher_gui/install.log --single-version-externally-managed
+[7.396s] running egg_info
+[7.396s] creating ../../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info
+[7.396s] writing ../../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/PKG-INFO
+[7.396s] writing dependency_links to ../../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/dependency_links.txt
+[7.396s] writing entry points to ../../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/entry_points.txt
+[7.396s] writing requirements to ../../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/requires.txt
+[7.397s] writing top-level names to ../../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/top_level.txt
+[7.397s] writing manifest file '../../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/SOURCES.txt'
+[7.397s] reading manifest file '../../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/SOURCES.txt'
+[7.397s] adding license file 'LICENSE'
+[7.397s] writing manifest file '../../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/SOURCES.txt'
+[7.398s] running build
+[7.398s] running build_py
+[7.398s] creating /home/manuel/buggy_ws_beta.a/build/joint_state_publisher_gui/build
+[7.398s] creating /home/manuel/buggy_ws_beta.a/build/joint_state_publisher_gui/build/lib
+[7.398s] creating /home/manuel/buggy_ws_beta.a/build/joint_state_publisher_gui/build/lib/joint_state_publisher_gui
+[7.398s] copying joint_state_publisher_gui/joint_state_publisher_gui.py -> /home/manuel/buggy_ws_beta.a/build/joint_state_publisher_gui/build/lib/joint_state_publisher_gui
+[7.398s] copying joint_state_publisher_gui/flow_layout.py -> /home/manuel/buggy_ws_beta.a/build/joint_state_publisher_gui/build/lib/joint_state_publisher_gui
+[7.399s] copying joint_state_publisher_gui/__init__.py -> /home/manuel/buggy_ws_beta.a/build/joint_state_publisher_gui/build/lib/joint_state_publisher_gui
+[7.399s] running install
+[7.399s] running install_lib
+[7.399s] creating /home/manuel/buggy_ws_beta.a/install/joint_state_publisher_gui/lib/python3.8/site-packages/joint_state_publisher_gui
+[7.399s] copying /home/manuel/buggy_ws_beta.a/build/joint_state_publisher_gui/build/lib/joint_state_publisher_gui/joint_state_publisher_gui.py -> /home/manuel/buggy_ws_beta.a/install/joint_state_publisher_gui/lib/python3.8/site-packages/joint_state_publisher_gui
+[7.399s] copying /home/manuel/buggy_ws_beta.a/build/joint_state_publisher_gui/build/lib/joint_state_publisher_gui/flow_layout.py -> /home/manuel/buggy_ws_beta.a/install/joint_state_publisher_gui/lib/python3.8/site-packages/joint_state_publisher_gui
+[7.399s] copying /home/manuel/buggy_ws_beta.a/build/joint_state_publisher_gui/build/lib/joint_state_publisher_gui/__init__.py -> /home/manuel/buggy_ws_beta.a/install/joint_state_publisher_gui/lib/python3.8/site-packages/joint_state_publisher_gui
+[7.400s] byte-compiling /home/manuel/buggy_ws_beta.a/install/joint_state_publisher_gui/lib/python3.8/site-packages/joint_state_publisher_gui/joint_state_publisher_gui.py to joint_state_publisher_gui.cpython-38.pyc
+[7.400s] byte-compiling /home/manuel/buggy_ws_beta.a/install/joint_state_publisher_gui/lib/python3.8/site-packages/joint_state_publisher_gui/flow_layout.py to flow_layout.cpython-38.pyc
+[7.400s] byte-compiling /home/manuel/buggy_ws_beta.a/install/joint_state_publisher_gui/lib/python3.8/site-packages/joint_state_publisher_gui/__init__.py to __init__.cpython-38.pyc
+[7.400s] running install_data
+[7.400s] creating /home/manuel/buggy_ws_beta.a/install/joint_state_publisher_gui/share/ament_index
+[7.400s] creating /home/manuel/buggy_ws_beta.a/install/joint_state_publisher_gui/share/ament_index/resource_index
+[7.400s] creating /home/manuel/buggy_ws_beta.a/install/joint_state_publisher_gui/share/ament_index/resource_index/packages
+[7.401s] copying resource/joint_state_publisher_gui -> /home/manuel/buggy_ws_beta.a/install/joint_state_publisher_gui/share/ament_index/resource_index/packages
+[7.401s] copying package.xml -> /home/manuel/buggy_ws_beta.a/install/joint_state_publisher_gui/share/joint_state_publisher_gui
+[7.401s] running install_egg_info
+[7.401s] Copying ../../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info to /home/manuel/buggy_ws_beta.a/install/joint_state_publisher_gui/lib/python3.8/site-packages/joint_state_publisher_gui-2.2.0-py3.8.egg-info
+[7.401s] running install_scripts
+[7.401s] Installing joint_state_publisher_gui script to /home/manuel/buggy_ws_beta.a/install/joint_state_publisher_gui/lib/joint_state_publisher_gui
+[7.402s] writing list of installed files to '/home/manuel/buggy_ws_beta.a/build/joint_state_publisher_gui/install.log'
+[7.402s] /home/manuel/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.402s]   warnings.warn(
+[7.444s] Invoked command in '/home/manuel/buggy_ws_beta.a/src/joint_state_publisher/joint_state_publisher_gui' returned '0': AMENT_PREFIX_PATH=/home/manuel/buggy_ws_beta.a/install/joint_state_publisher:${AMENT_PREFIX_PATH} PYTHONPATH=/home/manuel/buggy_ws_beta.a/build/joint_state_publisher_gui/prefix_override:/home/manuel/buggy_ws_beta.a/install/joint_state_publisher_gui/lib/python3.8/site-packages:/home/manuel/buggy_ws_beta.a/install/joint_state_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/joint_state_publisher_gui build --build-base /home/manuel/buggy_ws_beta.a/build/joint_state_publisher_gui/build install --record /home/manuel/buggy_ws_beta.a/build/joint_state_publisher_gui/install.log --single-version-externally-managed

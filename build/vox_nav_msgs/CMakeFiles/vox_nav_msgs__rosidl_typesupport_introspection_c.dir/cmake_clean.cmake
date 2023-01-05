@@ -1,0 +1,36 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/vox_nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vox_nav_msgs/action/detail/compute_path_to_pose__type_support.c.o"
+  "CMakeFiles/vox_nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vox_nav_msgs/action/detail/follow_path__type_support.c.o"
+  "CMakeFiles/vox_nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vox_nav_msgs/action/detail/navigate_to_pose__type_support.c.o"
+  "CMakeFiles/vox_nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vox_nav_msgs/msg/detail/object__type_support.c.o"
+  "CMakeFiles/vox_nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vox_nav_msgs/msg/detail/object_array__type_support.c.o"
+  "CMakeFiles/vox_nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vox_nav_msgs/msg/detail/oriented_nav_sat_fix__type_support.c.o"
+  "CMakeFiles/vox_nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vox_nav_msgs/srv/detail/get_maps_and_surfels__type_support.c.o"
+  "CMakeFiles/vox_nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vox_nav_msgs/srv/detail/get_octomap__type_support.c.o"
+  "CMakeFiles/vox_nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vox_nav_msgs/srv/detail/get_point_cloud__type_support.c.o"
+  "libvox_nav_msgs__rosidl_typesupport_introspection_c.pdb"
+  "libvox_nav_msgs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/vox_nav_msgs/action/detail/compute_path_to_pose__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/vox_nav_msgs/action/detail/compute_path_to_pose__type_support.c"
+  "rosidl_typesupport_introspection_c/vox_nav_msgs/action/detail/follow_path__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/vox_nav_msgs/action/detail/follow_path__type_support.c"
+  "rosidl_typesupport_introspection_c/vox_nav_msgs/action/detail/navigate_to_pose__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/vox_nav_msgs/action/detail/navigate_to_pose__type_support.c"
+  "rosidl_typesupport_introspection_c/vox_nav_msgs/msg/detail/object__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/vox_nav_msgs/msg/detail/object__type_support.c"
+  "rosidl_typesupport_introspection_c/vox_nav_msgs/msg/detail/object_array__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/vox_nav_msgs/msg/detail/object_array__type_support.c"
+  "rosidl_typesupport_introspection_c/vox_nav_msgs/msg/detail/oriented_nav_sat_fix__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/vox_nav_msgs/msg/detail/oriented_nav_sat_fix__type_support.c"
+  "rosidl_typesupport_introspection_c/vox_nav_msgs/srv/detail/get_maps_and_surfels__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/vox_nav_msgs/srv/detail/get_maps_and_surfels__type_support.c"
+  "rosidl_typesupport_introspection_c/vox_nav_msgs/srv/detail/get_octomap__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/vox_nav_msgs/srv/detail/get_octomap__type_support.c"
+  "rosidl_typesupport_introspection_c/vox_nav_msgs/srv/detail/get_point_cloud__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/vox_nav_msgs/srv/detail/get_point_cloud__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/vox_nav_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
