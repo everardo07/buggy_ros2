@@ -68,6 +68,10 @@ ros2 launch buggy_mobile_robot buggy_simulated_mapping.launch.py
 
 ### Object detection
 
+In this section, the concept of convolution neural networks is applied. YOLOV3 is a CNN which integrates different layers to classify different kind of objects. Therefore the selection of YOLOV3 was made to detect a varity of objects (pediastrans, cars, traffic lights, signs, etc). Running the buggy on the track different objects were classified. The next picture presents the obtained results.
+
+<img src="fotosbuggy/busdetection.png" width="700"> 
+
 ### Navigation
 
 The use of Nav 2 in combination with Time Elastic Band(TEB) planner for navigation and control of the buggy.
