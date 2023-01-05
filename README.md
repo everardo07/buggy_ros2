@@ -10,11 +10,39 @@ This repository states a developed project in ROS2 using Foxy and Ubuntu 20 whic
 - GAZEBO
 - Specific packages from ROS 2:
    - Joint State Publisher
-   - Robot State Publisher
    - SLAM Toolbox
    - Nav2
    - TEB local planner
+ For install the packages you must go directly to the root of your workspace and copy the next commands
+```bash
+ sudo apt install ros-foxy-gazebo-ros-pkgs
+ sudo apt install ros-foxy-joint-state-publisher-gui
+ sudo apt install ros-foxy-xacro
+ sudo apt install ros-foxy-slam-toolbox
+ sudo apt install ros-foxy-navigation2
+ sudo apt install ros-foxy-nav2-bringup
+```
+Some packages are installed from source in your folder (work_space_name)\src and do not forget install the dependencies.
+```bash
+ $ cd <colcon_workspace>/src # Access the source folder of your colcon workspace
+ $ git clone -b foxy-devel https://github.com/rst-tu-dortmund/teb_local_planner.git
+ $ cd ..
+ $ sudo rosdep init
+ $ rosdep update
+ $ rosdep install --from-paths src -y --ignore-src
+```
+To use the real sensors, some drivers have to be installed. In this project a sick Lidar, a zed2 camera and a velodyne Lidar are used. For this reason the next packages must be installed. These packages are installed also in the src folder.
 
+### ZED2 camera
+```bash
+$ cd <colcon_workspace>/src # Access the source folder of your colcon workspace
+$ git clone https://github.com/ros-perception/image_common.git --branch 3.0.0 --single-branch # clone the "v3.0.0" branch of the "image_common" repository
+$ git clone  --recursive https://github.com/stereolabs/zed-ros2-wrapper.git
+$ cd ..
+$ rosdep install --from-paths src --ignore-src -r -y
+$ colcon build --symlink-install --cmake-args=-DCMAKE_BUILD_TYPE=Release
+```
+### Sick Lidar
 # Content
 The project is divided in two stages:
 - Simulated stage
@@ -68,7 +96,7 @@ ros2 launch buggy_mobile_robot buggy_simulated_mapping.launch.py
 
 ### Object detection
 
-In this section, the concept of convolution neural networks is applied. YOLOV3 is a CNN which integrates different layers to classify different kind of objects. Therefore the selection of YOLOV3 was made to detect a varity of objects (pediastrans, cars, traffic lights, signs, etc). Running the buggy on the track different objects were classified. The next picture presents the obtained results.
+In this section, the concept of convolution neural networks is applied. YOLOV3 is a CNN which integrates several layers to classify different kind of objects, therefore the selection of YOLOV3 was made to detect a varity of objects (pediastrans, cars, traffic lights, signs, etc). Running the buggy on the track different objects were classified. The next picture presents the obtained results.
 
 <img src="fotosbuggy/busdetection.png" width="700"> 
 
