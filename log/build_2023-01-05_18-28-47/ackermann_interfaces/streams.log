@@ -1,0 +1,113 @@
+[0.503s] Invoking command in '/home/manuel/buggy_ws_beta.a/build/ackermann_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/buggy_ws_beta.a/install/joint_state_publisher_gui:/home/manuel/buggy_ws_beta.a/install/joint_state_publisher:/home/manuel/buggy_ws_beta.a/install/ackermann_odometry:/home/manuel/buggy_ws_beta.a/install/ackermann_controller:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy /usr/bin/cmake --build /home/manuel/buggy_ws_beta.a/build/ackermann_interfaces -- -j16 -l16
+[0.569s] [  3%] Built target ackermann_interfaces__cpp
+[0.569s] [ 12%] Built target ackermann_interfaces__rosidl_generator_c
+[0.600s] [ 22%] Built target ackermann_interfaces__rosidl_typesupport_introspection_cpp
+[0.600s] [ 32%] Built target ackermann_interfaces__rosidl_typesupport_cpp
+[0.616s] [ 41%] Built target ackermann_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.621s] [ 51%] Built target ackermann_interfaces__rosidl_typesupport_c
+[0.632s] [ 61%] Built target ackermann_interfaces__rosidl_typesupport_introspection_c
+[0.702s] [ 70%] Built target ackermann_interfaces__rosidl_typesupport_fastrtps_c
+[0.759s] [ 70%] Built target ackermann_interfaces
+[0.771s] [ 74%] Built target ackermann_interfaces__py
+[0.791s] [ 80%] Built target ackermann_interfaces__python
+[0.825s] [ 87%] Built target ackermann_interfaces__rosidl_typesupport_c__pyext
+[0.825s] [ 93%] Built target ackermann_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.826s] [100%] Built target ackermann_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.022s] Invoked command in '/home/manuel/buggy_ws_beta.a/build/ackermann_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/buggy_ws_beta.a/install/joint_state_publisher_gui:/home/manuel/buggy_ws_beta.a/install/joint_state_publisher:/home/manuel/buggy_ws_beta.a/install/ackermann_odometry:/home/manuel/buggy_ws_beta.a/install/ackermann_controller:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy /usr/bin/cmake --build /home/manuel/buggy_ws_beta.a/build/ackermann_interfaces -- -j16 -l16
+[1.312s] Invoking command in '/home/manuel/buggy_ws_beta.a/build/ackermann_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/buggy_ws_beta.a/install/joint_state_publisher_gui:/home/manuel/buggy_ws_beta.a/install/joint_state_publisher:/home/manuel/buggy_ws_beta.a/install/ackermann_odometry:/home/manuel/buggy_ws_beta.a/install/ackermann_controller:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy /usr/bin/cmake --install /home/manuel/buggy_ws_beta.a/build/ackermann_interfaces
+[1.398s] -- Install configuration: ""
+[1.398s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ament_index/resource_index/rosidl_interfaces/ackermann_interfaces
+[1.398s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces
+[1.398s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg
+[1.398s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg/detail
+[1.398s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg/detail/ackermann_feedback__type_support.h
+[1.399s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg/detail/ackermann_feedback__functions.h
+[1.399s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg/detail/ackermann_feedback__struct.h
+[1.399s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg/detail/ackermann_feedback__functions.c
+[1.399s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.399s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg/ackermann_feedback.h
+[1.399s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/environment/library_path.sh
+[1.399s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/environment/library_path.dsv
+[1.399s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/lib/libackermann_interfaces__rosidl_generator_c.so
+[1.399s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces
+[1.399s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg
+[1.399s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg/detail
+[1.400s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg/detail/ackermann_feedback__rosidl_typesupport_fastrtps_c.h
+[1.400s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.400s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/lib/libackermann_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.400s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces
+[1.400s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg
+[1.400s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg/detail
+[1.400s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg/detail/dds_fastrtps
+[1.400s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg/detail/ackermann_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[1.401s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.402s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/lib/libackermann_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.402s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces
+[1.402s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg
+[1.402s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg/detail
+[1.403s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg/detail/ackermann_feedback__type_support.c
+[1.403s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg/detail/ackermann_feedback__rosidl_typesupport_introspection_c.h
+[1.403s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.403s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/lib/libackermann_interfaces__rosidl_typesupport_introspection_c.so
+[1.404s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/lib/libackermann_interfaces__rosidl_typesupport_c.so
+[1.404s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces
+[1.404s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg
+[1.404s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg/detail
+[1.404s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg/detail/ackermann_feedback__struct.hpp
+[1.405s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg/detail/ackermann_feedback__traits.hpp
+[1.405s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg/detail/ackermann_feedback__builder.hpp
+[1.406s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg/ackermann_feedback.hpp
+[1.406s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces
+[1.406s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg
+[1.406s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg/detail
+[1.406s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg/detail/ackermann_feedback__rosidl_typesupport_introspection_cpp.hpp
+[1.406s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/include/ackermann_interfaces/msg/detail/ackermann_feedback__type_support.cpp
+[1.407s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/lib/libackermann_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.407s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/lib/libackermann_interfaces__rosidl_typesupport_cpp.so
+[1.407s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/environment/pythonpath.sh
+[1.407s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/environment/pythonpath.dsv
+[1.407s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/lib/python3.8/site-packages/ackermann_interfaces/__init__.py
+[1.407s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/lib/python3.8/site-packages/ackermann_interfaces/msg
+[1.407s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/lib/python3.8/site-packages/ackermann_interfaces/msg/_ackermann_feedback_s.c
+[1.407s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/lib/python3.8/site-packages/ackermann_interfaces/msg/_ackermann_feedback.py
+[1.407s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/lib/python3.8/site-packages/ackermann_interfaces/msg/__init__.py
+[1.407s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/lib/python3.8/site-packages/ackermann_interfaces/ackermann_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.421s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/lib/python3.8/site-packages/ackermann_interfaces/ackermann_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.421s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/lib/python3.8/site-packages/ackermann_interfaces/ackermann_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.431s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/lib/libackermann_interfaces__python.so
+[1.431s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/msg/AckermannFeedback.idl
+[1.431s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/msg/AckermannFeedback.msg
+[1.431s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ament_index/resource_index/package_run_dependencies/ackermann_interfaces
+[1.431s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ament_index/resource_index/parent_prefix_path/ackermann_interfaces
+[1.434s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/environment/ament_prefix_path.sh
+[1.434s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/environment/ament_prefix_path.dsv
+[1.435s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/environment/path.sh
+[1.435s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/environment/path.dsv
+[1.435s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/local_setup.bash
+[1.435s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/local_setup.sh
+[1.435s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/local_setup.zsh
+[1.438s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/local_setup.dsv
+[1.439s] -- Installing: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/package.dsv
+[1.439s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ament_index/resource_index/packages/ackermann_interfaces
+[1.439s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/cmake/ackermann_interfaces__rosidl_generator_cExport.cmake
+[1.439s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/cmake/ackermann_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.445s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/cmake/ackermann_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.445s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/cmake/ackermann_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.445s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/cmake/ackermann_interfaces__rosidl_typesupport_cExport.cmake
+[1.445s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/cmake/ackermann_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.445s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/cmake/ackermann_interfaces__rosidl_generator_cppExport.cmake
+[1.451s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/cmake/ackermann_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.453s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/cmake/ackermann_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.453s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/cmake/ackermann_interfaces__rosidl_typesupport_cppExport.cmake
+[1.453s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/cmake/ackermann_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.454s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.454s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.454s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.454s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.454s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.454s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.455s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.455s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/cmake/ackermann_interfacesConfig.cmake
+[1.455s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/cmake/ackermann_interfacesConfig-version.cmake
+[1.455s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/ackermann_interfaces/share/ackermann_interfaces/package.xml
+[1.525s] Invoked command in '/home/manuel/buggy_ws_beta.a/build/ackermann_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/buggy_ws_beta.a/install/joint_state_publisher_gui:/home/manuel/buggy_ws_beta.a/install/joint_state_publisher:/home/manuel/buggy_ws_beta.a/install/ackermann_odometry:/home/manuel/buggy_ws_beta.a/install/ackermann_controller:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy /usr/bin/cmake --install /home/manuel/buggy_ws_beta.a/build/ackermann_interfaces

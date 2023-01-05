@@ -1,0 +1,48 @@
+[0.486s] Invoking command in '/home/manuel/buggy_ws_beta.a/build/buggy_mobile_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/buggy_ws_beta.a/install/joint_state_publisher_gui:/home/manuel/buggy_ws_beta.a/install/joint_state_publisher:/home/manuel/buggy_ws_beta.a/install/ackermann_odometry:/home/manuel/buggy_ws_beta.a/install/ackermann_controller:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy /usr/bin/cmake --build /home/manuel/buggy_ws_beta.a/build/buggy_mobile_navigation -- -j16 -l16
+[0.600s] Invoked command in '/home/manuel/buggy_ws_beta.a/build/buggy_mobile_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/buggy_ws_beta.a/install/joint_state_publisher_gui:/home/manuel/buggy_ws_beta.a/install/joint_state_publisher:/home/manuel/buggy_ws_beta.a/install/ackermann_odometry:/home/manuel/buggy_ws_beta.a/install/ackermann_controller:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy /usr/bin/cmake --build /home/manuel/buggy_ws_beta.a/build/buggy_mobile_navigation -- -j16 -l16
+[0.689s] Invoking command in '/home/manuel/buggy_ws_beta.a/build/buggy_mobile_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/buggy_ws_beta.a/install/joint_state_publisher_gui:/home/manuel/buggy_ws_beta.a/install/joint_state_publisher:/home/manuel/buggy_ws_beta.a/install/ackermann_odometry:/home/manuel/buggy_ws_beta.a/install/ackermann_controller:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy /usr/bin/cmake --install /home/manuel/buggy_ws_beta.a/build/buggy_mobile_navigation
+[0.707s] -- Install configuration: ""
+[0.708s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/launch
+[0.709s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/launch/buggy_mapping_VLP16.launch.py
+[0.710s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/launch/dual_ekf.launch.py
+[0.713s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/launch/rviz.launch.py
+[0.713s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/launch/buggy_simulated_navigation.launch.py
+[0.713s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/launch/buggy_navigation.launch.py
+[0.714s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/launch/navigation.launch.py
+[0.714s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/launch/bringup.launch.py
+[0.714s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/launch/buggy_mapping_sick.launch.py
+[0.714s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/maps
+[0.714s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/maps/map_building_b.yaml
+[0.715s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/maps/map_underground.pgm
+[0.715s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/maps/map_building_b.pgm
+[0.715s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/maps/map_final.pgm
+[0.715s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/maps/map_newbuilding.yaml
+[0.715s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/maps/map_final.yaml
+[0.715s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/maps/map_underground.yaml
+[0.715s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/maps/map_newbuilding.pgm
+[0.715s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/params
+[0.716s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/params/nav2_params_real.yaml
+[0.716s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/params/nav2_params.yaml
+[0.716s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/params/navigate_w_replanning_distance.xml
+[0.716s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/params/navigate_w_replanning_and_recovery.xml
+[0.716s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/params/dual_ekf.yaml
+[0.716s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/rviz
+[0.716s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/rviz/buggy_mapping_slam.rviz
+[0.716s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/rviz/nav2_buggy_real.rviz
+[0.716s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/rviz/nav2_buggy.rviz
+[0.716s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/ament_index/resource_index/package_run_dependencies/buggy_mobile_navigation
+[0.717s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/ament_index/resource_index/parent_prefix_path/buggy_mobile_navigation
+[0.727s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/environment/ament_prefix_path.sh
+[0.727s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/environment/ament_prefix_path.dsv
+[0.728s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/environment/path.sh
+[0.728s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/environment/path.dsv
+[0.728s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/local_setup.bash
+[0.728s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/local_setup.sh
+[0.729s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/local_setup.zsh
+[0.730s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/local_setup.dsv
+[0.730s] -- Installing: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/package.dsv
+[0.730s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/ament_index/resource_index/packages/buggy_mobile_navigation
+[0.730s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/cmake/buggy_mobile_navigationConfig.cmake
+[0.730s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/cmake/buggy_mobile_navigationConfig-version.cmake
+[0.730s] -- Up-to-date: /home/manuel/buggy_ws_beta.a/install/buggy_mobile_navigation/share/buggy_mobile_navigation/package.xml
+[0.741s] Invoked command in '/home/manuel/buggy_ws_beta.a/build/buggy_mobile_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/buggy_ws_beta.a/install/joint_state_publisher_gui:/home/manuel/buggy_ws_beta.a/install/joint_state_publisher:/home/manuel/buggy_ws_beta.a/install/ackermann_odometry:/home/manuel/buggy_ws_beta.a/install/ackermann_controller:/home/manuel/buggy_space/install/joint_state_publisher_gui:/home/manuel/buggy_space/install/joint_state_publisher:/home/manuel/buggy_space/install/ackermann_odometry:/home/manuel/buggy_space/install/ackermann_controller:/opt/ros/foxy /usr/bin/cmake --install /home/manuel/buggy_ws_beta.a/build/buggy_mobile_navigation
