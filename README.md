@@ -43,7 +43,7 @@ $ rosdep install --from-paths src --ignore-src -r -y
 $ colcon build --symlink-install --cmake-args=-DCMAKE_BUILD_TYPE=Release
 ```
 ### Sick Lidar
-[Link to Portfolio Website](https://github.com/SICKAG/sick_scan_xd)
+(https://github.com/SICKAG/sick_scan_xd)
 # Content
 The project is divided in two stages:
 - Simulated stage
