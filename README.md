@@ -106,10 +106,6 @@ As a SDF file is used to define what a robot looks like, a SDF file to define th
 ### Mapping
 For mapping, the slam_toolbox package from ROS2 is used. Using the concept of Simultaneous and Localization Mapping (SLAM) is possible to create a map. However the node in ROS2 requires some input topics; these are /odom and /scan. To get the odometry of the buggy two propioceptive sensors, the enconders of the wheels and the Inertial Measurement Unit (IMU), are taken in consideration. A LiDAR sensor is implemented to obtain the data to be published on the topic /scan.
 
-
-
-
-
 ```bash
 ros2 launch buggy_mobile_robot buggy_simulated_mapping.launch.py
 ```
@@ -120,6 +116,10 @@ https://user-images.githubusercontent.com/87071682/216587941-19e39ae6-57ef-4fb9-
 ### Object detection
 
 In this section, the concept of convolution neural networks is applied. YOLOV3 is a CNN which integrates several layers to classify different kind of objects, therefore the selection of YOLOV3 was made in order to detect a varity of objects (pediastrans, cars, traffic lights, signs, etc). 
+
+```bash
+ros2 launch darknet_ros darknet_roslaunch.py
+```
 
 <img src="fotosbuggy/busdetection.png" width="700"> 
 
