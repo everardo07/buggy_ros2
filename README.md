@@ -44,8 +44,10 @@ $ colcon build --symlink-install --cmake-args=-DCMAKE_BUILD_TYPE=Release
 ```
 ### Sick Lidar
 
-To install the driver for the sick LiDAR click on the next link and follow the instruccion for building on ROS 2
+To install the driver for the sick LiDAR click on the next link and follow the instruccion for building on ROS 2.
+
 https://github.com/SICKAG/sick_scan_xd
+
 # Content
 The project is divided in two stages:
 - Simulated stage
