@@ -97,7 +97,7 @@ ros2 launch buggy_mobile_robot buggy_simulated_gazebo.launch.py
 ```
 <img src="fotosbuggy/buggy_gazebo.png" width="800"> 
 
-As a SDF file is used to define what a robot looks like, a SDF file to define the robot's environment is necessary to test the algorithms. The scenario is a copy of the Eupen race track.
+As a SDF file is used to define what a robot looks like, a SDF file to define the robot's environment is necessary for testing the algorithms. The scenario is a copy of the Eupen race track.
 
 <img src="fotosbuggy/enviroment_buggy.png" width="900"> 
 
