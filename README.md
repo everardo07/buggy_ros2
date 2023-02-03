@@ -118,7 +118,7 @@ https://user-images.githubusercontent.com/87071682/216587941-19e39ae6-57ef-4fb9-
 In this section, the concept of convolution neural networks is applied. YOLOV3 is a CNN which integrates several layers to classify different kind of objects, therefore the selection of YOLOV3 was made in order to detect a varity of objects (pediastrans, cars, traffic lights, signs, etc). 
 
 ```bash
-ros2 launch darknet_ros darknet_roslaunch.py
+ros2 launch darknet_ros darknet_ros.launch.py
 ```
 
 <img src="fotosbuggy/busdetection.png" width="700"> 
@@ -126,6 +126,10 @@ ros2 launch darknet_ros darknet_roslaunch.py
 ### Navigation
 
 The use of Nav 2 in combination with Time Elastic Band(TEB) planner for navigation and control of the buggy.
+
+```bash
+ros2 launch buggy_mobile_navigation buggy_simulated_navigation.launch.py
+```
 
 <img src="fotosbuggy/buggy_simulation_navigation_1.png" width="700"> 
 <img src="fotosbuggy/buggy_simulation_navigation_2.png" width="700"> 
