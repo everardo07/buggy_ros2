@@ -4,9 +4,9 @@ This repository states a developed project in ROS2 using Foxy and Ubuntu 20 whic
 
 # Requirements
 
-- UBUNTU 20
+- [UBUNTU 20.04](https://releases.ubuntu.com/focal/)
 - Foxy version
-- python v3
+- Python v3
 - GAZEBO
 - Specific packages from ROS 2:
    - Joint State Publisher
