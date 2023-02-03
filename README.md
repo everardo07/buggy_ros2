@@ -79,7 +79,7 @@ The simulation stage contains a simulated model of the real buggy. Is it importa
 <img src="fotosbuggy/distances.png" width="900"> 
 
 ### MODEL AND ENVIRONMENT
-Using these measurements, the model of the buggy is made with the Universal Robot Description Format (URDF), the standard ROS format for robot modeling. The body of the buggy is integrated of links and joints. Links are the chassis, wheels, sensors, frame and joints connects the links together. To visualise the model, RVIZ is a good tool which offers different options the track different parameters. The next picture shows the buggy in RVIZ.
+Using these measurements, the model of the buggy is made with the Universal Robot Description Format (URDF), the standard ROS format for robot modeling. The body of the buggy is integrated of links and joints. Links are the chassis, wheels, sensors, frame and joints connects the links together. To visualise the model, RVIZ is a good tool which offers different options to track different parameters. The next picture shows the buggy in RVIZ.
 
 Launch:
 
