@@ -105,11 +105,14 @@ As a SDF file is used to define what a robot looks like, a SDF file to define th
 For mapping, the slam_toolbox package from ROS2 is used. Using the concept of Simultaneous and Localization Mapping (SLAM) is possible to create a map. However the node in ROS2 requires some input topics; these are /odom and /scan. To get the odometry of the buggy two propioceptive sensors, the enconders of the wheels and the Inertial Measurement Unit (IMU), are taken in consideration. A LiDAR sensor is implemented to obtain the data to be published on the topic /scan.
 
 
+
+
+
 ```bash
 ros2 launch buggy_mobile_robot buggy_simulated_mapping.launch.py
 ```
 
-<img src="fotosbuggy/mapping_rviz_simulated.png" width="700"> 
+https://user-images.githubusercontent.com/87071682/216587941-19e39ae6-57ef-4fb9-96a7-67c3ef838401.mp4
 
 
 ### Object detection
