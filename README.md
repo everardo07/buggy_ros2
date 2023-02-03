@@ -117,7 +117,7 @@ https://user-images.githubusercontent.com/87071682/216587941-19e39ae6-57ef-4fb9-
 
 ### Object detection
 
-In this section, the concept of convolution neural networks is applied. YOLOV3 is a CNN which integrates several layers to classify different kind of objects, therefore the selection of YOLOV3 was made in order to detect a varity of objects (pediastrans, cars, traffic lights, signs, etc). Running the buggy on the track it was possible to identify different objects. The next picture presents the obtained results.
+In this section, the concept of convolution neural networks is applied. YOLOV3 is a CNN which integrates several layers to classify different kind of objects, therefore the selection of YOLOV3 was made in order to detect a varity of objects (pediastrans, cars, traffic lights, signs, etc). 
 
 <img src="fotosbuggy/busdetection.png" width="700"> 
 
