@@ -13,7 +13,9 @@ This repository states a developed project in ROS2 using Foxy and Ubuntu 20 whic
    - SLAM Toolbox
    - Nav2
    - TEB local planner
- For install the packages you must go directly to the root of your workspace and copy the next commands
+ 
+ For installing the packages you must go directly to the root of your workspace and copy the next commands
+ 
 ```bash
  sudo apt install ros-foxy-gazebo-ros-pkgs
  sudo apt install ros-foxy-joint-state-publisher-gui
