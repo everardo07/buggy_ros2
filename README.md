@@ -131,5 +131,9 @@ The use of Nav 2 in combination with Time Elastic Band(TEB) planner for navigati
 ros2 launch buggy_mobile_navigation buggy_simulated_navigation.launch.py
 ```
 
+
+https://user-images.githubusercontent.com/87071682/216848389-3886b2d0-69dc-4510-b8ec-173a085394bb.mp4
+
+
 <img src="fotosbuggy/buggy_simulation_navigation_1.png" width="700"> 
 <img src="fotosbuggy/buggy_simulation_navigation_2.png" width="700"> 
